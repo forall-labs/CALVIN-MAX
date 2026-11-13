@@ -104,9 +104,25 @@ behind the headline numbers, and `lite_v1.json` the development subset.
 
 ## Results
 
+<img src="website/static/figs/overview_arms.png" alt="Base, Pre and Mid success per policy; the timing effect for perceptual and physical changes; and the gap between them" width="100%">
+
+<sub>(a) Success on the affected instruction: Base (open circles), Pre (red squares), Mid (blue
+diamonds). (b) The timing effect, Mid − Pre, per channel. (c) The gap between the channels, with 95%
+intervals. Held-out cases, per policy and for all ten together.</sub>
+
+| | |
+|:---:|:---:|
+| <img src="website/static/figs/event_profile.png" alt="Cost and timing effect for each core change" width="100%"> | <img src="website/static/figs/h3_forest.png" alt="Rewinding the robot removes the mid-motion benefit" width="100%"> |
+| <sub>**Which changes cost the most.** Pre − Base and Mid − Pre per change; each circle is one policy.</sub> | <sub>**Rewinding removes the benefit.** Mid against Pre and against a run rewound to the start of the instruction.</sub> |
+| <img src="website/static/figs/phase.png" alt="Loss at six onsets, near zero after contact" width="100%"> | <img src="website/static/figs/aftershock.png" alt="Success on the next instruction drops for every policy" width="100%"> |
+| <sub>**Perceptual changes cost only before contact** (descriptive, three policies).</sub> | <sub>**The cost outlasts the instruction.** Success on the next instruction, Base against Mid.</sub> |
+
+More figures, an interactive per-policy explorer and a Base / Pre / Mid frame viewer are on the
+[project page](https://forall-labs.github.io/CALVIN-MAX/).
+
 The analysis outputs behind every reported number, for all ten policies, are in
-[`results/analysis/`](results/analysis/). The per-case results and traces are too large for this
-repository.
+[`results/analysis/`](results/analysis/); `website/tools/explorer_data.py` shows how the page's
+explorer reads them. The per-case results and traces are too large for this repository.
 
 ## Repository layout
 

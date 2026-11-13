@@ -333,6 +333,64 @@ tr.ref td:first-child { font-style: italic; font-weight: 500; }
 table.left { min-width: 520px; }
 table.left td, table.left th { text-align: left; }
 table.left tbody td { font-family: var(--sans); font-size: var(--t-small); }
+
+/* --- Comparison table --- */
+table.compare-t { min-width: 760px; }
+table.compare-t td, table.compare-t th { text-align: center; }
+table.compare-t td:first-child, table.compare-t th:first-child { text-align: left; }
+table.compare-t th:last-child, table.compare-t td:last-child { text-align: right; }
+table.compare-t td.y { color: var(--c-ok); font-family: var(--sans); font-weight: 600; }
+table.compare-t td.n { color: var(--text-faint); font-family: var(--sans); }
+table.compare-t td.p { color: var(--c-phys); font-family: var(--sans); }
+
+/* --- Policy explorer --- */
+:root { --c-pre: #c8443c; --c-mid: #2f6db5; }
+:root[data-theme="dark"] { --c-pre: #ec7a72; --c-mid: #7aa8e8; }
+.ex-card { background: var(--bg-raised); border: 1px solid var(--line); border-radius: var(--radius); padding: clamp(1rem, 2.5vw, 2rem); display: grid; gap: var(--s-3); }
+.ex-pols { display: flex; flex-wrap: wrap; gap: 6px; }
+.ex-pols .chg::before { display: none; }
+.ex-pols .chg.all { font-weight: 700; }
+.ex-head { display: grid; gap: var(--s-2); grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); align-items: end; }
+@media (max-width: 800px) { .ex-head { grid-template-columns: minmax(0, 1fr); } }
+.ex-legend { display: flex; flex-wrap: wrap; gap: .35rem 1.1rem; font-size: var(--t-small); color: var(--text-soft); }
+.ex-legend span { display: inline-flex; align-items: center; gap: .45rem; }
+.m { display: inline-block; width: 11px; height: 11px; flex: none; }
+.m.base { border-radius: 50%; border: 2px solid var(--text); background: var(--bg-raised); }
+.m.pre { background: var(--c-pre); border-radius: 2px; }
+.m.mid { background: var(--c-mid); transform: rotate(45deg) scale(.86); border-radius: 1px; }
+.ex-readout { margin: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--s-2); }
+.ex-readout > div { border-top: 1px solid var(--line); padding-top: .55rem; min-width: 0; }
+.ex-readout .v { font-family: var(--serif); font-size: clamp(1.35rem, 1.1rem + .8vw, 1.8rem); line-height: 1.1; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+.ex-readout .v small { display: block; margin-top: .2rem; font-family: var(--mono); font-size: var(--t-micro); color: var(--text-faint); letter-spacing: 0; }
+.ex-readout .v.pos { color: var(--accent-deep); }
+.ex-axis { position: relative; height: 1.1rem; margin-left: 168px; margin-right: 128px; font-size: var(--t-micro); color: var(--text-faint); font-variant-numeric: tabular-nums; }
+.ex-axis span { position: absolute; transform: translateX(-50%); }
+.ex-rows { display: grid; }
+.ex-group { font-size: var(--t-micro); font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--text-faint); padding: .7rem 0 .25rem; display: flex; align-items: center; gap: .45rem; }
+.ex-group::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--c); }
+.ex-group.perc { --c: var(--c-perc); } .ex-group.phys { --c: var(--c-phys); }
+.ex-row { display: grid; grid-template-columns: 168px minmax(0, 1fr) 128px; align-items: center; min-height: 2.75rem; border-radius: 8px; outline: none; }
+.ex-row:hover, .ex-row:focus-visible { background: var(--bg-sunk); }
+.ex-name { font-size: var(--t-small); font-weight: 600; padding-left: .4rem; }
+.ex-track { position: relative; height: 2.75rem; background: linear-gradient(to right, var(--line-soft) 1px, transparent 1px) 0 0 / 20% 100%; border-right: 1px solid var(--line-soft); }
+.ex-track i { position: absolute; top: 50%; display: block; }
+.ex-link { height: 2px; background: color-mix(in srgb, var(--c-pre) 40%, var(--line)); transform: translateY(-50%); }
+.ex-track .m { transform: translate(-50%, -50%); }
+.ex-track .m.mid { transform: translate(-50%, -50%) rotate(45deg) scale(.86); }
+.ex-val { text-align: right; font-family: var(--mono); font-size: .8rem; color: var(--text-soft); font-variant-numeric: tabular-nums; padding-right: .4rem; line-height: 1.35; }
+.ex-val b { color: var(--text); font-weight: 600; }
+@media (max-width: 640px) {
+  .ex-row { grid-template-columns: 104px minmax(0, 1fr); } .ex-axis { margin-left: 104px; margin-right: 6px; }
+  .ex-name { font-size: var(--t-micro); } .ex-val { display: none; }
+  .ex-readout .label { font-size: .68rem; letter-spacing: .05em; }
+}
+
+/* --- Two figures side by side --- */
+.pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--s-4); align-items: start; }
+@media (max-width: 900px) { .pair { grid-template-columns: minmax(0, 1fr); } }
+.pair .fig h3.sub { margin-bottom: var(--s-2); }
+.pair-text { font-family: var(--serif); font-size: var(--t-prose); line-height: 1.55; margin-bottom: var(--s-3); }
+.article > .pair { margin-top: var(--s-5); }
 </style>
 </head>
 <body>
@@ -443,6 +501,23 @@ table.left tbody td { font-family: var(--sans); font-size: var(--t-small); }
     <figcaption><span class="fig-n">Figure 2.</span>The scene before and after each change. <span class="chip perc">Perceptual</span> changes alter what the robot sees but not the task's geometry. <span class="chip phys">Physical</span> changes alter where the robot must go. <span class="chip emb">Embodiment</span> changes act on the robot itself. Not shown: a revised instruction, a null control that changes nothing, and a transient relocation that is undone a few steps later.</figcaption>
   </figure>
 
+  <h3 class="sub">How it compares</h3>
+  <figure class="wide fig">
+    <div class="table-wrap" role="region" aria-label="Scope of CALVIN-MAX and related benchmarks" tabindex="0">
+      <table class="compare-t">
+        <thead><tr><th>Benchmark</th><th>Chain</th><th>Online</th><th>Prefix</th><th>Pre / Mid</th><th>Onset</th><th>Robot and instruction</th><th>Behaviour</th><th>Units</th></tr></thead>
+        <tbody>
+          <tr><td>CALVIN</td><td class="y">✓</td><td class="n">✗</td><td class="n">✗</td><td class="n">✗</td><td class="n">✗</td><td class="n">✗</td><td class="n">✗</td><td>1,000</td></tr>
+          <tr><td>LIBERO-Plus</td><td class="n">✗</td><td class="n">✗</td><td class="n">✗</td><td class="n">✗</td><td class="n">✗</td><td class="n">✗</td><td class="n">✗</td><td>10,030</td></tr>
+          <tr><td>LIBERO-PRO</td><td class="n">✗</td><td class="n">✗</td><td class="n">✗</td><td class="n">✗</td><td class="n">✗</td><td class="n">✗</td><td class="n">✗</td><td>10,000</td></tr>
+          <tr><td>LIBERO-MAX</td><td class="n">✗</td><td class="y">✓</td><td class="y">✓</td><td class="p">◐</td><td class="n">✗</td><td class="n">✗</td><td class="p">◐</td><td>8,000</td></tr>
+          <tr class="ours"><td>CALVIN-MAX</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td><td class="y">✓</td><td>7,828</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <figcaption><span class="fig-n">Table 1.</span><b>Chain:</b> tasks of several instructions. <b>Online:</b> a change during execution. <b>Prefix:</b> identical actions up to the change. <b>Pre / Mid:</b> the same change before and during the motion. <b>Onset:</b> a varied moment of change. <b>Robot and instruction:</b> changes to the robot and to the instruction. <b>Behaviour:</b> measures of how the robot responds. ✓ tested, ◐ tested in part, ✗ not tested.</figcaption>
+  </figure>
+
   <h2 class="sec" id="results">Every policy loses, but timing matters only for what the robot sees</h2>
   <p>Ten released policies span vision-language-action models, diffusion policies and models that predict from a history of frames. All lose once the world changes. For a perceptual change the timing effect is positive for every policy: arriving mid-motion costs less. For a physical change there is no detectable effect of timing. The difference between the two, the pre-registered primary test, is +6.0 points [+4.1, +7.9].</p>
   <figure class="wide fig">
@@ -450,14 +525,81 @@ table.left tbody td { font-family: var(--sans); font-size: var(--t-small); }
     <figcaption><span class="fig-n">Figure 3.</span><b>(a)</b> Success on the affected instruction over the eight core changes: Base (open circles), Pre (red squares) and Mid (blue diamonds). <b>(b)</b> The timing effect, Mid − Pre, for perceptual and physical changes. <b>(c)</b> The gap between the two, with 95% intervals. Held-out cases, per policy and for all ten together.</figcaption>
   </figure>
 
-  <p><strong>The benefit comes from motion already under way.</strong> Two diagnostic runs discard the policy's queued actions or rewind the robot and its memory to the start of the instruction while leaving the world changed. Rewinding removes the benefit for every policy, and the steps lost in rewinding explain most of what remains.</p>
+  <h3 class="sub">Explore one policy at a time</h3>
+  <figure class="wide fig" id="explorer" aria-labelledby="ex-cap">
+    <div class="ex-card">
+      <div class="ex-pols" role="group" aria-label="Choose a policy" id="ex-pols"></div>
+      <div class="ex-head">
+        <div class="ex-legend" aria-hidden="true"><span><i class="m base"></i>Base</span><span><i class="m pre"></i>Pre, change from the start</span><span><i class="m mid"></i>Mid, change mid-motion</span></div>
+        <div class="readout ex-readout">
+          <div><span class="label">Timing, perceptual</span><div class="v" id="ex-perc"></div></div>
+          <div><span class="label">Timing, physical</span><div class="v" id="ex-phys"></div></div>
+          <div><span class="label">Difference</span><div class="v" id="ex-int"></div></div>
+        </div>
+      </div>
+      <div class="ex-axis" aria-hidden="true" id="ex-axis"></div>
+      <div class="ex-rows" id="ex-rows"></div>
+    </div>
+    <figcaption id="ex-cap"><span class="fig-n">Figure 4.</span>Success on the affected instruction for each core change, on the held-out cases of the chosen policy (142 to 180 cases per change). The readout gives the timing effect, Mid − Pre, pooled within each channel, with 95% intervals that resample whole chains, and the difference between the channels. Hover or focus a row for its exact numbers.</figcaption>
+  </figure>
+
+  <h3 class="sub">Which changes cost the most</h3>
+  <p>Sensor noise (a median of −17.6 points across policies) and target relocation (−12.3) cost the most when present from the start; relocating the receptacle (−2.1) and shifting the camera (−3.8) the least. On timing the two channels separate cleanly: every physical change has a timing effect at or below zero, while the perceptual ones mostly gain when they arrive mid-motion.</p>
+  <figure class="wide fig">
+    <div class="plate narrow"><img src="static/figs/event_profile.png" alt="Per change, the cost of the changed world (Pre minus Base) and the timing effect (Mid minus Pre) for each of ten policies. Physical changes have timing effects at or below zero; perceptual changes mostly gain mid-motion." width="1117" height="686" loading="lazy"></div>
+    <figcaption><span class="fig-n">Figure 5.</span>The cost of the changed world (Pre − Base, left) and the effect of timing (Mid − Pre, right) for each core change on the held-out cases. Each open circle is one policy; the diamond, shading and thin line give the median, middle half and full range.</figcaption>
+  </figure>
+
+  <h2 class="sec" id="mechanism">The benefit comes from motion already under way</h2>
+  <p>Why would a change hurt less when it arrives mid-motion? Two diagnostic runs test it. One rewinds the arm and the policy's memory to the start of the instruction while leaving the world changed. Mid beats the rewound run for every policy, so rewinding removes the benefit. What remains, the rewound run against Pre, is within ±3 points for three policies, and the steps lost in rewinding explain most of the remaining gap.</p>
+  <figure class="wide fig">
+    <div class="plate narrow"><img src="static/figs/h3_forest.png" alt="(a) Mid compared with Pre and with a rewound run for each policy: Mid beats the rewound run for every policy. (b) The rewound run minus Pre, inside a band of plus or minus 3 points for three policies." width="1114" height="783" loading="lazy"></div>
+    <figcaption><span class="fig-n">Figure 6.</span><b>(a)</b> Mid against Pre and against a rewound run, for perceptual changes, with 95% intervals. <b>(b)</b> What rewinding leaves, the rewound run minus Pre, as run and with Pre given the same remaining steps, with 90% intervals; a check marks each policy inside the shaded ±3 band.</figcaption>
+  </figure>
+
+  <div class="wide pair">
+    <figure class="fig">
+      <h3 class="sub">Perceptual changes cost only before contact</h3>
+      <p class="pair-text">The same change at six moments of the motion, from the start of the instruction to placing the object, for three policies. Before contact, a corrupted view costs up to 20 points; after it, almost nothing.</p>
+      <div class="plate"><img src="static/figs/phase.png" alt="Mid minus Base at six onsets for FLOWER, MoDE and X-VLA: losses of up to 20 points at the start of the instruction, near zero after contact." width="960" height="629" loading="lazy"></div>
+      <figcaption><span class="fig-n">Figure 7.</span>Mid − Base at six onsets, 100 cases each, with 95% intervals that resample whole chains. Onsets differ in task mix, so the profile is descriptive.</figcaption>
+    </figure>
+    <figure class="fig">
+      <h3 class="sub">The more a change hurts, the more timing helps</h3>
+      <p class="pair-text">Five strengths of each change, from a quarter to four times the default. Within a policy, the benefit of a mid-motion arrival grows with the damage the change does, and a change that does not hurt gives no benefit.</p>
+      <div class="plate"><img src="static/figs/magnitude.png" alt="For each policy and change, the mid-motion benefit plotted against the loss when present from the start, across five strengths: the benefit grows with the loss." width="937" height="670" loading="lazy"></div>
+      <figcaption><span class="fig-n">Figure 8.</span>Mid − Pre against Pre − Base at five strengths (larger markers are stronger), 51 to 60 cases per level. Grey: a change that does not hurt the policy.</figcaption>
+    </figure>
+  </div>
+
+  <h3 class="sub">Under heavy sensor noise, some policies recover most of the loss</h3>
+  <p>An exploratory stress test raises sensor noise to four times its default strength. A mid-motion arrival recovers half to two thirds of the loss for five policies, and about a tenth for four others.</p>
+  <figure class="wide fig">
+    <div class="plate narrow"><img src="static/figs/noise4x.png" alt="Success under four-times sensor noise for Base, Pre and Mid for ten policies, with the share of the Pre loss that Mid recovers: 53 to 67 percent for five policies, 8 to 13 percent for four." width="1114" height="608" loading="lazy"></div>
+    <figcaption><span class="fig-n">Figure 9.</span>Success on the affected instruction under sensor noise at four times the default strength (development cases, exploratory). The column gives the share of the Pre loss that Mid recovers; GR-1 loses too little for a share.</figcaption>
+  </figure>
 
   <h2 class="sec" id="chain">The cost outlasts the instruction</h2>
   <p>Because CALVIN's tasks are chains of five instructions, we can measure what a change costs after it has been handled. The change stays in place, and even a policy that completes the affected instruction is less likely to complete the next one, by about the same amount whether the change arrived mid-motion or was there from the start.</p>
   <figure class="wide fig">
     <div class="plate narrow"><img src="static/figs/aftershock.png" alt="For each of ten policies, success on the next instruction among runs that solved the affected instruction, for Base and Mid. Mid is lower for every policy, by 5.0 to 16.8 points." width="1114" height="656" loading="lazy"></div>
-    <figcaption><span class="fig-n">Figure 4.</span>Success on the next instruction, among cases where the affected instruction was solved in both runs, for Base (open circles) and Mid (blue diamonds), with the difference and odds ratios for the next instruction and the rest of the chain.</figcaption>
+    <figcaption><span class="fig-n">Figure 10.</span>Success on the next instruction, among cases where the affected instruction was solved in both runs, for Base (open circles) and Mid (blue diamonds), with the difference and odds ratios for the next instruction and the rest of the chain.</figcaption>
   </figure>
+
+  <div class="wide pair">
+    <figure class="fig">
+      <h3 class="sub">Earlier changes cost more</h3>
+      <p class="pair-text">A change at the first instruction costs 13.2 points from the start, at the fifth 6.0. The perceptual timing benefit shrinks too, from +5.2 to +2.7, and a change at the first instruction shortens the run by about 0.8 instructions on average.</p>
+      <div class="plate"><img src="static/figs/position.png" alt="Four panels by position of the change in the chain: the configuration cost shrinks from about minus 13 to minus 6, the perceptual timing benefit from about 5 to 3, the physical timing effect stays near zero, and the chain-length loss shrinks toward zero." width="907" height="897" loading="lazy"></div>
+      <figcaption><span class="fig-n">Figure 11.</span>Effects by the position <i>k</i> of the affected instruction. Thin lines: one policy each; thick: the mean over ten. (a) Pre − Base; (b, c) Mid − Pre, perceptual and physical; (d) chain length, Mid − Base, in instructions.</figcaption>
+    </figure>
+    <figure class="fig">
+      <h3 class="sub">Most successes survive, but the share lost varies fivefold</h3>
+      <p class="pair-text">Of the runs a policy completes without a change, 83 to 95% still succeed with one. The share that flips to failure ranges from 5% for FLOWER to 26% for 3D Diffuser Actor.</p>
+      <div class="plate"><img src="static/figs/diagnostics.png" alt="Per policy: retained ratio from 83 to 95 percent, conditional regression from 5.4 to 25.7 percent, and trigger and response coverage." width="2286" height="570" loading="lazy"></div>
+      <figcaption><span class="fig-n">Figure 12.</span>(a) Mid success over Base success. (b) The share of Base successes that fail in Mid. (c) The share of cases in which the change was realized (filled) and in which the policy was queried after it (hollow).</figcaption>
+    </figure>
+  </div>
 
   <h2 class="sec" id="policies">Policies</h2>
   <figure class="wide fig">
@@ -472,7 +614,7 @@ table.left tbody td { font-family: var(--sans); font-size: var(--t-small); }
         </tbody>
       </table>
     </div>
-    <figcaption><span class="fig-n">Table 1.</span>The ten released policies evaluated, on CALVIN ABC→D, each served behind a small adapter in the repository.</figcaption>
+    <figcaption><span class="fig-n">Table 2.</span>The ten released policies evaluated, on CALVIN ABC→D, each served behind a small adapter in the repository.</figcaption>
   </figure>
 </article>
 
@@ -619,6 +761,60 @@ table.left tbody td { font-family: var(--sans); font-size: var(--t-small); }
     timer = setInterval(() => { step += 1; if (step >= STEPS.length) return stop(); render(); }, reduced ? 2200 : 1200);
   });
   render();
+
+
+  // ---------- policy explorer (data: website/tools/explorer_data.py) ----------
+  const EXPLORER = {"changes":["camera_shift","sensor_noise_onset","illumination_switch","visual_theme_switch","distractor_burst","target_relocation","receptacle_relocation","obstacle_insertion"],"policies":[{"key":"FLOWER","name":"FLOWER","family":"VLA","rows":[[94.8,93.7,94.3,174],[90.5,77.7,86.6,179],[91.0,88.8,89.9,178],[91.7,78.3,80.0,180],[91.5,80.1,90.3,176],[94.3,83.3,85.1,174],[93.7,89.4,89.4,142],[94.8,86.8,90.2,174]],"timing":{"perceptual":[5.1,3.3,6.9],"physical":[2.3,-0.5,5.1],"interaction":[2.7,-0.4,6.1]}},{"key":"X-VLA","name":"X-VLA","family":"VLA","rows":[[82.8,49.4,63.8,174],[76.5,67.0,72.1,179],[83.7,82.6,83.1,178],[81.7,78.9,81.7,180],[81.2,72.7,78.4,176],[79.9,63.8,63.2,174],[82.4,76.1,78.2,142],[86.2,66.7,65.5,174]],"timing":{"perceptual":[6.8,4.4,9.3],"physical":[1.0,-2.7,4.7],"interaction":[5.8,1.3,10.3]}},{"key":"pi0.5","name":"π0.5","family":"VLA","rows":[[73.6,75.9,73.0,174],[76.0,62.0,67.0,179],[74.2,71.3,71.3,178],[72.2,65.6,67.2,180],[75.6,69.9,72.2,176],[77.6,63.2,63.8,174],[76.1,75.4,73.2,142],[75.3,70.1,73.0,174]],"timing":{"perceptual":[1.6,-0.5,3.9],"physical":[0.3,-3.1,3.8],"interaction":[1.3,-2.8,5.4]}},{"key":"UniVLA","name":"UniVLA","family":"VLA","rows":[[79.9,67.2,72.4,174],[78.8,59.2,62.0,179],[74.7,52.8,57.3,178],[68.3,60.6,61.1,180],[76.1,65.3,71.6,176],[70.1,57.5,56.3,174],[47.9,52.8,51.4,142],[71.8,62.1,59.8,174]],"timing":{"perceptual":[5.0,1.7,8.3],"physical":[-2.9,-7.5,1.6],"interaction":[7.9,2.5,13.4]}},{"key":"OpenVLA-OFT","name":"OpenVLA-OFT","family":"VLA","rows":[[62.1,39.7,45.4,174],[55.3,34.1,39.7,179],[59.0,36.5,45.5,178],[61.1,56.1,52.8,180],[55.1,54.0,54.5,176],[63.8,52.3,54.0,174],[42.3,37.3,39.4,142],[55.7,50.0,47.1,174]],"timing":{"perceptual":[5.6,1.7,9.4],"physical":[1.0,-4.0,6.1],"interaction":[4.6,-1.9,11.0]}},{"key":"MoDE","name":"MoDE","family":"Diffusion","rows":[[84.5,83.3,85.1,174],[79.9,62.0,72.6,179],[79.2,74.7,76.4,178],[77.8,63.3,65.0,180],[77.3,70.5,75.6,176],[86.8,71.3,70.7,174],[64.1,70.4,69.0,142],[82.2,74.1,74.1,174]],"timing":{"perceptual":[5.1,2.8,7.6],"physical":[-1.0,-5.7,3.5],"interaction":[6.1,1.1,11.2]}},{"key":"3DDA","name":"3D Diffuser Actor","family":"Diffusion","rows":[[36.2,31.0,33.9,174],[39.7,16.2,25.7,179],[39.3,36.0,39.3,178],[38.3,36.7,33.9,180],[38.1,31.2,38.6,176],[40.2,32.2,29.9,174],[31.7,28.9,22.5,142],[40.8,32.8,31.0,174]],"timing":{"perceptual":[7.8,2.9,12.8],"physical":[-5.0,-12.2,2.1],"interaction":[12.8,5.0,20.6]}},{"key":"GR-1","name":"GR-1","family":"Predictive","rows":[[67.8,62.1,62.1,174],[68.7,51.4,58.1,179],[61.8,52.2,55.1,178],[72.8,35.0,43.3,180],[60.8,53.4,57.4,176],[70.1,58.0,59.2,174],[62.0,61.3,60.6,142],[67.2,56.3,58.6,174]],"timing":{"perceptual":[6.6,3.8,9.4],"physical":[1.0,-3.3,5.4],"interaction":[5.6,0.4,10.8]}},{"key":"Seer","name":"Seer-Large","family":"Predictive","rows":[[89.7,87.4,87.9,174],[91.1,80.4,84.4,179],[85.4,80.9,83.7,178],[85.0,72.8,77.2,180],[79.0,71.0,78.4,176],[83.3,70.7,70.7,174],[83.1,81.7,81.0,142],[83.9,74.1,73.6,174]],"timing":{"perceptual":[4.4,2.6,6.3],"physical":[-1.9,-4.9,1.1],"interaction":[6.4,2.8,10.0]}},{"key":"RoboFlamingo","name":"RoboFlamingo","family":"VLM+LSTM","rows":[[56.9,59.8,58.6,174],[53.6,35.2,41.9,179],[52.2,46.6,50.0,178],[51.7,48.9,56.1,180],[44.3,43.2,43.8,176],[46.6,39.1,39.1,174],[38.7,34.5,33.8,142],[64.9,48.9,50.0,174]],"timing":{"perceptual":[5.5,1.9,9.1],"physical":[-1.0,-5.7,3.7],"interaction":[6.6,0.7,12.4]}}],"pooled_timing":{"perceptual":[5.4,4.3,6.4],"physical":[-0.6,-2.2,0.9],"interaction":[6.0,4.1,7.9]}};
+  const CH_NAMES = { camera_shift: "Camera shift", sensor_noise_onset: "Sensor noise", illumination_switch: "Illumination switch",
+    visual_theme_switch: "Visual-theme switch", distractor_burst: "Distractor burst", target_relocation: "Target relocation",
+    receptacle_relocation: "Receptacle relocation", obstacle_insertion: "Obstacle insertion" };
+  const PHYS = new Set(["target_relocation", "receptacle_relocation", "obstacle_insertion"]);
+  const pols = EXPLORER.policies.slice();
+  // "All ten": the mean of the ten policies' rates per change; timing from the pooled estimate
+  pols.push({ key: "all", name: "All ten", rows: EXPLORER.changes.map((_, i) => {
+      const m = (j) => +(pols.reduce((s, p) => s + p.rows[i][j], 0) / pols.length).toFixed(1);
+      return [m(0), m(1), m(2), pols.reduce((s, p) => s + p.rows[i][3], 0)];
+    }), timing: EXPLORER.pooled_timing });
+  let pol = pols.length - 1;
+  const polsEl = $("#ex-pols"), rowsEl = $("#ex-rows"), axisEl = $("#ex-axis");
+  pols.forEach((p, i) => {
+    const b = document.createElement("button");
+    b.type = "button"; b.className = "chg" + (p.key === "all" ? " all" : ""); b.textContent = p.name;
+    b.addEventListener("click", () => { pol = i; renderEx(); });
+    polsEl.appendChild(b);
+  });
+  const fmt = (v) => (v > 0 ? "+" : v < 0 ? "−" : "") + Math.abs(v).toFixed(1);
+  function readout(el, t) {
+    el.innerHTML = `${fmt(t[0])}<small>[${fmt(t[1])}, ${fmt(t[2])}]</small>`;
+    el.classList.toggle("pos", t[1] > 0);
+  }
+  function renderEx() {
+    const p = pols[pol];
+    [...polsEl.children].forEach((b, i) => b.setAttribute("aria-pressed", String(i === pol)));
+    readout($("#ex-perc"), p.timing.perceptual); readout($("#ex-phys"), p.timing.physical); readout($("#ex-int"), p.timing.interaction);
+    const all = p.rows.flatMap((r) => r.slice(0, 3));
+    const lo = Math.max(0, Math.floor((Math.min(...all) - 4) / 10) * 10), hi = 100;
+    const x = (v) => ((v - lo) / (hi - lo)) * 100;
+    axisEl.innerHTML = [0, 1, 2, 3, 4, 5].map((k) => { const v = lo + k * (hi - lo) / 5; return `<span style="left:${k * 20}%">${Math.round(v)}%</span>`; }).join("");
+    rowsEl.innerHTML = "";
+    let group = null;
+    EXPLORER.changes.forEach((c, i) => {
+      const g = PHYS.has(c) ? "phys" : "perc";
+      if (g !== group) { group = g; const h = document.createElement("div"); h.className = "ex-group " + g; h.textContent = g === "phys" ? "Physical" : "Perceptual"; rowsEl.appendChild(h); }
+      const [b, pre, mid, n] = p.rows[i];
+      const row = document.createElement("div");
+      row.className = "ex-row"; row.tabIndex = 0;
+      const lmin = Math.min(pre, mid, b), lmax = Math.max(pre, mid, b);
+      row.title = `${CH_NAMES[c]}: Base ${b.toFixed(1)}%, Pre ${pre.toFixed(1)}%, Mid ${mid.toFixed(1)}%, ${n} cases`;
+      row.setAttribute("aria-label", row.title);
+      row.innerHTML = `<span class="ex-name">${CH_NAMES[c]}</span>
+        <div class="ex-track"><i class="ex-link" style="left:${x(lmin)}%;width:${x(lmax) - x(lmin)}%"></i>
+          <i class="m base" style="left:${x(b)}%"></i><i class="m pre" style="left:${x(pre)}%"></i><i class="m mid" style="left:${x(mid)}%"></i></div>
+        <span class="ex-val">Pre−Base <b>${fmt(pre - b)}</b><br>Mid−Pre <b>${fmt(mid - pre)}</b></span>`;
+      rowsEl.appendChild(row);
+    });
+  }
+  renderEx();
 
   // ---------- gallery ----------
   const GALLERY = [
