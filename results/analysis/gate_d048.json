@@ -1,0 +1,336 @@
+{
+ "mid_oracle": {
+  "arm_push": {
+   "n": 11,
+   "base": 0.9090909090909091,
+   "mid_native": 0.9090909090909091,
+   "mid_variant": 0.9090909090909091,
+   "recovery": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "share_of_loss_recovered": null
+  },
+  "camera_shift": {
+   "n": 57,
+   "base": 0.9824561403508771,
+   "mid_native": 0.9824561403508771,
+   "mid_variant": 0.9824561403508771,
+   "recovery": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "share_of_loss_recovered": null
+  },
+  "channel:perceptual": {
+   "n": 272,
+   "base": 0.9522058823529411,
+   "mid_native": 0.9117647058823529,
+   "mid_variant": 0.9117647058823529,
+   "recovery": 0.0,
+   "ci95": [
+    -0.022641509433962263,
+    0.022558518938856544
+   ],
+   "share_of_loss_recovered": 0.0
+  },
+  "channel:physical": {
+   "n": 130,
+   "base": 0.9769230769230769,
+   "mid_native": 0.8923076923076924,
+   "mid_variant": 0.9153846153846154,
+   "recovery": 0.023076923076923078,
+   "ci95": [
+    -0.0234375,
+    0.07142857142857142
+   ],
+   "share_of_loss_recovered": 0.272727272727273
+  },
+  "distractor_burst": {
+   "n": 55,
+   "base": 0.9818181818181818,
+   "mid_native": 0.9636363636363636,
+   "mid_variant": 0.9636363636363636,
+   "recovery": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "share_of_loss_recovered": 0.0
+  },
+  "grasp_loss": {
+   "n": 3,
+   "base": 1.0,
+   "mid_native": 1.0,
+   "mid_variant": 1.0,
+   "recovery": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "share_of_loss_recovered": null
+  },
+  "illumination_switch": {
+   "n": 54,
+   "base": 0.9444444444444444,
+   "mid_native": 0.9629629629629629,
+   "mid_variant": 0.9444444444444444,
+   "recovery": -0.018518518518518517,
+   "ci95": [
+    -0.057692307692307696,
+    0.0
+   ],
+   "share_of_loss_recovered": null
+  },
+  "obstacle_insertion": {
+   "n": 41,
+   "base": 0.975609756097561,
+   "mid_native": 0.8292682926829268,
+   "mid_variant": 0.8780487804878049,
+   "recovery": 0.04878048780487805,
+   "ci95": [
+    -0.07317073170731707,
+    0.17073170731707318
+   ],
+   "share_of_loss_recovered": 0.3333333333333333
+  },
+  "receptacle_relocation": {
+   "n": 34,
+   "base": 0.9705882352941176,
+   "mid_native": 0.9117647058823529,
+   "mid_variant": 0.9705882352941176,
+   "recovery": 0.058823529411764705,
+   "ci95": [
+    0.0,
+    0.14705882352941177
+   ],
+   "share_of_loss_recovered": 0.9999999999999998
+  },
+  "sensor_noise_onset": {
+   "n": 52,
+   "base": 0.9038461538461539,
+   "mid_native": 0.7692307692307693,
+   "mid_variant": 0.8076923076923077,
+   "recovery": 0.038461538461538464,
+   "ci95": [
+    -0.057692307692307696,
+    0.1346153846153846
+   ],
+   "share_of_loss_recovered": 0.2857142857142858
+  },
+  "target_relocation": {
+   "n": 41,
+   "base": 1.0,
+   "mid_native": 0.926829268292683,
+   "mid_variant": 0.9024390243902439,
+   "recovery": -0.024390243902439025,
+   "ci95": [
+    -0.12195121951219512,
+    0.047619047619047616
+   ],
+   "share_of_loss_recovered": -0.33333333333333354
+  },
+  "visual_theme_switch": {
+   "n": 54,
+   "base": 0.9444444444444444,
+   "mid_native": 0.8703703703703703,
+   "mid_variant": 0.8518518518518519,
+   "recovery": -0.018518518518518517,
+   "ci95": [
+    -0.07574007807417037,
+    0.03773584905660377
+   ],
+   "share_of_loss_recovered": -0.25
+  }
+ },
+ "mid_gate": {
+  "arm_push": {
+   "n": 11,
+   "base": 0.9090909090909091,
+   "mid_native": 0.9090909090909091,
+   "mid_variant": 0.9090909090909091,
+   "recovery": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "share_of_loss_recovered": null
+  },
+  "camera_shift": {
+   "n": 57,
+   "base": 0.9824561403508771,
+   "mid_native": 0.9824561403508771,
+   "mid_variant": 0.9649122807017544,
+   "recovery": -0.017543859649122806,
+   "ci95": [
+    -0.05357142857142857,
+    0.0
+   ],
+   "share_of_loss_recovered": null
+  },
+  "channel:perceptual": {
+   "n": 272,
+   "base": 0.9522058823529411,
+   "mid_native": 0.9117647058823529,
+   "mid_variant": 0.8933823529411765,
+   "recovery": -0.01838235294117647,
+   "ci95": [
+    -0.03802281368821293,
+    0.0
+   ],
+   "share_of_loss_recovered": -0.4545454545454549
+  },
+  "channel:physical": {
+   "n": 130,
+   "base": 0.9769230769230769,
+   "mid_native": 0.8923076923076924,
+   "mid_variant": 0.9076923076923077,
+   "recovery": 0.015384615384615385,
+   "ci95": [
+    -0.023622047244094488,
+    0.05561594202898463
+   ],
+   "share_of_loss_recovered": 0.181818181818182
+  },
+  "distractor_burst": {
+   "n": 55,
+   "base": 0.9818181818181818,
+   "mid_native": 0.9636363636363636,
+   "mid_variant": 0.9636363636363636,
+   "recovery": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "share_of_loss_recovered": 0.0
+  },
+  "grasp_loss": {
+   "n": 3,
+   "base": 1.0,
+   "mid_native": 1.0,
+   "mid_variant": 1.0,
+   "recovery": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "share_of_loss_recovered": null
+  },
+  "illumination_switch": {
+   "n": 54,
+   "base": 0.9444444444444444,
+   "mid_native": 0.9629629629629629,
+   "mid_variant": 0.9259259259259259,
+   "recovery": -0.037037037037037035,
+   "ci95": [
+    -0.09433962264150944,
+    0.0
+   ],
+   "share_of_loss_recovered": null
+  },
+  "obstacle_insertion": {
+   "n": 41,
+   "base": 0.975609756097561,
+   "mid_native": 0.8292682926829268,
+   "mid_variant": 0.9024390243902439,
+   "recovery": 0.07317073170731707,
+   "ci95": [
+    -0.024390243902439025,
+    0.17073170731707318
+   ],
+   "share_of_loss_recovered": 0.4999999999999999
+  },
+  "receptacle_relocation": {
+   "n": 34,
+   "base": 0.9705882352941176,
+   "mid_native": 0.9117647058823529,
+   "mid_variant": 0.8823529411764706,
+   "recovery": -0.029411764705882353,
+   "ci95": [
+    -0.08823529411764706,
+    0.0
+   ],
+   "share_of_loss_recovered": -0.4999999999999999
+  },
+  "sensor_noise_onset": {
+   "n": 52,
+   "base": 0.9038461538461539,
+   "mid_native": 0.7692307692307693,
+   "mid_variant": 0.7307692307692307,
+   "recovery": -0.038461538461538464,
+   "ci95": [
+    -0.09803921568627451,
+    0.0
+   ],
+   "share_of_loss_recovered": -0.2857142857142858
+  },
+  "target_relocation": {
+   "n": 41,
+   "base": 1.0,
+   "mid_native": 0.926829268292683,
+   "mid_variant": 0.926829268292683,
+   "recovery": 0.0,
+   "ci95": [
+    -0.075,
+    0.06976744186046512
+   ],
+   "share_of_loss_recovered": 0.0
+  },
+  "visual_theme_switch": {
+   "n": 54,
+   "base": 0.9444444444444444,
+   "mid_native": 0.8703703703703703,
+   "mid_variant": 0.8703703703703703,
+   "recovery": 0.0,
+   "ci95": [
+    -0.05555555555555555,
+    0.05555555555555555
+   ],
+   "share_of_loss_recovered": 0.0
+  }
+ },
+ "gate_activity": {
+  "target_relocation": {
+   "probes_per_rollout": 94.58536585365853,
+   "replacements_per_rollout": 2.8536585365853657
+  },
+  "receptacle_relocation": {
+   "probes_per_rollout": 77.23529411764706,
+   "replacements_per_rollout": 0.7941176470588235
+  },
+  "camera_shift": {
+   "probes_per_rollout": 93.87719298245614,
+   "replacements_per_rollout": 1.0701754385964912
+  },
+  "sensor_noise_onset": {
+   "probes_per_rollout": 114.17307692307692,
+   "replacements_per_rollout": 0.7692307692307693
+  },
+  "illumination_switch": {
+   "probes_per_rollout": 98.31481481481481,
+   "replacements_per_rollout": 1.2962962962962963
+  },
+  "visual_theme_switch": {
+   "probes_per_rollout": 114.4074074074074,
+   "replacements_per_rollout": 1.3148148148148149
+  },
+  "distractor_burst": {
+   "probes_per_rollout": 111.36363636363636,
+   "replacements_per_rollout": 2.5636363636363635
+  },
+  "obstacle_insertion": {
+   "probes_per_rollout": 119.82926829268293,
+   "replacements_per_rollout": 2.097560975609756
+  },
+  "arm_push": {
+   "probes_per_rollout": 91.0,
+   "replacements_per_rollout": 0.45454545454545453
+  },
+  "grasp_loss": {
+   "probes_per_rollout": 84.0,
+   "replacements_per_rollout": 1.3333333333333333
+  }
+ }
+}

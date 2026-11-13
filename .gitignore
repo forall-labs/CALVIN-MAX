@@ -1,0 +1,11 @@
+third_party/
+.venv/
+results/*
+!results/analysis/
+__pycache__/
+*.pyc
+*.egg-info/
+.env
+colab.env
+.cache/
+.DS_Store

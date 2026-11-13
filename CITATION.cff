@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use CALVIN-MAX, please cite it as below."
+title: "CALVIN-MAX: When Does a Mid-Execution Change Hurt a Robot Policy?"
+authors:
+  - family-names: Pakdamansavoji
+    given-names: Sajjad
+year: 2026
+url: "https://forall-labs.github.io/CALVIN-MAX/"
+repository-code: "https://github.com/forall-labs/CALVIN-MAX"
+license: MIT

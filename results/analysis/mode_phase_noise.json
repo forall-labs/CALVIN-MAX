@@ -1,0 +1,146 @@
+{
+ "phase/sensor_noise_onset@approach_early": {
+  "n": 100,
+  "realized": 74,
+  "coverage": 0.74,
+  "infra_errors": 0,
+  "quarantined_arms": 0,
+  "base_sr": 0.71,
+  "mid_sr": 0.67,
+  "delta_total": [
+   -0.039999999999999925,
+   -0.095260989010989,
+   0.010644079555966628
+  ],
+  "transitions": {
+   "11": 65,
+   "01": 2,
+   "10": 6,
+   "00": 27
+  },
+  "conditional_regression": 0.08450704225352113,
+  "mcnemar_p": 0.2890625,
+  "chain_len_base": 3.63,
+  "chain_len_mid": 3.18
+ },
+ "phase/sensor_noise_onset@contact": {
+  "n": 100,
+  "realized": 92,
+  "coverage": 0.92,
+  "infra_errors": 0,
+  "quarantined_arms": 0,
+  "base_sr": 0.83,
+  "mid_sr": 0.83,
+  "delta_total": [
+   0.0,
+   -0.04123711340206193,
+   0.04040404040404033
+  ],
+  "transitions": {
+   "11": 81,
+   "01": 2,
+   "10": 2,
+   "00": 15
+  },
+  "conditional_regression": 0.024096385542168676,
+  "mcnemar_p": 1.0,
+  "chain_len_base": 4.24,
+  "chain_len_mid": 3.91
+ },
+ "phase/sensor_noise_onset@place": {
+  "n": 100,
+  "realized": 72,
+  "coverage": 0.72,
+  "infra_errors": 0,
+  "quarantined_arms": 0,
+  "base_sr": 0.69,
+  "mid_sr": 0.7,
+  "delta_total": [
+   0.010000000000000009,
+   0.0,
+   0.030303030303030276
+  ],
+  "transitions": {
+   "11": 69,
+   "01": 1,
+   "10": 0,
+   "00": 30
+  },
+  "conditional_regression": 0.0,
+  "mcnemar_p": 1.0,
+  "chain_len_base": 4.06,
+  "chain_len_mid": 4.02
+ },
+ "phase/sensor_noise_onset@pre_grasp_proximity": {
+  "n": 100,
+  "realized": 87,
+  "coverage": 0.87,
+  "infra_errors": 0,
+  "quarantined_arms": 0,
+  "base_sr": 0.89,
+  "mid_sr": 0.82,
+  "delta_total": [
+   -0.07000000000000006,
+   -0.13131313131313127,
+   -0.019412808065720707
+  ],
+  "transitions": {
+   "11": 81,
+   "01": 1,
+   "10": 8,
+   "00": 10
+  },
+  "conditional_regression": 0.0898876404494382,
+  "mcnemar_p": 0.0390625,
+  "chain_len_base": 4.22,
+  "chain_len_mid": 3.86
+ },
+ "phase/sensor_noise_onset@subtask_boundary": {
+  "n": 100,
+  "realized": 89,
+  "coverage": 0.89,
+  "infra_errors": 0,
+  "quarantined_arms": 0,
+  "base_sr": 0.79,
+  "mid_sr": 0.64,
+  "delta_total": [
+   -0.15000000000000002,
+   -0.2222222222222222,
+   -0.07920792079207928
+  ],
+  "transitions": {
+   "11": 63,
+   "01": 1,
+   "10": 16,
+   "00": 20
+  },
+  "conditional_regression": 0.20253164556962025,
+  "mcnemar_p": 0.000274658203125,
+  "chain_len_base": 4.13,
+  "chain_len_mid": 3.33
+ },
+ "phase/sensor_noise_onset@transport": {
+  "n": 100,
+  "realized": 49,
+  "coverage": 0.49,
+  "infra_errors": 0,
+  "quarantined_arms": 0,
+  "base_sr": 0.79,
+  "mid_sr": 0.8,
+  "delta_total": [
+   0.010000000000000009,
+   0.0,
+   0.030612244897959107
+  ],
+  "transitions": {
+   "11": 79,
+   "01": 1,
+   "10": 0,
+   "00": 20
+  },
+  "conditional_regression": 0.0,
+  "mcnemar_p": 1.0,
+  "chain_len_base": 4.05,
+  "chain_len_mid": 3.85
+ }
+}

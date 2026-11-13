@@ -1,0 +1,562 @@
+{
+ "FLOWER": {
+  "all": {
+   "n": 77,
+   "success": 0.948051948051948,
+   "latency_median_steps": 3.0,
+   "never_retargeted": 0,
+   "ghost_reach_rate": 0.15584415584415584,
+   "stale_m_median": 0.01826109180364774,
+   "latency_median_queued": 4.0,
+   "latency_median_fresh": 0.0,
+   "classes": {
+    "adapted": 62,
+    "late_recovered": 0,
+    "stale_then_recovered": 11,
+    "stale_failed": 4,
+    "frozen": 0,
+    "wrong_task": 0
+   }
+  },
+  "success": {
+   "n": 73,
+   "success": 1.0,
+   "latency_median_steps": 3.0,
+   "never_retargeted": 0,
+   "ghost_reach_rate": 0.1506849315068493,
+   "stale_m_median": 0.0184086671906458,
+   "latency_median_queued": 4.0,
+   "latency_median_fresh": 0.0,
+   "classes": {
+    "adapted": 62,
+    "late_recovered": 0,
+    "stale_then_recovered": 11,
+    "stale_failed": 0,
+    "frozen": 0,
+    "wrong_task": 0
+   }
+  },
+  "failure": {
+   "n": 4,
+   "success": 0.0,
+   "latency_median_steps": 1.0,
+   "never_retargeted": 0,
+   "ghost_reach_rate": 0.25,
+   "stale_m_median": 0.008105893366372137,
+   "latency_median_queued": 2.0,
+   "latency_median_fresh": 0.0,
+   "classes": {
+    "adapted": 0,
+    "late_recovered": 0,
+    "stale_then_recovered": 0,
+    "stale_failed": 4,
+    "frozen": 0,
+    "wrong_task": 0
+   }
+  }
+ },
+ "MoDE": {
+  "all": {
+   "n": 73,
+   "success": 0.7534246575342466,
+   "latency_median_steps": 3.0,
+   "never_retargeted": 0,
+   "ghost_reach_rate": 0.136986301369863,
+   "stale_m_median": 0.01159009263076162,
+   "latency_median_queued": 4.0,
+   "latency_median_fresh": 0.0,
+   "classes": {
+    "adapted": 49,
+    "late_recovered": 0,
+    "stale_then_recovered": 6,
+    "stale_failed": 13,
+    "frozen": 0,
+    "wrong_task": 5
+   }
+  },
+  "success": {
+   "n": 55,
+   "success": 1.0,
+   "latency_median_steps": 2.0,
+   "never_retargeted": 0,
+   "ghost_reach_rate": 0.10909090909090909,
+   "stale_m_median": 0.008779024213732028,
+   "latency_median_queued": 3.0,
+   "latency_median_fresh": 0.0,
+   "classes": {
+    "adapted": 49,
+    "late_recovered": 0,
+    "stale_then_recovered": 6,
+    "stale_failed": 0,
+    "frozen": 0,
+    "wrong_task": 0
+   }
+  },
+  "failure": {
+   "n": 18,
+   "success": 0.0,
+   "latency_median_steps": 4.0,
+   "never_retargeted": 0,
+   "ghost_reach_rate": 0.2222222222222222,
+   "stale_m_median": 0.01463540341856984,
+   "latency_median_queued": 4.0,
+   "latency_median_fresh": 3.0,
+   "classes": {
+    "adapted": 0,
+    "late_recovered": 0,
+    "stale_then_recovered": 0,
+    "stale_failed": 13,
+    "frozen": 0,
+    "wrong_task": 5
+   }
+  }
+ },
+ "X-VLA": {
+  "all": {
+   "n": 67,
+   "success": 0.7761194029850746,
+   "latency_median_steps": 3.0,
+   "never_retargeted": 0,
+   "ghost_reach_rate": 0.1791044776119403,
+   "stale_m_median": 0.015754484665186405,
+   "latency_median_queued": 3.0,
+   "latency_median_fresh": 0.0,
+   "classes": {
+    "adapted": 43,
+    "late_recovered": 0,
+    "stale_then_recovered": 9,
+    "stale_failed": 11,
+    "frozen": 0,
+    "wrong_task": 4
+   }
+  },
+  "success": {
+   "n": 52,
+   "success": 1.0,
+   "latency_median_steps": 2.0,
+   "never_retargeted": 0,
+   "ghost_reach_rate": 0.17307692307692307,
+   "stale_m_median": 0.012430465081818824,
+   "latency_median_queued": 2.5,
+   "latency_median_fresh": 0.0,
+   "classes": {
+    "adapted": 43,
+    "late_recovered": 0,
+    "stale_then_recovered": 9,
+    "stale_failed": 0,
+    "frozen": 0,
+    "wrong_task": 0
+   }
+  },
+  "failure": {
+   "n": 15,
+   "success": 0.0,
+   "latency_median_steps": 4.0,
+   "never_retargeted": 0,
+   "ghost_reach_rate": 0.2,
+   "stale_m_median": 0.02009141657979656,
+   "latency_median_queued": 4.0,
+   "latency_median_fresh": null,
+   "classes": {
+    "adapted": 0,
+    "late_recovered": 0,
+    "stale_then_recovered": 0,
+    "stale_failed": 11,
+    "frozen": 0,
+    "wrong_task": 4
+   }
+  }
+ },
+ "pi0.5": {
+  "all": {
+   "n": 65,
+   "success": 0.8153846153846154,
+   "latency_median_steps": 0.0,
+   "never_retargeted": 0,
+   "ghost_reach_rate": 0.06153846153846154,
+   "stale_m_median": 0.0,
+   "latency_median_queued": 1.0,
+   "latency_median_fresh": 0.0,
+   "classes": {
+    "adapted": 50,
+    "late_recovered": 0,
+    "stale_then_recovered": 3,
+    "stale_failed": 10,
+    "frozen": 0,
+    "wrong_task": 2
+   }
+  },
+  "success": {
+   "n": 53,
+   "success": 1.0,
+   "latency_median_steps": 0.0,
+   "never_retargeted": 0,
+   "ghost_reach_rate": 0.05660377358490566,
+   "stale_m_median": 0.0,
+   "latency_median_queued": 1.0,
+   "latency_median_fresh": 0.0,
+   "classes": {
+    "adapted": 50,
+    "late_recovered": 0,
+    "stale_then_recovered": 3,
+    "stale_failed": 0,
+    "frozen": 0,
+    "wrong_task": 0
+   }
+  },
+  "failure": {
+   "n": 12,
+   "success": 0.0,
+   "latency_median_steps": 1.5,
+   "never_retargeted": 0,
+   "ghost_reach_rate": 0.08333333333333333,
+   "stale_m_median": 0.0,
+   "latency_median_queued": 1.5,
+   "latency_median_fresh": 9.5,
+   "classes": {
+    "adapted": 0,
+    "late_recovered": 0,
+    "stale_then_recovered": 0,
+    "stale_failed": 10,
+    "frozen": 0,
+    "wrong_task": 2
+   }
+  }
+ },
+ "GR-1": {
+  "all": {
+   "n": 57,
+   "success": 0.7368421052631579,
+   "latency_median_steps": 3.0,
+   "never_retargeted": 0,
+   "ghost_reach_rate": 0.08771929824561403,
+   "stale_m_median": 0.009585910734696779,
+   "latency_median_queued": null,
+   "latency_median_fresh": 3.0,
+   "classes": {
+    "adapted": 37,
+    "late_recovered": 1,
+    "stale_then_recovered": 4,
+    "stale_failed": 8,
+    "frozen": 0,
+    "wrong_task": 7
+   }
+  },
+  "success": {
+   "n": 42,
+   "success": 1.0,
+   "latency_median_steps": 2.0,
+   "never_retargeted": 0,
+   "ghost_reach_rate": 0.09523809523809523,
+   "stale_m_median": 0.00895465820697227,
+   "latency_median_queued": null,
+   "latency_median_fresh": 2.0,
+   "classes": {
+    "adapted": 37,
+    "late_recovered": 1,
+    "stale_then_recovered": 4,
+    "stale_failed": 0,
+    "frozen": 0,
+    "wrong_task": 0
+   }
+  },
+  "failure": {
+   "n": 15,
+   "success": 0.0,
+   "latency_median_steps": 6.0,
+   "never_retargeted": 0,
+   "ghost_reach_rate": 0.06666666666666667,
+   "stale_m_median": 0.011342781875997104,
+   "latency_median_queued": null,
+   "latency_median_fresh": 6.0,
+   "classes": {
+    "adapted": 0,
+    "late_recovered": 0,
+    "stale_then_recovered": 0,
+    "stale_failed": 8,
+    "frozen": 0,
+    "wrong_task": 7
+   }
+  }
+ },
+ "Seer": {
+  "all": {
+   "n": 72,
+   "success": 0.8333333333333334,
+   "latency_median_steps": 3.0,
+   "never_retargeted": 0,
+   "ghost_reach_rate": 0.1527777777777778,
+   "stale_m_median": 0.011545596309034834,
+   "latency_median_queued": null,
+   "latency_median_fresh": 3.0,
+   "classes": {
+    "adapted": 52,
+    "late_recovered": 0,
+    "stale_then_recovered": 8,
+    "stale_failed": 10,
+    "frozen": 0,
+    "wrong_task": 2
+   }
+  },
+  "success": {
+   "n": 60,
+   "success": 1.0,
+   "latency_median_steps": 3.0,
+   "never_retargeted": 0,
+   "ghost_reach_rate": 0.13333333333333333,
+   "stale_m_median": 0.012314999867876757,
+   "latency_median_queued": null,
+   "latency_median_fresh": 3.0,
+   "classes": {
+    "adapted": 52,
+    "late_recovered": 0,
+    "stale_then_recovered": 8,
+    "stale_failed": 0,
+    "frozen": 0,
+    "wrong_task": 0
+   }
+  },
+  "failure": {
+   "n": 12,
+   "success": 0.0,
+   "latency_median_steps": 2.5,
+   "never_retargeted": 0,
+   "ghost_reach_rate": 0.25,
+   "stale_m_median": 0.007700998607820635,
+   "latency_median_queued": null,
+   "latency_median_fresh": 2.5,
+   "classes": {
+    "adapted": 0,
+    "late_recovered": 0,
+    "stale_then_recovered": 0,
+    "stale_failed": 10,
+    "frozen": 0,
+    "wrong_task": 2
+   }
+  }
+ },
+ "UniVLA": {
+  "all": {
+   "n": 62,
+   "success": 0.6451612903225806,
+   "latency_median_steps": 6.0,
+   "never_retargeted": 0,
+   "ghost_reach_rate": 0.1774193548387097,
+   "stale_m_median": 0.028412501691791547,
+   "latency_median_queued": 6.5,
+   "latency_median_fresh": 1.0,
+   "classes": {
+    "adapted": 35,
+    "late_recovered": 0,
+    "stale_then_recovered": 5,
+    "stale_failed": 18,
+    "frozen": 0,
+    "wrong_task": 4
+   }
+  },
+  "success": {
+   "n": 40,
+   "success": 1.0,
+   "latency_median_steps": 5.5,
+   "never_retargeted": 0,
+   "ghost_reach_rate": 0.125,
+   "stale_m_median": 0.026396696455125192,
+   "latency_median_queued": 6.0,
+   "latency_median_fresh": 1.0,
+   "classes": {
+    "adapted": 35,
+    "late_recovered": 0,
+    "stale_then_recovered": 5,
+    "stale_failed": 0,
+    "frozen": 0,
+    "wrong_task": 0
+   }
+  },
+  "failure": {
+   "n": 22,
+   "success": 0.0,
+   "latency_median_steps": 9.0,
+   "never_retargeted": 0,
+   "ghost_reach_rate": 0.2727272727272727,
+   "stale_m_median": 0.03978685683691245,
+   "latency_median_queued": 9.0,
+   "latency_median_fresh": null,
+   "classes": {
+    "adapted": 0,
+    "late_recovered": 0,
+    "stale_then_recovered": 0,
+    "stale_failed": 18,
+    "frozen": 0,
+    "wrong_task": 4
+   }
+  }
+ },
+ "3DDA": {
+  "all": {
+   "n": 38,
+   "success": 0.5263157894736842,
+   "latency_median_steps": 15.5,
+   "never_retargeted": 0,
+   "ghost_reach_rate": 0.34210526315789475,
+   "stale_m_median": 0.036101132819263144,
+   "latency_median_queued": 15.0,
+   "latency_median_fresh": 26.0,
+   "classes": {
+    "adapted": 12,
+    "late_recovered": 0,
+    "stale_then_recovered": 8,
+    "stale_failed": 14,
+    "frozen": 0,
+    "wrong_task": 4
+   }
+  },
+  "success": {
+   "n": 20,
+   "success": 1.0,
+   "latency_median_steps": 10.0,
+   "never_retargeted": 0,
+   "ghost_reach_rate": 0.4,
+   "stale_m_median": 0.03695657093396408,
+   "latency_median_queued": 9.0,
+   "latency_median_fresh": 26.0,
+   "classes": {
+    "adapted": 12,
+    "late_recovered": 0,
+    "stale_then_recovered": 8,
+    "stale_failed": 0,
+    "frozen": 0,
+    "wrong_task": 0
+   }
+  },
+  "failure": {
+   "n": 18,
+   "success": 0.0,
+   "latency_median_steps": 32.5,
+   "never_retargeted": 0,
+   "ghost_reach_rate": 0.2777777777777778,
+   "stale_m_median": 0.03517637397609999,
+   "latency_median_queued": 32.5,
+   "latency_median_fresh": null,
+   "classes": {
+    "adapted": 0,
+    "late_recovered": 0,
+    "stale_then_recovered": 0,
+    "stale_failed": 14,
+    "frozen": 0,
+    "wrong_task": 4
+   }
+  }
+ },
+ "RoboFlamingo": {
+  "all": {
+   "n": 46,
+   "success": 0.6521739130434783,
+   "latency_median_steps": 2.0,
+   "never_retargeted": 0,
+   "ghost_reach_rate": 0.17391304347826086,
+   "stale_m_median": 0.004794120552786718,
+   "latency_median_queued": null,
+   "latency_median_fresh": 2.0,
+   "classes": {
+    "adapted": 25,
+    "late_recovered": 0,
+    "stale_then_recovered": 5,
+    "stale_failed": 13,
+    "frozen": 0,
+    "wrong_task": 3
+   }
+  },
+  "success": {
+   "n": 30,
+   "success": 1.0,
+   "latency_median_steps": 2.0,
+   "never_retargeted": 0,
+   "ghost_reach_rate": 0.16666666666666666,
+   "stale_m_median": 0.005533862570776871,
+   "latency_median_queued": null,
+   "latency_median_fresh": 2.0,
+   "classes": {
+    "adapted": 25,
+    "late_recovered": 0,
+    "stale_then_recovered": 5,
+    "stale_failed": 0,
+    "frozen": 0,
+    "wrong_task": 0
+   }
+  },
+  "failure": {
+   "n": 16,
+   "success": 0.0,
+   "latency_median_steps": 1.0,
+   "never_retargeted": 0,
+   "ghost_reach_rate": 0.1875,
+   "stale_m_median": 0.004763984096204384,
+   "latency_median_queued": null,
+   "latency_median_fresh": 1.0,
+   "classes": {
+    "adapted": 0,
+    "late_recovered": 0,
+    "stale_then_recovered": 0,
+    "stale_failed": 13,
+    "frozen": 0,
+    "wrong_task": 3
+   }
+  }
+ },
+ "OpenVLA-OFT": {
+  "all": {
+   "n": 56,
+   "success": 0.6785714285714286,
+   "latency_median_steps": 0.0,
+   "never_retargeted": 0,
+   "ghost_reach_rate": 0.03571428571428571,
+   "stale_m_median": 0.0,
+   "latency_median_queued": null,
+   "latency_median_fresh": 0.0,
+   "classes": {
+    "adapted": 35,
+    "late_recovered": 1,
+    "stale_then_recovered": 2,
+    "stale_failed": 15,
+    "frozen": 0,
+    "wrong_task": 3
+   }
+  },
+  "success": {
+   "n": 38,
+   "success": 1.0,
+   "latency_median_steps": 0.0,
+   "never_retargeted": 0,
+   "ghost_reach_rate": 0.05263157894736842,
+   "stale_m_median": 0.0,
+   "latency_median_queued": null,
+   "latency_median_fresh": 0.0,
+   "classes": {
+    "adapted": 35,
+    "late_recovered": 1,
+    "stale_then_recovered": 2,
+    "stale_failed": 0,
+    "frozen": 0,
+    "wrong_task": 0
+   }
+  },
+  "failure": {
+   "n": 18,
+   "success": 0.0,
+   "latency_median_steps": 2.0,
+   "never_retargeted": 0,
+   "ghost_reach_rate": 0.0,
+   "stale_m_median": 0.005069852959398505,
+   "latency_median_queued": null,
+   "latency_median_fresh": 2.0,
+   "classes": {
+    "adapted": 0,
+    "late_recovered": 0,
+    "stale_then_recovered": 0,
+    "stale_failed": 15,
+    "frozen": 0,
+    "wrong_task": 3
+   }
+  }
+ }
+}

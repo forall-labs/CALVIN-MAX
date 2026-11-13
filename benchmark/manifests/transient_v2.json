@@ -1,0 +1,4437 @@
+{
+"meta": {
+"version": "transient_v2",
+"source": "max_v1 + lite_v1 (matched)",
+"return_after": [
+2,
+5,
+20
+],
+"counts": {
+"target/A/r2": 22,
+"target/A/r5": 22,
+"target/A/r20": 22,
+"target/B/r2": 21,
+"target/B/r5": 21,
+"target/B/r20": 21,
+"receptacle/A/r2": 11,
+"receptacle/A/r5": 11,
+"receptacle/A/r20": 11,
+"receptacle/B/r2": 15,
+"receptacle/B/r5": 15,
+"receptacle/B/r20": 15
+}
+},
+"cases": [
+{
+"case_id": "transient-reversible_relocation-target-r2-A-k1-E0099",
+"track": "transient",
+"chain_id": "E0099",
+"position": 1,
+"task": "rotate_red_block_right",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1482231298,
+"matched_case": "core-target_relocation-A-k1-E0099"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-A-k1-E0099",
+"track": "transient",
+"chain_id": "E0099",
+"position": 1,
+"task": "rotate_red_block_right",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1482231298,
+"matched_case": "core-target_relocation-A-k1-E0099"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-A-k1-E0099",
+"track": "transient",
+"chain_id": "E0099",
+"position": 1,
+"task": "rotate_red_block_right",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1482231298,
+"matched_case": "core-target_relocation-A-k1-E0099"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-A-k1-E0543",
+"track": "transient",
+"chain_id": "E0543",
+"position": 1,
+"task": "push_pink_block_right",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 4068150594,
+"matched_case": "core-target_relocation-A-k1-E0543"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-A-k1-E0543",
+"track": "transient",
+"chain_id": "E0543",
+"position": 1,
+"task": "push_pink_block_right",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 4068150594,
+"matched_case": "core-target_relocation-A-k1-E0543"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-A-k1-E0543",
+"track": "transient",
+"chain_id": "E0543",
+"position": 1,
+"task": "push_pink_block_right",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 4068150594,
+"matched_case": "core-target_relocation-A-k1-E0543"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-A-k1-E0937",
+"track": "transient",
+"chain_id": "E0937",
+"position": 1,
+"task": "push_pink_block_right",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3663895158,
+"matched_case": "core-target_relocation-A-k1-E0937"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-A-k1-E0937",
+"track": "transient",
+"chain_id": "E0937",
+"position": 1,
+"task": "push_pink_block_right",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3663895158,
+"matched_case": "core-target_relocation-A-k1-E0937"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-A-k1-E0937",
+"track": "transient",
+"chain_id": "E0937",
+"position": 1,
+"task": "push_pink_block_right",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3663895158,
+"matched_case": "core-target_relocation-A-k1-E0937"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-A-k1-E0963",
+"track": "transient",
+"chain_id": "E0963",
+"position": 1,
+"task": "push_pink_block_right",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 4287666219,
+"matched_case": "core-target_relocation-A-k1-E0963"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-A-k1-E0963",
+"track": "transient",
+"chain_id": "E0963",
+"position": 1,
+"task": "push_pink_block_right",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 4287666219,
+"matched_case": "core-target_relocation-A-k1-E0963"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-A-k1-E0963",
+"track": "transient",
+"chain_id": "E0963",
+"position": 1,
+"task": "push_pink_block_right",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 4287666219,
+"matched_case": "core-target_relocation-A-k1-E0963"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-A-k1-E0992",
+"track": "transient",
+"chain_id": "E0992",
+"position": 1,
+"task": "push_red_block_right",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1976656360,
+"matched_case": "core-target_relocation-A-k1-E0992"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-A-k1-E0992",
+"track": "transient",
+"chain_id": "E0992",
+"position": 1,
+"task": "push_red_block_right",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1976656360,
+"matched_case": "core-target_relocation-A-k1-E0992"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-A-k1-E0992",
+"track": "transient",
+"chain_id": "E0992",
+"position": 1,
+"task": "push_red_block_right",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1976656360,
+"matched_case": "core-target_relocation-A-k1-E0992"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-A-k2-E0304",
+"track": "transient",
+"chain_id": "E0304",
+"position": 2,
+"task": "lift_pink_block_table",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3054621520,
+"matched_case": "core-target_relocation-A-k2-E0304"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-A-k2-E0304",
+"track": "transient",
+"chain_id": "E0304",
+"position": 2,
+"task": "lift_pink_block_table",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3054621520,
+"matched_case": "core-target_relocation-A-k2-E0304"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-A-k2-E0304",
+"track": "transient",
+"chain_id": "E0304",
+"position": 2,
+"task": "lift_pink_block_table",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3054621520,
+"matched_case": "core-target_relocation-A-k2-E0304"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-A-k3-E0023",
+"track": "transient",
+"chain_id": "E0023",
+"position": 3,
+"task": "lift_blue_block_table",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2597346357,
+"matched_case": "core-target_relocation-A-k3-E0023"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-A-k3-E0023",
+"track": "transient",
+"chain_id": "E0023",
+"position": 3,
+"task": "lift_blue_block_table",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2597346357,
+"matched_case": "core-target_relocation-A-k3-E0023"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-A-k3-E0023",
+"track": "transient",
+"chain_id": "E0023",
+"position": 3,
+"task": "lift_blue_block_table",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2597346357,
+"matched_case": "core-target_relocation-A-k3-E0023"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-A-k3-E0161",
+"track": "transient",
+"chain_id": "E0161",
+"position": 3,
+"task": "lift_blue_block_table",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3125841002,
+"matched_case": "core-target_relocation-A-k3-E0161"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-A-k3-E0161",
+"track": "transient",
+"chain_id": "E0161",
+"position": 3,
+"task": "lift_blue_block_table",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3125841002,
+"matched_case": "core-target_relocation-A-k3-E0161"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-A-k3-E0161",
+"track": "transient",
+"chain_id": "E0161",
+"position": 3,
+"task": "lift_blue_block_table",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3125841002,
+"matched_case": "core-target_relocation-A-k3-E0161"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-A-k3-E0390",
+"track": "transient",
+"chain_id": "E0390",
+"position": 3,
+"task": "lift_red_block_table",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3864650215,
+"matched_case": "core-target_relocation-A-k3-E0390"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-A-k3-E0390",
+"track": "transient",
+"chain_id": "E0390",
+"position": 3,
+"task": "lift_red_block_table",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3864650215,
+"matched_case": "core-target_relocation-A-k3-E0390"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-A-k3-E0390",
+"track": "transient",
+"chain_id": "E0390",
+"position": 3,
+"task": "lift_red_block_table",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3864650215,
+"matched_case": "core-target_relocation-A-k3-E0390"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-A-k3-E0452",
+"track": "transient",
+"chain_id": "E0452",
+"position": 3,
+"task": "lift_red_block_table",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1118565536,
+"matched_case": "core-target_relocation-A-k3-E0452"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-A-k3-E0452",
+"track": "transient",
+"chain_id": "E0452",
+"position": 3,
+"task": "lift_red_block_table",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1118565536,
+"matched_case": "core-target_relocation-A-k3-E0452"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-A-k3-E0452",
+"track": "transient",
+"chain_id": "E0452",
+"position": 3,
+"task": "lift_red_block_table",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1118565536,
+"matched_case": "core-target_relocation-A-k3-E0452"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-A-k3-E0788",
+"track": "transient",
+"chain_id": "E0788",
+"position": 3,
+"task": "rotate_pink_block_right",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3925086848,
+"matched_case": "core-target_relocation-A-k3-E0788"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-A-k3-E0788",
+"track": "transient",
+"chain_id": "E0788",
+"position": 3,
+"task": "rotate_pink_block_right",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3925086848,
+"matched_case": "core-target_relocation-A-k3-E0788"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-A-k3-E0788",
+"track": "transient",
+"chain_id": "E0788",
+"position": 3,
+"task": "rotate_pink_block_right",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3925086848,
+"matched_case": "core-target_relocation-A-k3-E0788"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-A-k3-E0822",
+"track": "transient",
+"chain_id": "E0822",
+"position": 3,
+"task": "lift_red_block_slider",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3573424595,
+"matched_case": "core-target_relocation-A-k3-E0822"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-A-k3-E0822",
+"track": "transient",
+"chain_id": "E0822",
+"position": 3,
+"task": "lift_red_block_slider",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3573424595,
+"matched_case": "core-target_relocation-A-k3-E0822"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-A-k3-E0822",
+"track": "transient",
+"chain_id": "E0822",
+"position": 3,
+"task": "lift_red_block_slider",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3573424595,
+"matched_case": "core-target_relocation-A-k3-E0822"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-A-k4-E0013",
+"track": "transient",
+"chain_id": "E0013",
+"position": 4,
+"task": "lift_red_block_table",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2751667538,
+"matched_case": "core-target_relocation-A-k4-E0013"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-A-k4-E0013",
+"track": "transient",
+"chain_id": "E0013",
+"position": 4,
+"task": "lift_red_block_table",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2751667538,
+"matched_case": "core-target_relocation-A-k4-E0013"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-A-k4-E0013",
+"track": "transient",
+"chain_id": "E0013",
+"position": 4,
+"task": "lift_red_block_table",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2751667538,
+"matched_case": "core-target_relocation-A-k4-E0013"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-A-k4-E0116",
+"track": "transient",
+"chain_id": "E0116",
+"position": 4,
+"task": "lift_pink_block_slider",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3074813688,
+"matched_case": "core-target_relocation-A-k4-E0116"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-A-k4-E0116",
+"track": "transient",
+"chain_id": "E0116",
+"position": 4,
+"task": "lift_pink_block_slider",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3074813688,
+"matched_case": "core-target_relocation-A-k4-E0116"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-A-k4-E0116",
+"track": "transient",
+"chain_id": "E0116",
+"position": 4,
+"task": "lift_pink_block_slider",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3074813688,
+"matched_case": "core-target_relocation-A-k4-E0116"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-A-k4-E0379",
+"track": "transient",
+"chain_id": "E0379",
+"position": 4,
+"task": "lift_blue_block_table",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3057647252,
+"matched_case": "core-target_relocation-A-k4-E0379"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-A-k4-E0379",
+"track": "transient",
+"chain_id": "E0379",
+"position": 4,
+"task": "lift_blue_block_table",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3057647252,
+"matched_case": "core-target_relocation-A-k4-E0379"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-A-k4-E0379",
+"track": "transient",
+"chain_id": "E0379",
+"position": 4,
+"task": "lift_blue_block_table",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3057647252,
+"matched_case": "core-target_relocation-A-k4-E0379"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-A-k4-E0569",
+"track": "transient",
+"chain_id": "E0569",
+"position": 4,
+"task": "lift_red_block_slider",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1619674030,
+"matched_case": "core-target_relocation-A-k4-E0569"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-A-k4-E0569",
+"track": "transient",
+"chain_id": "E0569",
+"position": 4,
+"task": "lift_red_block_slider",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1619674030,
+"matched_case": "core-target_relocation-A-k4-E0569"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-A-k4-E0569",
+"track": "transient",
+"chain_id": "E0569",
+"position": 4,
+"task": "lift_red_block_slider",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1619674030,
+"matched_case": "core-target_relocation-A-k4-E0569"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-A-k4-E0645",
+"track": "transient",
+"chain_id": "E0645",
+"position": 4,
+"task": "lift_red_block_table",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 4073976857,
+"matched_case": "core-target_relocation-A-k4-E0645"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-A-k4-E0645",
+"track": "transient",
+"chain_id": "E0645",
+"position": 4,
+"task": "lift_red_block_table",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 4073976857,
+"matched_case": "core-target_relocation-A-k4-E0645"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-A-k4-E0645",
+"track": "transient",
+"chain_id": "E0645",
+"position": 4,
+"task": "lift_red_block_table",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 4073976857,
+"matched_case": "core-target_relocation-A-k4-E0645"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-A-k4-E0741",
+"track": "transient",
+"chain_id": "E0741",
+"position": 4,
+"task": "lift_pink_block_table",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2871759171,
+"matched_case": "core-target_relocation-A-k4-E0741"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-A-k4-E0741",
+"track": "transient",
+"chain_id": "E0741",
+"position": 4,
+"task": "lift_pink_block_table",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2871759171,
+"matched_case": "core-target_relocation-A-k4-E0741"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-A-k4-E0741",
+"track": "transient",
+"chain_id": "E0741",
+"position": 4,
+"task": "lift_pink_block_table",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2871759171,
+"matched_case": "core-target_relocation-A-k4-E0741"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-A-k5-E0434",
+"track": "transient",
+"chain_id": "E0434",
+"position": 5,
+"task": "push_blue_block_right",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3788570565,
+"matched_case": "core-target_relocation-A-k5-E0434"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-A-k5-E0434",
+"track": "transient",
+"chain_id": "E0434",
+"position": 5,
+"task": "push_blue_block_right",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3788570565,
+"matched_case": "core-target_relocation-A-k5-E0434"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-A-k5-E0434",
+"track": "transient",
+"chain_id": "E0434",
+"position": 5,
+"task": "push_blue_block_right",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3788570565,
+"matched_case": "core-target_relocation-A-k5-E0434"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-A-k5-E0609",
+"track": "transient",
+"chain_id": "E0609",
+"position": 5,
+"task": "lift_pink_block_slider",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2698894069,
+"matched_case": "core-target_relocation-A-k5-E0609"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-A-k5-E0609",
+"track": "transient",
+"chain_id": "E0609",
+"position": 5,
+"task": "lift_pink_block_slider",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2698894069,
+"matched_case": "core-target_relocation-A-k5-E0609"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-A-k5-E0609",
+"track": "transient",
+"chain_id": "E0609",
+"position": 5,
+"task": "lift_pink_block_slider",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2698894069,
+"matched_case": "core-target_relocation-A-k5-E0609"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-A-k5-E0639",
+"track": "transient",
+"chain_id": "E0639",
+"position": 5,
+"task": "push_pink_block_right",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3259270696,
+"matched_case": "core-target_relocation-A-k5-E0639"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-A-k5-E0639",
+"track": "transient",
+"chain_id": "E0639",
+"position": 5,
+"task": "push_pink_block_right",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3259270696,
+"matched_case": "core-target_relocation-A-k5-E0639"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-A-k5-E0639",
+"track": "transient",
+"chain_id": "E0639",
+"position": 5,
+"task": "push_pink_block_right",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3259270696,
+"matched_case": "core-target_relocation-A-k5-E0639"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-A-k5-E0697",
+"track": "transient",
+"chain_id": "E0697",
+"position": 5,
+"task": "lift_red_block_drawer",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3341270867,
+"matched_case": "core-target_relocation-A-k5-E0697"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-A-k5-E0697",
+"track": "transient",
+"chain_id": "E0697",
+"position": 5,
+"task": "lift_red_block_drawer",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3341270867,
+"matched_case": "core-target_relocation-A-k5-E0697"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-A-k5-E0697",
+"track": "transient",
+"chain_id": "E0697",
+"position": 5,
+"task": "lift_red_block_drawer",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.3,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3341270867,
+"matched_case": "core-target_relocation-A-k5-E0697"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-B-k1-E0208",
+"track": "transient",
+"chain_id": "E0208",
+"position": 1,
+"task": "push_pink_block_right",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2984024219,
+"matched_case": "core-target_relocation-B-k1-E0208"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-B-k1-E0208",
+"track": "transient",
+"chain_id": "E0208",
+"position": 1,
+"task": "push_pink_block_right",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2984024219,
+"matched_case": "core-target_relocation-B-k1-E0208"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-B-k1-E0208",
+"track": "transient",
+"chain_id": "E0208",
+"position": 1,
+"task": "push_pink_block_right",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2984024219,
+"matched_case": "core-target_relocation-B-k1-E0208"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-B-k1-E0283",
+"track": "transient",
+"chain_id": "E0283",
+"position": 1,
+"task": "push_blue_block_left",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2053677975,
+"matched_case": "core-target_relocation-B-k1-E0283"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-B-k1-E0283",
+"track": "transient",
+"chain_id": "E0283",
+"position": 1,
+"task": "push_blue_block_left",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2053677975,
+"matched_case": "core-target_relocation-B-k1-E0283"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-B-k1-E0283",
+"track": "transient",
+"chain_id": "E0283",
+"position": 1,
+"task": "push_blue_block_left",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2053677975,
+"matched_case": "core-target_relocation-B-k1-E0283"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-B-k1-E0815",
+"track": "transient",
+"chain_id": "E0815",
+"position": 1,
+"task": "rotate_red_block_left",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1441258759,
+"matched_case": "core-target_relocation-B-k1-E0815"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-B-k1-E0815",
+"track": "transient",
+"chain_id": "E0815",
+"position": 1,
+"task": "rotate_red_block_left",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1441258759,
+"matched_case": "core-target_relocation-B-k1-E0815"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-B-k1-E0815",
+"track": "transient",
+"chain_id": "E0815",
+"position": 1,
+"task": "rotate_red_block_left",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1441258759,
+"matched_case": "core-target_relocation-B-k1-E0815"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-B-k1-E0990",
+"track": "transient",
+"chain_id": "E0990",
+"position": 1,
+"task": "lift_pink_block_table",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2576715890,
+"matched_case": "core-target_relocation-B-k1-E0990"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-B-k1-E0990",
+"track": "transient",
+"chain_id": "E0990",
+"position": 1,
+"task": "lift_pink_block_table",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2576715890,
+"matched_case": "core-target_relocation-B-k1-E0990"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-B-k1-E0990",
+"track": "transient",
+"chain_id": "E0990",
+"position": 1,
+"task": "lift_pink_block_table",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2576715890,
+"matched_case": "core-target_relocation-B-k1-E0990"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-B-k2-E0010",
+"track": "transient",
+"chain_id": "E0010",
+"position": 2,
+"task": "lift_blue_block_table",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3497890412,
+"matched_case": "core-target_relocation-B-k2-E0010"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-B-k2-E0010",
+"track": "transient",
+"chain_id": "E0010",
+"position": 2,
+"task": "lift_blue_block_table",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3497890412,
+"matched_case": "core-target_relocation-B-k2-E0010"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-B-k2-E0010",
+"track": "transient",
+"chain_id": "E0010",
+"position": 2,
+"task": "lift_blue_block_table",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3497890412,
+"matched_case": "core-target_relocation-B-k2-E0010"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-B-k2-E0101",
+"track": "transient",
+"chain_id": "E0101",
+"position": 2,
+"task": "rotate_blue_block_left",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 450343186,
+"matched_case": "core-target_relocation-B-k2-E0101"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-B-k2-E0101",
+"track": "transient",
+"chain_id": "E0101",
+"position": 2,
+"task": "rotate_blue_block_left",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 450343186,
+"matched_case": "core-target_relocation-B-k2-E0101"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-B-k2-E0101",
+"track": "transient",
+"chain_id": "E0101",
+"position": 2,
+"task": "rotate_blue_block_left",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 450343186,
+"matched_case": "core-target_relocation-B-k2-E0101"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-B-k2-E0161",
+"track": "transient",
+"chain_id": "E0161",
+"position": 2,
+"task": "rotate_blue_block_right",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1444814549,
+"matched_case": "core-target_relocation-B-k2-E0161"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-B-k2-E0161",
+"track": "transient",
+"chain_id": "E0161",
+"position": 2,
+"task": "rotate_blue_block_right",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1444814549,
+"matched_case": "core-target_relocation-B-k2-E0161"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-B-k2-E0161",
+"track": "transient",
+"chain_id": "E0161",
+"position": 2,
+"task": "rotate_blue_block_right",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1444814549,
+"matched_case": "core-target_relocation-B-k2-E0161"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-B-k2-E0658",
+"track": "transient",
+"chain_id": "E0658",
+"position": 2,
+"task": "lift_pink_block_table",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3844342745,
+"matched_case": "core-target_relocation-B-k2-E0658"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-B-k2-E0658",
+"track": "transient",
+"chain_id": "E0658",
+"position": 2,
+"task": "lift_pink_block_table",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3844342745,
+"matched_case": "core-target_relocation-B-k2-E0658"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-B-k2-E0658",
+"track": "transient",
+"chain_id": "E0658",
+"position": 2,
+"task": "lift_pink_block_table",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3844342745,
+"matched_case": "core-target_relocation-B-k2-E0658"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-B-k3-E0809",
+"track": "transient",
+"chain_id": "E0809",
+"position": 3,
+"task": "lift_pink_block_table",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1668033824,
+"matched_case": "core-target_relocation-B-k3-E0809"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-B-k3-E0809",
+"track": "transient",
+"chain_id": "E0809",
+"position": 3,
+"task": "lift_pink_block_table",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1668033824,
+"matched_case": "core-target_relocation-B-k3-E0809"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-B-k3-E0809",
+"track": "transient",
+"chain_id": "E0809",
+"position": 3,
+"task": "lift_pink_block_table",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1668033824,
+"matched_case": "core-target_relocation-B-k3-E0809"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-B-k3-E0855",
+"track": "transient",
+"chain_id": "E0855",
+"position": 3,
+"task": "lift_blue_block_table",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 882774405,
+"matched_case": "core-target_relocation-B-k3-E0855"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-B-k3-E0855",
+"track": "transient",
+"chain_id": "E0855",
+"position": 3,
+"task": "lift_blue_block_table",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 882774405,
+"matched_case": "core-target_relocation-B-k3-E0855"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-B-k3-E0855",
+"track": "transient",
+"chain_id": "E0855",
+"position": 3,
+"task": "lift_blue_block_table",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 882774405,
+"matched_case": "core-target_relocation-B-k3-E0855"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-B-k4-E0018",
+"track": "transient",
+"chain_id": "E0018",
+"position": 4,
+"task": "lift_red_block_table",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1352163240,
+"matched_case": "core-target_relocation-B-k4-E0018"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-B-k4-E0018",
+"track": "transient",
+"chain_id": "E0018",
+"position": 4,
+"task": "lift_red_block_table",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1352163240,
+"matched_case": "core-target_relocation-B-k4-E0018"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-B-k4-E0018",
+"track": "transient",
+"chain_id": "E0018",
+"position": 4,
+"task": "lift_red_block_table",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1352163240,
+"matched_case": "core-target_relocation-B-k4-E0018"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-B-k4-E0096",
+"track": "transient",
+"chain_id": "E0096",
+"position": 4,
+"task": "unstack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3807961266,
+"matched_case": "core-target_relocation-B-k4-E0096"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-B-k4-E0096",
+"track": "transient",
+"chain_id": "E0096",
+"position": 4,
+"task": "unstack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3807961266,
+"matched_case": "core-target_relocation-B-k4-E0096"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-B-k4-E0096",
+"track": "transient",
+"chain_id": "E0096",
+"position": 4,
+"task": "unstack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3807961266,
+"matched_case": "core-target_relocation-B-k4-E0096"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-B-k4-E0284",
+"track": "transient",
+"chain_id": "E0284",
+"position": 4,
+"task": "lift_blue_block_table",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1169814872,
+"matched_case": "core-target_relocation-B-k4-E0284"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-B-k4-E0284",
+"track": "transient",
+"chain_id": "E0284",
+"position": 4,
+"task": "lift_blue_block_table",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1169814872,
+"matched_case": "core-target_relocation-B-k4-E0284"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-B-k4-E0284",
+"track": "transient",
+"chain_id": "E0284",
+"position": 4,
+"task": "lift_blue_block_table",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1169814872,
+"matched_case": "core-target_relocation-B-k4-E0284"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-B-k4-E0305",
+"track": "transient",
+"chain_id": "E0305",
+"position": 4,
+"task": "rotate_blue_block_right",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3266335513,
+"matched_case": "core-target_relocation-B-k4-E0305"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-B-k4-E0305",
+"track": "transient",
+"chain_id": "E0305",
+"position": 4,
+"task": "rotate_blue_block_right",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3266335513,
+"matched_case": "core-target_relocation-B-k4-E0305"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-B-k4-E0305",
+"track": "transient",
+"chain_id": "E0305",
+"position": 4,
+"task": "rotate_blue_block_right",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3266335513,
+"matched_case": "core-target_relocation-B-k4-E0305"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-B-k4-E0803",
+"track": "transient",
+"chain_id": "E0803",
+"position": 4,
+"task": "lift_blue_block_slider",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1464764340,
+"matched_case": "core-target_relocation-B-k4-E0803"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-B-k4-E0803",
+"track": "transient",
+"chain_id": "E0803",
+"position": 4,
+"task": "lift_blue_block_slider",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1464764340,
+"matched_case": "core-target_relocation-B-k4-E0803"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-B-k4-E0803",
+"track": "transient",
+"chain_id": "E0803",
+"position": 4,
+"task": "lift_blue_block_slider",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1464764340,
+"matched_case": "core-target_relocation-B-k4-E0803"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-B-k4-E0961",
+"track": "transient",
+"chain_id": "E0961",
+"position": 4,
+"task": "lift_blue_block_table",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1690949402,
+"matched_case": "core-target_relocation-B-k4-E0961"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-B-k4-E0961",
+"track": "transient",
+"chain_id": "E0961",
+"position": 4,
+"task": "lift_blue_block_table",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1690949402,
+"matched_case": "core-target_relocation-B-k4-E0961"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-B-k4-E0961",
+"track": "transient",
+"chain_id": "E0961",
+"position": 4,
+"task": "lift_blue_block_table",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1690949402,
+"matched_case": "core-target_relocation-B-k4-E0961"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-B-k5-E0209",
+"track": "transient",
+"chain_id": "E0209",
+"position": 5,
+"task": "lift_blue_block_table",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3795944584,
+"matched_case": "core-target_relocation-B-k5-E0209"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-B-k5-E0209",
+"track": "transient",
+"chain_id": "E0209",
+"position": 5,
+"task": "lift_blue_block_table",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3795944584,
+"matched_case": "core-target_relocation-B-k5-E0209"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-B-k5-E0209",
+"track": "transient",
+"chain_id": "E0209",
+"position": 5,
+"task": "lift_blue_block_table",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3795944584,
+"matched_case": "core-target_relocation-B-k5-E0209"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-B-k5-E0278",
+"track": "transient",
+"chain_id": "E0278",
+"position": 5,
+"task": "rotate_pink_block_right",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2189642374,
+"matched_case": "core-target_relocation-B-k5-E0278"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-B-k5-E0278",
+"track": "transient",
+"chain_id": "E0278",
+"position": 5,
+"task": "rotate_pink_block_right",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2189642374,
+"matched_case": "core-target_relocation-B-k5-E0278"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-B-k5-E0278",
+"track": "transient",
+"chain_id": "E0278",
+"position": 5,
+"task": "rotate_pink_block_right",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2189642374,
+"matched_case": "core-target_relocation-B-k5-E0278"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-B-k5-E0298",
+"track": "transient",
+"chain_id": "E0298",
+"position": 5,
+"task": "lift_pink_block_table",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3685928736,
+"matched_case": "core-target_relocation-B-k5-E0298"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-B-k5-E0298",
+"track": "transient",
+"chain_id": "E0298",
+"position": 5,
+"task": "lift_pink_block_table",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3685928736,
+"matched_case": "core-target_relocation-B-k5-E0298"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-B-k5-E0298",
+"track": "transient",
+"chain_id": "E0298",
+"position": 5,
+"task": "lift_pink_block_table",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3685928736,
+"matched_case": "core-target_relocation-B-k5-E0298"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-B-k5-E0646",
+"track": "transient",
+"chain_id": "E0646",
+"position": 5,
+"task": "lift_red_block_slider",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 4122884043,
+"matched_case": "core-target_relocation-B-k5-E0646"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-B-k5-E0646",
+"track": "transient",
+"chain_id": "E0646",
+"position": 5,
+"task": "lift_red_block_slider",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 4122884043,
+"matched_case": "core-target_relocation-B-k5-E0646"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-B-k5-E0646",
+"track": "transient",
+"chain_id": "E0646",
+"position": 5,
+"task": "lift_red_block_slider",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 4122884043,
+"matched_case": "core-target_relocation-B-k5-E0646"
+},
+{
+"case_id": "transient-reversible_relocation-target-r2-B-k5-E0972",
+"track": "transient",
+"chain_id": "E0972",
+"position": 5,
+"task": "push_red_block_left",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1756063504,
+"matched_case": "core-target_relocation-B-k5-E0972"
+},
+{
+"case_id": "transient-reversible_relocation-target-r5-B-k5-E0972",
+"track": "transient",
+"chain_id": "E0972",
+"position": 5,
+"task": "push_red_block_left",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1756063504,
+"matched_case": "core-target_relocation-B-k5-E0972"
+},
+{
+"case_id": "transient-reversible_relocation-target-r20-B-k5-E0972",
+"track": "transient",
+"chain_id": "E0972",
+"position": 5,
+"task": "push_red_block_left",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"yaw_delta": 0.785,
+"joint_frac": 0.6,
+"role": "target",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1756063504,
+"matched_case": "core-target_relocation-B-k5-E0972"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r2-A-k2-E0585",
+"track": "transient",
+"chain_id": "E0585",
+"position": 2,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.2,
+"role": "receptacle",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 440603181,
+"matched_case": "core-receptacle_relocation-A-k2-E0585"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r5-A-k2-E0585",
+"track": "transient",
+"chain_id": "E0585",
+"position": 2,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.2,
+"role": "receptacle",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 440603181,
+"matched_case": "core-receptacle_relocation-A-k2-E0585"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r20-A-k2-E0585",
+"track": "transient",
+"chain_id": "E0585",
+"position": 2,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.2,
+"role": "receptacle",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 440603181,
+"matched_case": "core-receptacle_relocation-A-k2-E0585"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r2-A-k3-E0103",
+"track": "transient",
+"chain_id": "E0103",
+"position": 3,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.2,
+"role": "receptacle",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 870098867,
+"matched_case": "core-receptacle_relocation-A-k3-E0103"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r5-A-k3-E0103",
+"track": "transient",
+"chain_id": "E0103",
+"position": 3,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.2,
+"role": "receptacle",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 870098867,
+"matched_case": "core-receptacle_relocation-A-k3-E0103"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r20-A-k3-E0103",
+"track": "transient",
+"chain_id": "E0103",
+"position": 3,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.2,
+"role": "receptacle",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 870098867,
+"matched_case": "core-receptacle_relocation-A-k3-E0103"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r2-A-k3-E0269",
+"track": "transient",
+"chain_id": "E0269",
+"position": 3,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.2,
+"role": "receptacle",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3924785655,
+"matched_case": "core-receptacle_relocation-A-k3-E0269"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r5-A-k3-E0269",
+"track": "transient",
+"chain_id": "E0269",
+"position": 3,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.2,
+"role": "receptacle",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3924785655,
+"matched_case": "core-receptacle_relocation-A-k3-E0269"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r20-A-k3-E0269",
+"track": "transient",
+"chain_id": "E0269",
+"position": 3,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.2,
+"role": "receptacle",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3924785655,
+"matched_case": "core-receptacle_relocation-A-k3-E0269"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r2-A-k3-E0691",
+"track": "transient",
+"chain_id": "E0691",
+"position": 3,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.2,
+"role": "receptacle",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3814613829,
+"matched_case": "core-receptacle_relocation-A-k3-E0691"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r5-A-k3-E0691",
+"track": "transient",
+"chain_id": "E0691",
+"position": 3,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.2,
+"role": "receptacle",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3814613829,
+"matched_case": "core-receptacle_relocation-A-k3-E0691"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r20-A-k3-E0691",
+"track": "transient",
+"chain_id": "E0691",
+"position": 3,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.2,
+"role": "receptacle",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3814613829,
+"matched_case": "core-receptacle_relocation-A-k3-E0691"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r2-A-k3-E0870",
+"track": "transient",
+"chain_id": "E0870",
+"position": 3,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.2,
+"role": "receptacle",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 4278300795,
+"matched_case": "core-receptacle_relocation-A-k3-E0870"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r5-A-k3-E0870",
+"track": "transient",
+"chain_id": "E0870",
+"position": 3,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.2,
+"role": "receptacle",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 4278300795,
+"matched_case": "core-receptacle_relocation-A-k3-E0870"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r20-A-k3-E0870",
+"track": "transient",
+"chain_id": "E0870",
+"position": 3,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.2,
+"role": "receptacle",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 4278300795,
+"matched_case": "core-receptacle_relocation-A-k3-E0870"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r2-A-k4-E0684",
+"track": "transient",
+"chain_id": "E0684",
+"position": 4,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.2,
+"role": "receptacle",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2623046973,
+"matched_case": "core-receptacle_relocation-A-k4-E0684"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r5-A-k4-E0684",
+"track": "transient",
+"chain_id": "E0684",
+"position": 4,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.2,
+"role": "receptacle",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2623046973,
+"matched_case": "core-receptacle_relocation-A-k4-E0684"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r20-A-k4-E0684",
+"track": "transient",
+"chain_id": "E0684",
+"position": 4,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.2,
+"role": "receptacle",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2623046973,
+"matched_case": "core-receptacle_relocation-A-k4-E0684"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r2-A-k4-E0800",
+"track": "transient",
+"chain_id": "E0800",
+"position": 4,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.2,
+"role": "receptacle",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1218502809,
+"matched_case": "core-receptacle_relocation-A-k4-E0800"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r5-A-k4-E0800",
+"track": "transient",
+"chain_id": "E0800",
+"position": 4,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.2,
+"role": "receptacle",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1218502809,
+"matched_case": "core-receptacle_relocation-A-k4-E0800"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r20-A-k4-E0800",
+"track": "transient",
+"chain_id": "E0800",
+"position": 4,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.2,
+"role": "receptacle",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1218502809,
+"matched_case": "core-receptacle_relocation-A-k4-E0800"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r2-A-k4-E0802",
+"track": "transient",
+"chain_id": "E0802",
+"position": 4,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.2,
+"role": "receptacle",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1948418046,
+"matched_case": "core-receptacle_relocation-A-k4-E0802"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r5-A-k4-E0802",
+"track": "transient",
+"chain_id": "E0802",
+"position": 4,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.2,
+"role": "receptacle",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1948418046,
+"matched_case": "core-receptacle_relocation-A-k4-E0802"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r20-A-k4-E0802",
+"track": "transient",
+"chain_id": "E0802",
+"position": 4,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.2,
+"role": "receptacle",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1948418046,
+"matched_case": "core-receptacle_relocation-A-k4-E0802"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r2-A-k5-E0525",
+"track": "transient",
+"chain_id": "E0525",
+"position": 5,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.2,
+"role": "receptacle",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 4093018528,
+"matched_case": "core-receptacle_relocation-A-k5-E0525"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r5-A-k5-E0525",
+"track": "transient",
+"chain_id": "E0525",
+"position": 5,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.2,
+"role": "receptacle",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 4093018528,
+"matched_case": "core-receptacle_relocation-A-k5-E0525"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r20-A-k5-E0525",
+"track": "transient",
+"chain_id": "E0525",
+"position": 5,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.2,
+"role": "receptacle",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 4093018528,
+"matched_case": "core-receptacle_relocation-A-k5-E0525"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r2-A-k5-E0555",
+"track": "transient",
+"chain_id": "E0555",
+"position": 5,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.2,
+"role": "receptacle",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1051197760,
+"matched_case": "core-receptacle_relocation-A-k5-E0555"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r5-A-k5-E0555",
+"track": "transient",
+"chain_id": "E0555",
+"position": 5,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.2,
+"role": "receptacle",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1051197760,
+"matched_case": "core-receptacle_relocation-A-k5-E0555"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r20-A-k5-E0555",
+"track": "transient",
+"chain_id": "E0555",
+"position": 5,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.2,
+"role": "receptacle",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1051197760,
+"matched_case": "core-receptacle_relocation-A-k5-E0555"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r2-A-k5-E0850",
+"track": "transient",
+"chain_id": "E0850",
+"position": 5,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.2,
+"role": "receptacle",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1446766817,
+"matched_case": "core-receptacle_relocation-A-k5-E0850"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r5-A-k5-E0850",
+"track": "transient",
+"chain_id": "E0850",
+"position": 5,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.2,
+"role": "receptacle",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1446766817,
+"matched_case": "core-receptacle_relocation-A-k5-E0850"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r20-A-k5-E0850",
+"track": "transient",
+"chain_id": "E0850",
+"position": 5,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "A",
+"params": {
+"block_distance": 0.06,
+"joint_frac": 0.2,
+"role": "receptacle",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1446766817,
+"matched_case": "core-receptacle_relocation-A-k5-E0850"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r2-B-k2-E0129",
+"track": "transient",
+"chain_id": "E0129",
+"position": 2,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2265856807,
+"matched_case": "core-receptacle_relocation-B-k2-E0129"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r5-B-k2-E0129",
+"track": "transient",
+"chain_id": "E0129",
+"position": 2,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2265856807,
+"matched_case": "core-receptacle_relocation-B-k2-E0129"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r20-B-k2-E0129",
+"track": "transient",
+"chain_id": "E0129",
+"position": 2,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2265856807,
+"matched_case": "core-receptacle_relocation-B-k2-E0129"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r2-B-k2-E0130",
+"track": "transient",
+"chain_id": "E0130",
+"position": 2,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3954737496,
+"matched_case": "core-receptacle_relocation-B-k2-E0130"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r5-B-k2-E0130",
+"track": "transient",
+"chain_id": "E0130",
+"position": 2,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3954737496,
+"matched_case": "core-receptacle_relocation-B-k2-E0130"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r20-B-k2-E0130",
+"track": "transient",
+"chain_id": "E0130",
+"position": 2,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3954737496,
+"matched_case": "core-receptacle_relocation-B-k2-E0130"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r2-B-k2-E0160",
+"track": "transient",
+"chain_id": "E0160",
+"position": 2,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3082869064,
+"matched_case": "core-receptacle_relocation-B-k2-E0160"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r5-B-k2-E0160",
+"track": "transient",
+"chain_id": "E0160",
+"position": 2,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3082869064,
+"matched_case": "core-receptacle_relocation-B-k2-E0160"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r20-B-k2-E0160",
+"track": "transient",
+"chain_id": "E0160",
+"position": 2,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3082869064,
+"matched_case": "core-receptacle_relocation-B-k2-E0160"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r2-B-k2-E0867",
+"track": "transient",
+"chain_id": "E0867",
+"position": 2,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 219354879,
+"matched_case": "core-receptacle_relocation-B-k2-E0867"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r5-B-k2-E0867",
+"track": "transient",
+"chain_id": "E0867",
+"position": 2,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 219354879,
+"matched_case": "core-receptacle_relocation-B-k2-E0867"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r20-B-k2-E0867",
+"track": "transient",
+"chain_id": "E0867",
+"position": 2,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 219354879,
+"matched_case": "core-receptacle_relocation-B-k2-E0867"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r2-B-k2-E0903",
+"track": "transient",
+"chain_id": "E0903",
+"position": 2,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 592889329,
+"matched_case": "core-receptacle_relocation-B-k2-E0903"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r5-B-k2-E0903",
+"track": "transient",
+"chain_id": "E0903",
+"position": 2,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 592889329,
+"matched_case": "core-receptacle_relocation-B-k2-E0903"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r20-B-k2-E0903",
+"track": "transient",
+"chain_id": "E0903",
+"position": 2,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 592889329,
+"matched_case": "core-receptacle_relocation-B-k2-E0903"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r2-B-k3-E0051",
+"track": "transient",
+"chain_id": "E0051",
+"position": 3,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2344165280,
+"matched_case": "core-receptacle_relocation-B-k3-E0051"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r5-B-k3-E0051",
+"track": "transient",
+"chain_id": "E0051",
+"position": 3,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2344165280,
+"matched_case": "core-receptacle_relocation-B-k3-E0051"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r20-B-k3-E0051",
+"track": "transient",
+"chain_id": "E0051",
+"position": 3,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2344165280,
+"matched_case": "core-receptacle_relocation-B-k3-E0051"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r2-B-k3-E0618",
+"track": "transient",
+"chain_id": "E0618",
+"position": 3,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2421417748,
+"matched_case": "core-receptacle_relocation-B-k3-E0618"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r5-B-k3-E0618",
+"track": "transient",
+"chain_id": "E0618",
+"position": 3,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2421417748,
+"matched_case": "core-receptacle_relocation-B-k3-E0618"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r20-B-k3-E0618",
+"track": "transient",
+"chain_id": "E0618",
+"position": 3,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2421417748,
+"matched_case": "core-receptacle_relocation-B-k3-E0618"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r2-B-k3-E0619",
+"track": "transient",
+"chain_id": "E0619",
+"position": 3,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2917668927,
+"matched_case": "core-receptacle_relocation-B-k3-E0619"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r5-B-k3-E0619",
+"track": "transient",
+"chain_id": "E0619",
+"position": 3,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2917668927,
+"matched_case": "core-receptacle_relocation-B-k3-E0619"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r20-B-k3-E0619",
+"track": "transient",
+"chain_id": "E0619",
+"position": 3,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2917668927,
+"matched_case": "core-receptacle_relocation-B-k3-E0619"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r2-B-k3-E0870",
+"track": "transient",
+"chain_id": "E0870",
+"position": 3,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1282332264,
+"matched_case": "core-receptacle_relocation-B-k3-E0870"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r5-B-k3-E0870",
+"track": "transient",
+"chain_id": "E0870",
+"position": 3,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1282332264,
+"matched_case": "core-receptacle_relocation-B-k3-E0870"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r20-B-k3-E0870",
+"track": "transient",
+"chain_id": "E0870",
+"position": 3,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1282332264,
+"matched_case": "core-receptacle_relocation-B-k3-E0870"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r2-B-k4-E0143",
+"track": "transient",
+"chain_id": "E0143",
+"position": 4,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3841442737,
+"matched_case": "core-receptacle_relocation-B-k4-E0143"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r5-B-k4-E0143",
+"track": "transient",
+"chain_id": "E0143",
+"position": 4,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3841442737,
+"matched_case": "core-receptacle_relocation-B-k4-E0143"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r20-B-k4-E0143",
+"track": "transient",
+"chain_id": "E0143",
+"position": 4,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3841442737,
+"matched_case": "core-receptacle_relocation-B-k4-E0143"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r2-B-k4-E0331",
+"track": "transient",
+"chain_id": "E0331",
+"position": 4,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2449182564,
+"matched_case": "core-receptacle_relocation-B-k4-E0331"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r5-B-k4-E0331",
+"track": "transient",
+"chain_id": "E0331",
+"position": 4,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2449182564,
+"matched_case": "core-receptacle_relocation-B-k4-E0331"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r20-B-k4-E0331",
+"track": "transient",
+"chain_id": "E0331",
+"position": 4,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2449182564,
+"matched_case": "core-receptacle_relocation-B-k4-E0331"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r2-B-k4-E0802",
+"track": "transient",
+"chain_id": "E0802",
+"position": 4,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3884223630,
+"matched_case": "core-receptacle_relocation-B-k4-E0802"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r5-B-k4-E0802",
+"track": "transient",
+"chain_id": "E0802",
+"position": 4,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3884223630,
+"matched_case": "core-receptacle_relocation-B-k4-E0802"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r20-B-k4-E0802",
+"track": "transient",
+"chain_id": "E0802",
+"position": 4,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 3884223630,
+"matched_case": "core-receptacle_relocation-B-k4-E0802"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r2-B-k5-E0060",
+"track": "transient",
+"chain_id": "E0060",
+"position": 5,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2502053480,
+"matched_case": "core-receptacle_relocation-B-k5-E0060"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r5-B-k5-E0060",
+"track": "transient",
+"chain_id": "E0060",
+"position": 5,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2502053480,
+"matched_case": "core-receptacle_relocation-B-k5-E0060"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r20-B-k5-E0060",
+"track": "transient",
+"chain_id": "E0060",
+"position": 5,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 2502053480,
+"matched_case": "core-receptacle_relocation-B-k5-E0060"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r2-B-k5-E0162",
+"track": "transient",
+"chain_id": "E0162",
+"position": 5,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1230643397,
+"matched_case": "core-receptacle_relocation-B-k5-E0162"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r5-B-k5-E0162",
+"track": "transient",
+"chain_id": "E0162",
+"position": 5,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1230643397,
+"matched_case": "core-receptacle_relocation-B-k5-E0162"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r20-B-k5-E0162",
+"track": "transient",
+"chain_id": "E0162",
+"position": 5,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1230643397,
+"matched_case": "core-receptacle_relocation-B-k5-E0162"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r2-B-k5-E0507",
+"track": "transient",
+"chain_id": "E0507",
+"position": 5,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 2
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1011401792,
+"matched_case": "core-receptacle_relocation-B-k5-E0507"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r5-B-k5-E0507",
+"track": "transient",
+"chain_id": "E0507",
+"position": 5,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1011401792,
+"matched_case": "core-receptacle_relocation-B-k5-E0507"
+},
+{
+"case_id": "transient-reversible_relocation-receptacle-r20-B-k5-E0507",
+"track": "transient",
+"chain_id": "E0507",
+"position": 5,
+"task": "stack_block",
+"change_type": "reversible_relocation",
+"variant": "B",
+"params": {
+"block_distance": 0.12,
+"joint_frac": 0.4,
+"role": "receptacle",
+"return_after": 20
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid"
+],
+"seed": 1011401792,
+"matched_case": "core-receptacle_relocation-B-k5-E0507"
+}
+]
+}

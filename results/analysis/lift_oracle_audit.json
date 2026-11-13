@@ -1,0 +1,172 @@
+[
+ {
+  "case_id": "phase-arm_push-transport-k1-E0031",
+  "task": "lift_pink_block_table",
+  "held": [
+   "block_pink"
+  ],
+  "reference_z_original": 0.4599643616022734,
+  "reference_z_legacy": 0.4952671281969722,
+  "reference_contacts_original": [
+   [
+    5,
+    -1
+   ]
+  ],
+  "reference_contacts_legacy": [
+   [
+    0,
+    10
+   ],
+   [
+    0,
+    12
+   ]
+  ],
+  "original_success": true,
+  "legacy_rebase_without_push_success": false
+ },
+ {
+  "case_id": "phase-arm_push-transport-k1-E0130",
+  "task": "stack_block",
+  "held": [
+   "block_red"
+  ],
+  "reference_z_original": 0.49279127492180175,
+  "reference_z_legacy": 0.49279127492180175,
+  "reference_contacts_original": [
+   [
+    0,
+    10
+   ],
+   [
+    0,
+    12
+   ]
+  ],
+  "reference_contacts_legacy": [
+   [
+    0,
+    10
+   ],
+   [
+    0,
+    12
+   ]
+  ],
+  "original_success": true,
+  "legacy_rebase_without_push_success": true
+ },
+ {
+  "case_id": "phase-arm_push-transport-k1-E0173",
+  "task": "lift_red_block_table",
+  "held": [
+   "block_red"
+  ],
+  "reference_z_original": 0.459947175766532,
+  "reference_z_legacy": 0.4924527062599044,
+  "reference_contacts_original": [
+   [
+    5,
+    -1
+   ]
+  ],
+  "reference_contacts_legacy": [
+   [
+    0,
+    10
+   ],
+   [
+    0,
+    12
+   ]
+  ],
+  "original_success": true,
+  "legacy_rebase_without_push_success": false
+ },
+ {
+  "case_id": "phase-arm_push-transport-k1-E0198",
+  "task": "lift_pink_block_table",
+  "held": [
+   "block_pink"
+  ],
+  "reference_z_original": 0.4599708491917016,
+  "reference_z_legacy": 0.49675892683683404,
+  "reference_contacts_original": [
+   [
+    5,
+    -1
+   ]
+  ],
+  "reference_contacts_legacy": [
+   [
+    0,
+    10
+   ],
+   [
+    0,
+    12
+   ]
+  ],
+  "original_success": true,
+  "legacy_rebase_without_push_success": false
+ },
+ {
+  "case_id": "phase-arm_push-transport-k1-E0290",
+  "task": "lift_blue_block_table",
+  "held": [
+   "block_blue"
+  ],
+  "reference_z_original": 0.45995604621020697,
+  "reference_z_legacy": 0.495321913676431,
+  "reference_contacts_original": [
+   [
+    5,
+    -1
+   ]
+  ],
+  "reference_contacts_legacy": [
+   [
+    0,
+    10
+   ],
+   [
+    0,
+    12
+   ]
+  ],
+  "original_success": true,
+  "legacy_rebase_without_push_success": false
+ },
+ {
+  "case_id": "phase-arm_push-transport-k1-E0381",
+  "task": "place_in_slider",
+  "held": [
+   "block_pink"
+  ],
+  "reference_z_original": 0.49125567422898214,
+  "reference_z_legacy": 0.49125567422898214,
+  "reference_contacts_original": [
+   [
+    0,
+    10
+   ],
+   [
+    0,
+    12
+   ]
+  ],
+  "reference_contacts_legacy": [
+   [
+    0,
+    10
+   ],
+   [
+    0,
+    12
+   ]
+  ],
+  "original_success": true,
+  "legacy_rebase_without_push_success": true
+ }
+]

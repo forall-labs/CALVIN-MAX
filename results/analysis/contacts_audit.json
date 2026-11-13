@@ -1,0 +1,246 @@
+[
+ {
+  "case_id": "new-grasp_loss-A-k1-E0248",
+  "task": "lift_blue_block_slider",
+  "contacts_read": {
+   "block_blue": [
+    [
+     0,
+     10
+    ],
+    [
+     0,
+     12
+    ]
+   ]
+  },
+  "contacts_after_refresh": {
+   "block_blue": [
+    [
+     5,
+     6
+    ]
+   ]
+  },
+  "stale": true,
+  "dynamics_identical": true,
+  "max_state_diff": 0.0
+ },
+ {
+  "case_id": "new-grasp_loss-A-k3-E0249",
+  "task": "lift_red_block_slider",
+  "contacts_read": {
+   "block_red": [
+    [
+     0,
+     10
+    ],
+    [
+     0,
+     12
+    ]
+   ]
+  },
+  "contacts_after_refresh": {
+   "block_red": [
+    [
+     5,
+     6
+    ]
+   ]
+  },
+  "stale": true,
+  "dynamics_identical": true,
+  "max_state_diff": 0.0
+ },
+ {
+  "case_id": "new-grasp_loss-A-k3-E0375",
+  "task": "lift_red_block_table",
+  "contacts_read": {
+   "block_red": [
+    [
+     0,
+     10
+    ],
+    [
+     0,
+     12
+    ]
+   ]
+  },
+  "contacts_after_refresh": {
+   "block_red": [
+    [
+     5,
+     -1
+    ]
+   ]
+  },
+  "stale": true,
+  "dynamics_identical": true,
+  "max_state_diff": 0.0
+ },
+ {
+  "case_id": "new-grasp_loss-A-k4-E0169",
+  "refresh": false,
+  "status": "event_unrealizable"
+ },
+ {
+  "case_id": "core-target_relocation-A-k1-E0099",
+  "task": "rotate_red_block_right",
+  "contacts_read": {
+   "block_red": [
+    [
+     5,
+     -1
+    ]
+   ]
+  },
+  "contacts_after_refresh": {
+   "block_red": [
+    [
+     5,
+     -1
+    ]
+   ]
+  },
+  "stale": false,
+  "dynamics_identical": true,
+  "max_state_diff": 0.0
+ },
+ {
+  "case_id": "core-target_relocation-A-k1-E0285",
+  "task": "open_drawer",
+  "contacts_read": {},
+  "contacts_after_refresh": {},
+  "stale": false,
+  "dynamics_identical": true,
+  "max_state_diff": 0.0
+ },
+ {
+  "case_id": "core-target_relocation-A-k1-E0543",
+  "task": "push_pink_block_right",
+  "contacts_read": {
+   "block_pink": [
+    [
+     5,
+     -1
+    ]
+   ]
+  },
+  "contacts_after_refresh": {
+   "block_pink": [
+    [
+     5,
+     -1
+    ]
+   ]
+  },
+  "stale": false,
+  "dynamics_identical": true,
+  "max_state_diff": 0.0
+ },
+ {
+  "case_id": "core-target_relocation-A-k1-E0937",
+  "task": "push_pink_block_right",
+  "contacts_read": {
+   "block_pink": [
+    [
+     5,
+     -1
+    ]
+   ]
+  },
+  "contacts_after_refresh": {
+   "block_pink": [
+    [
+     5,
+     -1
+    ]
+   ]
+  },
+  "stale": false,
+  "dynamics_identical": true,
+  "max_state_diff": 0.0
+ },
+ {
+  "case_id": "new-arm_push-A-k1-E0523",
+  "task": "turn_on_lightbulb",
+  "contacts_read": {},
+  "contacts_after_refresh": {},
+  "stale": false,
+  "dynamics_identical": true,
+  "max_state_diff": 0.0
+ },
+ {
+  "case_id": "new-arm_push-A-k2-E0008",
+  "task": "push_red_block_right",
+  "contacts_read": {},
+  "contacts_after_refresh": {},
+  "stale": false,
+  "dynamics_identical": true,
+  "max_state_diff": 0.0
+ },
+ {
+  "case_id": "new-arm_push-A-k2-E0383",
+  "task": "place_in_drawer",
+  "contacts_read": {
+   "block_blue": [
+    [
+     0,
+     10
+    ],
+    [
+     0,
+     12
+    ]
+   ]
+  },
+  "contacts_after_refresh": {
+   "block_blue": [
+    [
+     0,
+     10
+    ],
+    [
+     0,
+     12
+    ]
+   ]
+  },
+  "stale": false,
+  "dynamics_identical": true,
+  "max_state_diff": 0.0
+ },
+ {
+  "case_id": "new-arm_push-A-k2-E0889",
+  "task": "lift_blue_block_table",
+  "contacts_read": {
+   "block_blue": [
+    [
+     0,
+     10
+    ],
+    [
+     0,
+     12
+    ]
+   ]
+  },
+  "contacts_after_refresh": {
+   "block_blue": [
+    [
+     0,
+     10
+    ],
+    [
+     0,
+     12
+    ]
+   ]
+  },
+  "stale": false,
+  "dynamics_identical": true,
+  "max_state_diff": 0.0
+ }
+]

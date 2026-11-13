@@ -1,0 +1,147 @@
+{
+ "MoDE": {
+  "decomposition": {
+   "channel:perceptual": {
+    "n": 82,
+    "rates": {
+     "base": 92.7,
+     "pre": 56.1,
+     "mid": 80.5,
+     "mid_rewind": 47.6,
+     "mid_oracle": 75.6
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 24.4,
+      "ci": [
+       11.9,
+       36.6
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 32.9,
+      "ci": [
+       22.0,
+       44.0
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -8.5,
+      "ci": [
+       -20.0,
+       2.4
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 4.9,
+      "ci": [
+       0.0,
+       10.7
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 28.0,
+      "ci": [
+       17.5,
+       40.0
+      ]
+     }
+    }
+   },
+   "sensor_noise_onset@L4": {
+    "n": 41,
+    "rates": {
+     "base": 92.7,
+     "pre": 73.2,
+     "mid": 85.4,
+     "mid_rewind": 68.3,
+     "mid_oracle": 82.9
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 12.2,
+      "ci": [
+       -2.5,
+       27.3
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 17.1,
+      "ci": [
+       4.9,
+       30.0
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -4.9,
+      "ci": [
+       -19.5,
+       7.5
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 2.4,
+      "ci": [
+       0.0,
+       7.0
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 14.6,
+      "ci": [
+       2.4,
+       27.5
+      ]
+     }
+    }
+   },
+   "sensor_noise_onset@L5": {
+    "n": 41,
+    "rates": {
+     "base": 92.7,
+     "pre": 39.0,
+     "mid": 75.6,
+     "mid_rewind": 26.8,
+     "mid_oracle": 68.3
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 36.6,
+      "ci": [
+       20.9,
+       52.5
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 48.8,
+      "ci": [
+       32.5,
+       65.0
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -12.2,
+      "ci": [
+       -27.5,
+       2.5
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 7.3,
+      "ci": [
+       0.0,
+       15.0
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 41.5,
+      "ci": [
+       25.0,
+       58.5
+      ]
+     }
+    }
+   }
+  }
+ }
+}

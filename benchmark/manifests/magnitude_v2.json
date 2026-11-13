@@ -1,0 +1,6775 @@
+{
+"meta": {
+"version": "magnitude_v2",
+"source": "max_v1 + lite_v1 slots",
+"scales": {
+"sensor_noise_onset": [
+0.25,
+0.5,
+1.0,
+2.0,
+4.0
+]
+},
+"level3_A_is_core_case": true,
+"counts": {
+"sensor_noise_onset/L1": 60,
+"sensor_noise_onset/L2": 60,
+"sensor_noise_onset/L4": 60,
+"sensor_noise_onset/L5": 60,
+"sensor_noise_onset/L3": 30
+}
+},
+"cases": [
+{
+"case_id": "magnitude-sensor_noise_onset-L1-A-k1-E0253",
+"track": "magnitude",
+"chain_id": "E0253",
+"position": 1,
+"task": "lift_pink_block_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3925034737,
+"slot_case": "core-sensor_noise_onset-A-k1-E0253"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-A-k1-E0253",
+"track": "magnitude",
+"chain_id": "E0253",
+"position": 1,
+"task": "lift_pink_block_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3925034737,
+"slot_case": "core-sensor_noise_onset-A-k1-E0253"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-A-k1-E0253",
+"track": "magnitude",
+"chain_id": "E0253",
+"position": 1,
+"task": "lift_pink_block_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3925034737,
+"slot_case": "core-sensor_noise_onset-A-k1-E0253"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-A-k1-E0253",
+"track": "magnitude",
+"chain_id": "E0253",
+"position": 1,
+"task": "lift_pink_block_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3925034737,
+"slot_case": "core-sensor_noise_onset-A-k1-E0253"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-A-k1-E0430",
+"track": "magnitude",
+"chain_id": "E0430",
+"position": 1,
+"task": "push_blue_block_right",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1163123493,
+"slot_case": "core-sensor_noise_onset-A-k1-E0430"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-A-k1-E0430",
+"track": "magnitude",
+"chain_id": "E0430",
+"position": 1,
+"task": "push_blue_block_right",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1163123493,
+"slot_case": "core-sensor_noise_onset-A-k1-E0430"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-A-k1-E0430",
+"track": "magnitude",
+"chain_id": "E0430",
+"position": 1,
+"task": "push_blue_block_right",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1163123493,
+"slot_case": "core-sensor_noise_onset-A-k1-E0430"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-A-k1-E0430",
+"track": "magnitude",
+"chain_id": "E0430",
+"position": 1,
+"task": "push_blue_block_right",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1163123493,
+"slot_case": "core-sensor_noise_onset-A-k1-E0430"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-A-k1-E0446",
+"track": "magnitude",
+"chain_id": "E0446",
+"position": 1,
+"task": "rotate_blue_block_right",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 151888602,
+"slot_case": "core-sensor_noise_onset-A-k1-E0446"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-A-k1-E0446",
+"track": "magnitude",
+"chain_id": "E0446",
+"position": 1,
+"task": "rotate_blue_block_right",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 151888602,
+"slot_case": "core-sensor_noise_onset-A-k1-E0446"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-A-k1-E0446",
+"track": "magnitude",
+"chain_id": "E0446",
+"position": 1,
+"task": "rotate_blue_block_right",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 151888602,
+"slot_case": "core-sensor_noise_onset-A-k1-E0446"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-A-k1-E0446",
+"track": "magnitude",
+"chain_id": "E0446",
+"position": 1,
+"task": "rotate_blue_block_right",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 151888602,
+"slot_case": "core-sensor_noise_onset-A-k1-E0446"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-A-k1-E0622",
+"track": "magnitude",
+"chain_id": "E0622",
+"position": 1,
+"task": "lift_pink_block_table",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3328629312,
+"slot_case": "core-sensor_noise_onset-A-k1-E0622"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-A-k1-E0622",
+"track": "magnitude",
+"chain_id": "E0622",
+"position": 1,
+"task": "lift_pink_block_table",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3328629312,
+"slot_case": "core-sensor_noise_onset-A-k1-E0622"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-A-k1-E0622",
+"track": "magnitude",
+"chain_id": "E0622",
+"position": 1,
+"task": "lift_pink_block_table",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3328629312,
+"slot_case": "core-sensor_noise_onset-A-k1-E0622"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-A-k1-E0622",
+"track": "magnitude",
+"chain_id": "E0622",
+"position": 1,
+"task": "lift_pink_block_table",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3328629312,
+"slot_case": "core-sensor_noise_onset-A-k1-E0622"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-A-k1-E0737",
+"track": "magnitude",
+"chain_id": "E0737",
+"position": 1,
+"task": "push_blue_block_left",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3958444738,
+"slot_case": "core-sensor_noise_onset-A-k1-E0737"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-A-k1-E0737",
+"track": "magnitude",
+"chain_id": "E0737",
+"position": 1,
+"task": "push_blue_block_left",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3958444738,
+"slot_case": "core-sensor_noise_onset-A-k1-E0737"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-A-k1-E0737",
+"track": "magnitude",
+"chain_id": "E0737",
+"position": 1,
+"task": "push_blue_block_left",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3958444738,
+"slot_case": "core-sensor_noise_onset-A-k1-E0737"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-A-k1-E0737",
+"track": "magnitude",
+"chain_id": "E0737",
+"position": 1,
+"task": "push_blue_block_left",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3958444738,
+"slot_case": "core-sensor_noise_onset-A-k1-E0737"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-A-k1-E0865",
+"track": "magnitude",
+"chain_id": "E0865",
+"position": 1,
+"task": "move_slider_left",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2492522268,
+"slot_case": "core-sensor_noise_onset-A-k1-E0865"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-A-k1-E0865",
+"track": "magnitude",
+"chain_id": "E0865",
+"position": 1,
+"task": "move_slider_left",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2492522268,
+"slot_case": "core-sensor_noise_onset-A-k1-E0865"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-A-k1-E0865",
+"track": "magnitude",
+"chain_id": "E0865",
+"position": 1,
+"task": "move_slider_left",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2492522268,
+"slot_case": "core-sensor_noise_onset-A-k1-E0865"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-A-k1-E0865",
+"track": "magnitude",
+"chain_id": "E0865",
+"position": 1,
+"task": "move_slider_left",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2492522268,
+"slot_case": "core-sensor_noise_onset-A-k1-E0865"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-A-k2-E0121",
+"track": "magnitude",
+"chain_id": "E0121",
+"position": 2,
+"task": "open_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2701767225,
+"slot_case": "core-sensor_noise_onset-A-k2-E0121"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-A-k2-E0121",
+"track": "magnitude",
+"chain_id": "E0121",
+"position": 2,
+"task": "open_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2701767225,
+"slot_case": "core-sensor_noise_onset-A-k2-E0121"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-A-k2-E0121",
+"track": "magnitude",
+"chain_id": "E0121",
+"position": 2,
+"task": "open_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2701767225,
+"slot_case": "core-sensor_noise_onset-A-k2-E0121"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-A-k2-E0121",
+"track": "magnitude",
+"chain_id": "E0121",
+"position": 2,
+"task": "open_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2701767225,
+"slot_case": "core-sensor_noise_onset-A-k2-E0121"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-A-k2-E0300",
+"track": "magnitude",
+"chain_id": "E0300",
+"position": 2,
+"task": "turn_on_led",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3237363415,
+"slot_case": "core-sensor_noise_onset-A-k2-E0300"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-A-k2-E0300",
+"track": "magnitude",
+"chain_id": "E0300",
+"position": 2,
+"task": "turn_on_led",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3237363415,
+"slot_case": "core-sensor_noise_onset-A-k2-E0300"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-A-k2-E0300",
+"track": "magnitude",
+"chain_id": "E0300",
+"position": 2,
+"task": "turn_on_led",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3237363415,
+"slot_case": "core-sensor_noise_onset-A-k2-E0300"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-A-k2-E0300",
+"track": "magnitude",
+"chain_id": "E0300",
+"position": 2,
+"task": "turn_on_led",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3237363415,
+"slot_case": "core-sensor_noise_onset-A-k2-E0300"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-A-k2-E0342",
+"track": "magnitude",
+"chain_id": "E0342",
+"position": 2,
+"task": "rotate_blue_block_left",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2977561291,
+"slot_case": "core-sensor_noise_onset-A-k2-E0342"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-A-k2-E0342",
+"track": "magnitude",
+"chain_id": "E0342",
+"position": 2,
+"task": "rotate_blue_block_left",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2977561291,
+"slot_case": "core-sensor_noise_onset-A-k2-E0342"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-A-k2-E0342",
+"track": "magnitude",
+"chain_id": "E0342",
+"position": 2,
+"task": "rotate_blue_block_left",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2977561291,
+"slot_case": "core-sensor_noise_onset-A-k2-E0342"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-A-k2-E0342",
+"track": "magnitude",
+"chain_id": "E0342",
+"position": 2,
+"task": "rotate_blue_block_left",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2977561291,
+"slot_case": "core-sensor_noise_onset-A-k2-E0342"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-A-k2-E0553",
+"track": "magnitude",
+"chain_id": "E0553",
+"position": 2,
+"task": "push_into_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2398316017,
+"slot_case": "core-sensor_noise_onset-A-k2-E0553"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-A-k2-E0553",
+"track": "magnitude",
+"chain_id": "E0553",
+"position": 2,
+"task": "push_into_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2398316017,
+"slot_case": "core-sensor_noise_onset-A-k2-E0553"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-A-k2-E0553",
+"track": "magnitude",
+"chain_id": "E0553",
+"position": 2,
+"task": "push_into_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2398316017,
+"slot_case": "core-sensor_noise_onset-A-k2-E0553"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-A-k2-E0553",
+"track": "magnitude",
+"chain_id": "E0553",
+"position": 2,
+"task": "push_into_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2398316017,
+"slot_case": "core-sensor_noise_onset-A-k2-E0553"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-A-k2-E0582",
+"track": "magnitude",
+"chain_id": "E0582",
+"position": 2,
+"task": "rotate_red_block_left",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2747616832,
+"slot_case": "core-sensor_noise_onset-A-k2-E0582"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-A-k2-E0582",
+"track": "magnitude",
+"chain_id": "E0582",
+"position": 2,
+"task": "rotate_red_block_left",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2747616832,
+"slot_case": "core-sensor_noise_onset-A-k2-E0582"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-A-k2-E0582",
+"track": "magnitude",
+"chain_id": "E0582",
+"position": 2,
+"task": "rotate_red_block_left",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2747616832,
+"slot_case": "core-sensor_noise_onset-A-k2-E0582"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-A-k2-E0582",
+"track": "magnitude",
+"chain_id": "E0582",
+"position": 2,
+"task": "rotate_red_block_left",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2747616832,
+"slot_case": "core-sensor_noise_onset-A-k2-E0582"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-A-k2-E0937",
+"track": "magnitude",
+"chain_id": "E0937",
+"position": 2,
+"task": "lift_pink_block_table",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2910505999,
+"slot_case": "core-sensor_noise_onset-A-k2-E0937"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-A-k2-E0937",
+"track": "magnitude",
+"chain_id": "E0937",
+"position": 2,
+"task": "lift_pink_block_table",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2910505999,
+"slot_case": "core-sensor_noise_onset-A-k2-E0937"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-A-k2-E0937",
+"track": "magnitude",
+"chain_id": "E0937",
+"position": 2,
+"task": "lift_pink_block_table",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2910505999,
+"slot_case": "core-sensor_noise_onset-A-k2-E0937"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-A-k2-E0937",
+"track": "magnitude",
+"chain_id": "E0937",
+"position": 2,
+"task": "lift_pink_block_table",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2910505999,
+"slot_case": "core-sensor_noise_onset-A-k2-E0937"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-A-k3-E0060",
+"track": "magnitude",
+"chain_id": "E0060",
+"position": 3,
+"task": "push_blue_block_right",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2631243140,
+"slot_case": "core-sensor_noise_onset-A-k3-E0060"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-A-k3-E0060",
+"track": "magnitude",
+"chain_id": "E0060",
+"position": 3,
+"task": "push_blue_block_right",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2631243140,
+"slot_case": "core-sensor_noise_onset-A-k3-E0060"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-A-k3-E0060",
+"track": "magnitude",
+"chain_id": "E0060",
+"position": 3,
+"task": "push_blue_block_right",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2631243140,
+"slot_case": "core-sensor_noise_onset-A-k3-E0060"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-A-k3-E0060",
+"track": "magnitude",
+"chain_id": "E0060",
+"position": 3,
+"task": "push_blue_block_right",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2631243140,
+"slot_case": "core-sensor_noise_onset-A-k3-E0060"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-A-k3-E0238",
+"track": "magnitude",
+"chain_id": "E0238",
+"position": 3,
+"task": "place_in_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 720066184,
+"slot_case": "core-sensor_noise_onset-A-k3-E0238"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-A-k3-E0238",
+"track": "magnitude",
+"chain_id": "E0238",
+"position": 3,
+"task": "place_in_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 720066184,
+"slot_case": "core-sensor_noise_onset-A-k3-E0238"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-A-k3-E0238",
+"track": "magnitude",
+"chain_id": "E0238",
+"position": 3,
+"task": "place_in_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 720066184,
+"slot_case": "core-sensor_noise_onset-A-k3-E0238"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-A-k3-E0238",
+"track": "magnitude",
+"chain_id": "E0238",
+"position": 3,
+"task": "place_in_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 720066184,
+"slot_case": "core-sensor_noise_onset-A-k3-E0238"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-A-k3-E0271",
+"track": "magnitude",
+"chain_id": "E0271",
+"position": 3,
+"task": "stack_block",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 895795081,
+"slot_case": "core-sensor_noise_onset-A-k3-E0271"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-A-k3-E0271",
+"track": "magnitude",
+"chain_id": "E0271",
+"position": 3,
+"task": "stack_block",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 895795081,
+"slot_case": "core-sensor_noise_onset-A-k3-E0271"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-A-k3-E0271",
+"track": "magnitude",
+"chain_id": "E0271",
+"position": 3,
+"task": "stack_block",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 895795081,
+"slot_case": "core-sensor_noise_onset-A-k3-E0271"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-A-k3-E0271",
+"track": "magnitude",
+"chain_id": "E0271",
+"position": 3,
+"task": "stack_block",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 895795081,
+"slot_case": "core-sensor_noise_onset-A-k3-E0271"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-A-k3-E0451",
+"track": "magnitude",
+"chain_id": "E0451",
+"position": 3,
+"task": "lift_blue_block_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 402701328,
+"slot_case": "core-sensor_noise_onset-A-k3-E0451"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-A-k3-E0451",
+"track": "magnitude",
+"chain_id": "E0451",
+"position": 3,
+"task": "lift_blue_block_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 402701328,
+"slot_case": "core-sensor_noise_onset-A-k3-E0451"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-A-k3-E0451",
+"track": "magnitude",
+"chain_id": "E0451",
+"position": 3,
+"task": "lift_blue_block_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 402701328,
+"slot_case": "core-sensor_noise_onset-A-k3-E0451"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-A-k3-E0451",
+"track": "magnitude",
+"chain_id": "E0451",
+"position": 3,
+"task": "lift_blue_block_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 402701328,
+"slot_case": "core-sensor_noise_onset-A-k3-E0451"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-A-k3-E0607",
+"track": "magnitude",
+"chain_id": "E0607",
+"position": 3,
+"task": "lift_blue_block_table",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 786314869,
+"slot_case": "core-sensor_noise_onset-A-k3-E0607"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-A-k3-E0607",
+"track": "magnitude",
+"chain_id": "E0607",
+"position": 3,
+"task": "lift_blue_block_table",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 786314869,
+"slot_case": "core-sensor_noise_onset-A-k3-E0607"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-A-k3-E0607",
+"track": "magnitude",
+"chain_id": "E0607",
+"position": 3,
+"task": "lift_blue_block_table",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 786314869,
+"slot_case": "core-sensor_noise_onset-A-k3-E0607"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-A-k3-E0607",
+"track": "magnitude",
+"chain_id": "E0607",
+"position": 3,
+"task": "lift_blue_block_table",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 786314869,
+"slot_case": "core-sensor_noise_onset-A-k3-E0607"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-A-k3-E0945",
+"track": "magnitude",
+"chain_id": "E0945",
+"position": 3,
+"task": "place_in_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 865491284,
+"slot_case": "core-sensor_noise_onset-A-k3-E0945"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-A-k3-E0945",
+"track": "magnitude",
+"chain_id": "E0945",
+"position": 3,
+"task": "place_in_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 865491284,
+"slot_case": "core-sensor_noise_onset-A-k3-E0945"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-A-k3-E0945",
+"track": "magnitude",
+"chain_id": "E0945",
+"position": 3,
+"task": "place_in_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 865491284,
+"slot_case": "core-sensor_noise_onset-A-k3-E0945"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-A-k3-E0945",
+"track": "magnitude",
+"chain_id": "E0945",
+"position": 3,
+"task": "place_in_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 865491284,
+"slot_case": "core-sensor_noise_onset-A-k3-E0945"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-A-k4-E0311",
+"track": "magnitude",
+"chain_id": "E0311",
+"position": 4,
+"task": "lift_blue_block_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2630562274,
+"slot_case": "core-sensor_noise_onset-A-k4-E0311"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-A-k4-E0311",
+"track": "magnitude",
+"chain_id": "E0311",
+"position": 4,
+"task": "lift_blue_block_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2630562274,
+"slot_case": "core-sensor_noise_onset-A-k4-E0311"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-A-k4-E0311",
+"track": "magnitude",
+"chain_id": "E0311",
+"position": 4,
+"task": "lift_blue_block_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2630562274,
+"slot_case": "core-sensor_noise_onset-A-k4-E0311"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-A-k4-E0311",
+"track": "magnitude",
+"chain_id": "E0311",
+"position": 4,
+"task": "lift_blue_block_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2630562274,
+"slot_case": "core-sensor_noise_onset-A-k4-E0311"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-A-k4-E0318",
+"track": "magnitude",
+"chain_id": "E0318",
+"position": 4,
+"task": "lift_blue_block_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3877751009,
+"slot_case": "core-sensor_noise_onset-A-k4-E0318"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-A-k4-E0318",
+"track": "magnitude",
+"chain_id": "E0318",
+"position": 4,
+"task": "lift_blue_block_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3877751009,
+"slot_case": "core-sensor_noise_onset-A-k4-E0318"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-A-k4-E0318",
+"track": "magnitude",
+"chain_id": "E0318",
+"position": 4,
+"task": "lift_blue_block_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3877751009,
+"slot_case": "core-sensor_noise_onset-A-k4-E0318"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-A-k4-E0318",
+"track": "magnitude",
+"chain_id": "E0318",
+"position": 4,
+"task": "lift_blue_block_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3877751009,
+"slot_case": "core-sensor_noise_onset-A-k4-E0318"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-A-k4-E0421",
+"track": "magnitude",
+"chain_id": "E0421",
+"position": 4,
+"task": "push_into_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 936888376,
+"slot_case": "core-sensor_noise_onset-A-k4-E0421"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-A-k4-E0421",
+"track": "magnitude",
+"chain_id": "E0421",
+"position": 4,
+"task": "push_into_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 936888376,
+"slot_case": "core-sensor_noise_onset-A-k4-E0421"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-A-k4-E0421",
+"track": "magnitude",
+"chain_id": "E0421",
+"position": 4,
+"task": "push_into_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 936888376,
+"slot_case": "core-sensor_noise_onset-A-k4-E0421"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-A-k4-E0421",
+"track": "magnitude",
+"chain_id": "E0421",
+"position": 4,
+"task": "push_into_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 936888376,
+"slot_case": "core-sensor_noise_onset-A-k4-E0421"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-A-k4-E0581",
+"track": "magnitude",
+"chain_id": "E0581",
+"position": 4,
+"task": "turn_off_lightbulb",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 615337101,
+"slot_case": "core-sensor_noise_onset-A-k4-E0581"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-A-k4-E0581",
+"track": "magnitude",
+"chain_id": "E0581",
+"position": 4,
+"task": "turn_off_lightbulb",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 615337101,
+"slot_case": "core-sensor_noise_onset-A-k4-E0581"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-A-k4-E0581",
+"track": "magnitude",
+"chain_id": "E0581",
+"position": 4,
+"task": "turn_off_lightbulb",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 615337101,
+"slot_case": "core-sensor_noise_onset-A-k4-E0581"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-A-k4-E0581",
+"track": "magnitude",
+"chain_id": "E0581",
+"position": 4,
+"task": "turn_off_lightbulb",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 615337101,
+"slot_case": "core-sensor_noise_onset-A-k4-E0581"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-A-k4-E0596",
+"track": "magnitude",
+"chain_id": "E0596",
+"position": 4,
+"task": "stack_block",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 770916362,
+"slot_case": "core-sensor_noise_onset-A-k4-E0596"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-A-k4-E0596",
+"track": "magnitude",
+"chain_id": "E0596",
+"position": 4,
+"task": "stack_block",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 770916362,
+"slot_case": "core-sensor_noise_onset-A-k4-E0596"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-A-k4-E0596",
+"track": "magnitude",
+"chain_id": "E0596",
+"position": 4,
+"task": "stack_block",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 770916362,
+"slot_case": "core-sensor_noise_onset-A-k4-E0596"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-A-k4-E0596",
+"track": "magnitude",
+"chain_id": "E0596",
+"position": 4,
+"task": "stack_block",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 770916362,
+"slot_case": "core-sensor_noise_onset-A-k4-E0596"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-A-k4-E0966",
+"track": "magnitude",
+"chain_id": "E0966",
+"position": 4,
+"task": "place_in_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 514451882,
+"slot_case": "core-sensor_noise_onset-A-k4-E0966"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-A-k4-E0966",
+"track": "magnitude",
+"chain_id": "E0966",
+"position": 4,
+"task": "place_in_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 514451882,
+"slot_case": "core-sensor_noise_onset-A-k4-E0966"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-A-k4-E0966",
+"track": "magnitude",
+"chain_id": "E0966",
+"position": 4,
+"task": "place_in_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 514451882,
+"slot_case": "core-sensor_noise_onset-A-k4-E0966"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-A-k4-E0966",
+"track": "magnitude",
+"chain_id": "E0966",
+"position": 4,
+"task": "place_in_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 514451882,
+"slot_case": "core-sensor_noise_onset-A-k4-E0966"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-A-k5-E0289",
+"track": "magnitude",
+"chain_id": "E0289",
+"position": 5,
+"task": "turn_on_lightbulb",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2565309204,
+"slot_case": "core-sensor_noise_onset-A-k5-E0289"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-A-k5-E0289",
+"track": "magnitude",
+"chain_id": "E0289",
+"position": 5,
+"task": "turn_on_lightbulb",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2565309204,
+"slot_case": "core-sensor_noise_onset-A-k5-E0289"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-A-k5-E0289",
+"track": "magnitude",
+"chain_id": "E0289",
+"position": 5,
+"task": "turn_on_lightbulb",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2565309204,
+"slot_case": "core-sensor_noise_onset-A-k5-E0289"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-A-k5-E0289",
+"track": "magnitude",
+"chain_id": "E0289",
+"position": 5,
+"task": "turn_on_lightbulb",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2565309204,
+"slot_case": "core-sensor_noise_onset-A-k5-E0289"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-A-k5-E0291",
+"track": "magnitude",
+"chain_id": "E0291",
+"position": 5,
+"task": "place_in_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2592594544,
+"slot_case": "core-sensor_noise_onset-A-k5-E0291"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-A-k5-E0291",
+"track": "magnitude",
+"chain_id": "E0291",
+"position": 5,
+"task": "place_in_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2592594544,
+"slot_case": "core-sensor_noise_onset-A-k5-E0291"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-A-k5-E0291",
+"track": "magnitude",
+"chain_id": "E0291",
+"position": 5,
+"task": "place_in_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2592594544,
+"slot_case": "core-sensor_noise_onset-A-k5-E0291"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-A-k5-E0291",
+"track": "magnitude",
+"chain_id": "E0291",
+"position": 5,
+"task": "place_in_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2592594544,
+"slot_case": "core-sensor_noise_onset-A-k5-E0291"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-A-k5-E0342",
+"track": "magnitude",
+"chain_id": "E0342",
+"position": 5,
+"task": "lift_pink_block_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2718475010,
+"slot_case": "core-sensor_noise_onset-A-k5-E0342"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-A-k5-E0342",
+"track": "magnitude",
+"chain_id": "E0342",
+"position": 5,
+"task": "lift_pink_block_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2718475010,
+"slot_case": "core-sensor_noise_onset-A-k5-E0342"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-A-k5-E0342",
+"track": "magnitude",
+"chain_id": "E0342",
+"position": 5,
+"task": "lift_pink_block_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2718475010,
+"slot_case": "core-sensor_noise_onset-A-k5-E0342"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-A-k5-E0342",
+"track": "magnitude",
+"chain_id": "E0342",
+"position": 5,
+"task": "lift_pink_block_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2718475010,
+"slot_case": "core-sensor_noise_onset-A-k5-E0342"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-A-k5-E0419",
+"track": "magnitude",
+"chain_id": "E0419",
+"position": 5,
+"task": "lift_pink_block_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1413562824,
+"slot_case": "core-sensor_noise_onset-A-k5-E0419"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-A-k5-E0419",
+"track": "magnitude",
+"chain_id": "E0419",
+"position": 5,
+"task": "lift_pink_block_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1413562824,
+"slot_case": "core-sensor_noise_onset-A-k5-E0419"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-A-k5-E0419",
+"track": "magnitude",
+"chain_id": "E0419",
+"position": 5,
+"task": "lift_pink_block_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1413562824,
+"slot_case": "core-sensor_noise_onset-A-k5-E0419"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-A-k5-E0419",
+"track": "magnitude",
+"chain_id": "E0419",
+"position": 5,
+"task": "lift_pink_block_slider",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1413562824,
+"slot_case": "core-sensor_noise_onset-A-k5-E0419"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-A-k5-E0629",
+"track": "magnitude",
+"chain_id": "E0629",
+"position": 5,
+"task": "move_slider_left",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 4142462395,
+"slot_case": "core-sensor_noise_onset-A-k5-E0629"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-A-k5-E0629",
+"track": "magnitude",
+"chain_id": "E0629",
+"position": 5,
+"task": "move_slider_left",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 4142462395,
+"slot_case": "core-sensor_noise_onset-A-k5-E0629"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-A-k5-E0629",
+"track": "magnitude",
+"chain_id": "E0629",
+"position": 5,
+"task": "move_slider_left",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 4142462395,
+"slot_case": "core-sensor_noise_onset-A-k5-E0629"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-A-k5-E0629",
+"track": "magnitude",
+"chain_id": "E0629",
+"position": 5,
+"task": "move_slider_left",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 4142462395,
+"slot_case": "core-sensor_noise_onset-A-k5-E0629"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-A-k5-E0639",
+"track": "magnitude",
+"chain_id": "E0639",
+"position": 5,
+"task": "push_pink_block_right",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3299873558,
+"slot_case": "core-sensor_noise_onset-A-k5-E0639"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-A-k5-E0639",
+"track": "magnitude",
+"chain_id": "E0639",
+"position": 5,
+"task": "push_pink_block_right",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3299873558,
+"slot_case": "core-sensor_noise_onset-A-k5-E0639"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-A-k5-E0639",
+"track": "magnitude",
+"chain_id": "E0639",
+"position": 5,
+"task": "push_pink_block_right",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3299873558,
+"slot_case": "core-sensor_noise_onset-A-k5-E0639"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-A-k5-E0639",
+"track": "magnitude",
+"chain_id": "E0639",
+"position": 5,
+"task": "push_pink_block_right",
+"change_type": "sensor_noise_onset",
+"variant": "A",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3299873558,
+"slot_case": "core-sensor_noise_onset-A-k5-E0639"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-B-k1-E0013",
+"track": "magnitude",
+"chain_id": "E0013",
+"position": 1,
+"task": "turn_on_led",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3388321544,
+"slot_case": "core-sensor_noise_onset-B-k1-E0013"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-B-k1-E0013",
+"track": "magnitude",
+"chain_id": "E0013",
+"position": 1,
+"task": "turn_on_led",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3388321544,
+"slot_case": "core-sensor_noise_onset-B-k1-E0013"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L3-B-k1-E0013",
+"track": "magnitude",
+"chain_id": "E0013",
+"position": 1,
+"task": "turn_on_led",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.05,
+"occlusion_frac": 0.1,
+"level": 3,
+"scale": 1.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3388321544,
+"slot_case": "core-sensor_noise_onset-B-k1-E0013"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-B-k1-E0013",
+"track": "magnitude",
+"chain_id": "E0013",
+"position": 1,
+"task": "turn_on_led",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3388321544,
+"slot_case": "core-sensor_noise_onset-B-k1-E0013"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-B-k1-E0013",
+"track": "magnitude",
+"chain_id": "E0013",
+"position": 1,
+"task": "turn_on_led",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3388321544,
+"slot_case": "core-sensor_noise_onset-B-k1-E0013"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-B-k1-E0027",
+"track": "magnitude",
+"chain_id": "E0027",
+"position": 1,
+"task": "push_red_block_right",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3920398302,
+"slot_case": "core-sensor_noise_onset-B-k1-E0027"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-B-k1-E0027",
+"track": "magnitude",
+"chain_id": "E0027",
+"position": 1,
+"task": "push_red_block_right",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3920398302,
+"slot_case": "core-sensor_noise_onset-B-k1-E0027"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L3-B-k1-E0027",
+"track": "magnitude",
+"chain_id": "E0027",
+"position": 1,
+"task": "push_red_block_right",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.05,
+"occlusion_frac": 0.1,
+"level": 3,
+"scale": 1.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3920398302,
+"slot_case": "core-sensor_noise_onset-B-k1-E0027"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-B-k1-E0027",
+"track": "magnitude",
+"chain_id": "E0027",
+"position": 1,
+"task": "push_red_block_right",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3920398302,
+"slot_case": "core-sensor_noise_onset-B-k1-E0027"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-B-k1-E0027",
+"track": "magnitude",
+"chain_id": "E0027",
+"position": 1,
+"task": "push_red_block_right",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3920398302,
+"slot_case": "core-sensor_noise_onset-B-k1-E0027"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-B-k1-E0048",
+"track": "magnitude",
+"chain_id": "E0048",
+"position": 1,
+"task": "rotate_blue_block_left",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2872394621,
+"slot_case": "core-sensor_noise_onset-B-k1-E0048"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-B-k1-E0048",
+"track": "magnitude",
+"chain_id": "E0048",
+"position": 1,
+"task": "rotate_blue_block_left",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2872394621,
+"slot_case": "core-sensor_noise_onset-B-k1-E0048"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L3-B-k1-E0048",
+"track": "magnitude",
+"chain_id": "E0048",
+"position": 1,
+"task": "rotate_blue_block_left",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.05,
+"occlusion_frac": 0.1,
+"level": 3,
+"scale": 1.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2872394621,
+"slot_case": "core-sensor_noise_onset-B-k1-E0048"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-B-k1-E0048",
+"track": "magnitude",
+"chain_id": "E0048",
+"position": 1,
+"task": "rotate_blue_block_left",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2872394621,
+"slot_case": "core-sensor_noise_onset-B-k1-E0048"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-B-k1-E0048",
+"track": "magnitude",
+"chain_id": "E0048",
+"position": 1,
+"task": "rotate_blue_block_left",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2872394621,
+"slot_case": "core-sensor_noise_onset-B-k1-E0048"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-B-k1-E0180",
+"track": "magnitude",
+"chain_id": "E0180",
+"position": 1,
+"task": "open_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 116421202,
+"slot_case": "core-sensor_noise_onset-B-k1-E0180"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-B-k1-E0180",
+"track": "magnitude",
+"chain_id": "E0180",
+"position": 1,
+"task": "open_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 116421202,
+"slot_case": "core-sensor_noise_onset-B-k1-E0180"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L3-B-k1-E0180",
+"track": "magnitude",
+"chain_id": "E0180",
+"position": 1,
+"task": "open_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.05,
+"occlusion_frac": 0.1,
+"level": 3,
+"scale": 1.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 116421202,
+"slot_case": "core-sensor_noise_onset-B-k1-E0180"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-B-k1-E0180",
+"track": "magnitude",
+"chain_id": "E0180",
+"position": 1,
+"task": "open_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 116421202,
+"slot_case": "core-sensor_noise_onset-B-k1-E0180"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-B-k1-E0180",
+"track": "magnitude",
+"chain_id": "E0180",
+"position": 1,
+"task": "open_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 116421202,
+"slot_case": "core-sensor_noise_onset-B-k1-E0180"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-B-k1-E0647",
+"track": "magnitude",
+"chain_id": "E0647",
+"position": 1,
+"task": "turn_off_led",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2823596769,
+"slot_case": "core-sensor_noise_onset-B-k1-E0647"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-B-k1-E0647",
+"track": "magnitude",
+"chain_id": "E0647",
+"position": 1,
+"task": "turn_off_led",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2823596769,
+"slot_case": "core-sensor_noise_onset-B-k1-E0647"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L3-B-k1-E0647",
+"track": "magnitude",
+"chain_id": "E0647",
+"position": 1,
+"task": "turn_off_led",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.05,
+"occlusion_frac": 0.1,
+"level": 3,
+"scale": 1.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2823596769,
+"slot_case": "core-sensor_noise_onset-B-k1-E0647"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-B-k1-E0647",
+"track": "magnitude",
+"chain_id": "E0647",
+"position": 1,
+"task": "turn_off_led",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2823596769,
+"slot_case": "core-sensor_noise_onset-B-k1-E0647"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-B-k1-E0647",
+"track": "magnitude",
+"chain_id": "E0647",
+"position": 1,
+"task": "turn_off_led",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2823596769,
+"slot_case": "core-sensor_noise_onset-B-k1-E0647"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-B-k1-E0753",
+"track": "magnitude",
+"chain_id": "E0753",
+"position": 1,
+"task": "open_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1855346758,
+"slot_case": "core-sensor_noise_onset-B-k1-E0753"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-B-k1-E0753",
+"track": "magnitude",
+"chain_id": "E0753",
+"position": 1,
+"task": "open_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1855346758,
+"slot_case": "core-sensor_noise_onset-B-k1-E0753"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L3-B-k1-E0753",
+"track": "magnitude",
+"chain_id": "E0753",
+"position": 1,
+"task": "open_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.05,
+"occlusion_frac": 0.1,
+"level": 3,
+"scale": 1.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1855346758,
+"slot_case": "core-sensor_noise_onset-B-k1-E0753"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-B-k1-E0753",
+"track": "magnitude",
+"chain_id": "E0753",
+"position": 1,
+"task": "open_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1855346758,
+"slot_case": "core-sensor_noise_onset-B-k1-E0753"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-B-k1-E0753",
+"track": "magnitude",
+"chain_id": "E0753",
+"position": 1,
+"task": "open_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1855346758,
+"slot_case": "core-sensor_noise_onset-B-k1-E0753"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-B-k2-E0169",
+"track": "magnitude",
+"chain_id": "E0169",
+"position": 2,
+"task": "turn_on_led",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3431967255,
+"slot_case": "core-sensor_noise_onset-B-k2-E0169"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-B-k2-E0169",
+"track": "magnitude",
+"chain_id": "E0169",
+"position": 2,
+"task": "turn_on_led",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3431967255,
+"slot_case": "core-sensor_noise_onset-B-k2-E0169"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L3-B-k2-E0169",
+"track": "magnitude",
+"chain_id": "E0169",
+"position": 2,
+"task": "turn_on_led",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.05,
+"occlusion_frac": 0.1,
+"level": 3,
+"scale": 1.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3431967255,
+"slot_case": "core-sensor_noise_onset-B-k2-E0169"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-B-k2-E0169",
+"track": "magnitude",
+"chain_id": "E0169",
+"position": 2,
+"task": "turn_on_led",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3431967255,
+"slot_case": "core-sensor_noise_onset-B-k2-E0169"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-B-k2-E0169",
+"track": "magnitude",
+"chain_id": "E0169",
+"position": 2,
+"task": "turn_on_led",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3431967255,
+"slot_case": "core-sensor_noise_onset-B-k2-E0169"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-B-k2-E0405",
+"track": "magnitude",
+"chain_id": "E0405",
+"position": 2,
+"task": "close_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 821456729,
+"slot_case": "core-sensor_noise_onset-B-k2-E0405"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-B-k2-E0405",
+"track": "magnitude",
+"chain_id": "E0405",
+"position": 2,
+"task": "close_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 821456729,
+"slot_case": "core-sensor_noise_onset-B-k2-E0405"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L3-B-k2-E0405",
+"track": "magnitude",
+"chain_id": "E0405",
+"position": 2,
+"task": "close_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.05,
+"occlusion_frac": 0.1,
+"level": 3,
+"scale": 1.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 821456729,
+"slot_case": "core-sensor_noise_onset-B-k2-E0405"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-B-k2-E0405",
+"track": "magnitude",
+"chain_id": "E0405",
+"position": 2,
+"task": "close_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 821456729,
+"slot_case": "core-sensor_noise_onset-B-k2-E0405"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-B-k2-E0405",
+"track": "magnitude",
+"chain_id": "E0405",
+"position": 2,
+"task": "close_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 821456729,
+"slot_case": "core-sensor_noise_onset-B-k2-E0405"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-B-k2-E0453",
+"track": "magnitude",
+"chain_id": "E0453",
+"position": 2,
+"task": "move_slider_right",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3393464853,
+"slot_case": "core-sensor_noise_onset-B-k2-E0453"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-B-k2-E0453",
+"track": "magnitude",
+"chain_id": "E0453",
+"position": 2,
+"task": "move_slider_right",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3393464853,
+"slot_case": "core-sensor_noise_onset-B-k2-E0453"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L3-B-k2-E0453",
+"track": "magnitude",
+"chain_id": "E0453",
+"position": 2,
+"task": "move_slider_right",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.05,
+"occlusion_frac": 0.1,
+"level": 3,
+"scale": 1.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3393464853,
+"slot_case": "core-sensor_noise_onset-B-k2-E0453"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-B-k2-E0453",
+"track": "magnitude",
+"chain_id": "E0453",
+"position": 2,
+"task": "move_slider_right",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3393464853,
+"slot_case": "core-sensor_noise_onset-B-k2-E0453"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-B-k2-E0453",
+"track": "magnitude",
+"chain_id": "E0453",
+"position": 2,
+"task": "move_slider_right",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3393464853,
+"slot_case": "core-sensor_noise_onset-B-k2-E0453"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-B-k2-E0844",
+"track": "magnitude",
+"chain_id": "E0844",
+"position": 2,
+"task": "move_slider_left",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1455956951,
+"slot_case": "core-sensor_noise_onset-B-k2-E0844"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-B-k2-E0844",
+"track": "magnitude",
+"chain_id": "E0844",
+"position": 2,
+"task": "move_slider_left",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1455956951,
+"slot_case": "core-sensor_noise_onset-B-k2-E0844"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L3-B-k2-E0844",
+"track": "magnitude",
+"chain_id": "E0844",
+"position": 2,
+"task": "move_slider_left",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.05,
+"occlusion_frac": 0.1,
+"level": 3,
+"scale": 1.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1455956951,
+"slot_case": "core-sensor_noise_onset-B-k2-E0844"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-B-k2-E0844",
+"track": "magnitude",
+"chain_id": "E0844",
+"position": 2,
+"task": "move_slider_left",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1455956951,
+"slot_case": "core-sensor_noise_onset-B-k2-E0844"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-B-k2-E0844",
+"track": "magnitude",
+"chain_id": "E0844",
+"position": 2,
+"task": "move_slider_left",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1455956951,
+"slot_case": "core-sensor_noise_onset-B-k2-E0844"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-B-k2-E0877",
+"track": "magnitude",
+"chain_id": "E0877",
+"position": 2,
+"task": "turn_on_led",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 690631523,
+"slot_case": "core-sensor_noise_onset-B-k2-E0877"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-B-k2-E0877",
+"track": "magnitude",
+"chain_id": "E0877",
+"position": 2,
+"task": "turn_on_led",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 690631523,
+"slot_case": "core-sensor_noise_onset-B-k2-E0877"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L3-B-k2-E0877",
+"track": "magnitude",
+"chain_id": "E0877",
+"position": 2,
+"task": "turn_on_led",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.05,
+"occlusion_frac": 0.1,
+"level": 3,
+"scale": 1.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 690631523,
+"slot_case": "core-sensor_noise_onset-B-k2-E0877"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-B-k2-E0877",
+"track": "magnitude",
+"chain_id": "E0877",
+"position": 2,
+"task": "turn_on_led",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 690631523,
+"slot_case": "core-sensor_noise_onset-B-k2-E0877"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-B-k2-E0877",
+"track": "magnitude",
+"chain_id": "E0877",
+"position": 2,
+"task": "turn_on_led",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 690631523,
+"slot_case": "core-sensor_noise_onset-B-k2-E0877"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-B-k2-E0901",
+"track": "magnitude",
+"chain_id": "E0901",
+"position": 2,
+"task": "open_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2163340933,
+"slot_case": "core-sensor_noise_onset-B-k2-E0901"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-B-k2-E0901",
+"track": "magnitude",
+"chain_id": "E0901",
+"position": 2,
+"task": "open_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2163340933,
+"slot_case": "core-sensor_noise_onset-B-k2-E0901"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L3-B-k2-E0901",
+"track": "magnitude",
+"chain_id": "E0901",
+"position": 2,
+"task": "open_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.05,
+"occlusion_frac": 0.1,
+"level": 3,
+"scale": 1.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2163340933,
+"slot_case": "core-sensor_noise_onset-B-k2-E0901"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-B-k2-E0901",
+"track": "magnitude",
+"chain_id": "E0901",
+"position": 2,
+"task": "open_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2163340933,
+"slot_case": "core-sensor_noise_onset-B-k2-E0901"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-B-k2-E0901",
+"track": "magnitude",
+"chain_id": "E0901",
+"position": 2,
+"task": "open_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2163340933,
+"slot_case": "core-sensor_noise_onset-B-k2-E0901"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-B-k3-E0051",
+"track": "magnitude",
+"chain_id": "E0051",
+"position": 3,
+"task": "stack_block",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 4251824360,
+"slot_case": "core-sensor_noise_onset-B-k3-E0051"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-B-k3-E0051",
+"track": "magnitude",
+"chain_id": "E0051",
+"position": 3,
+"task": "stack_block",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 4251824360,
+"slot_case": "core-sensor_noise_onset-B-k3-E0051"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L3-B-k3-E0051",
+"track": "magnitude",
+"chain_id": "E0051",
+"position": 3,
+"task": "stack_block",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.05,
+"occlusion_frac": 0.1,
+"level": 3,
+"scale": 1.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 4251824360,
+"slot_case": "core-sensor_noise_onset-B-k3-E0051"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-B-k3-E0051",
+"track": "magnitude",
+"chain_id": "E0051",
+"position": 3,
+"task": "stack_block",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 4251824360,
+"slot_case": "core-sensor_noise_onset-B-k3-E0051"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-B-k3-E0051",
+"track": "magnitude",
+"chain_id": "E0051",
+"position": 3,
+"task": "stack_block",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 4251824360,
+"slot_case": "core-sensor_noise_onset-B-k3-E0051"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-B-k3-E0391",
+"track": "magnitude",
+"chain_id": "E0391",
+"position": 3,
+"task": "push_pink_block_left",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 909214000,
+"slot_case": "core-sensor_noise_onset-B-k3-E0391"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-B-k3-E0391",
+"track": "magnitude",
+"chain_id": "E0391",
+"position": 3,
+"task": "push_pink_block_left",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 909214000,
+"slot_case": "core-sensor_noise_onset-B-k3-E0391"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L3-B-k3-E0391",
+"track": "magnitude",
+"chain_id": "E0391",
+"position": 3,
+"task": "push_pink_block_left",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.05,
+"occlusion_frac": 0.1,
+"level": 3,
+"scale": 1.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 909214000,
+"slot_case": "core-sensor_noise_onset-B-k3-E0391"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-B-k3-E0391",
+"track": "magnitude",
+"chain_id": "E0391",
+"position": 3,
+"task": "push_pink_block_left",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 909214000,
+"slot_case": "core-sensor_noise_onset-B-k3-E0391"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-B-k3-E0391",
+"track": "magnitude",
+"chain_id": "E0391",
+"position": 3,
+"task": "push_pink_block_left",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 909214000,
+"slot_case": "core-sensor_noise_onset-B-k3-E0391"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-B-k3-E0615",
+"track": "magnitude",
+"chain_id": "E0615",
+"position": 3,
+"task": "stack_block",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 4053270844,
+"slot_case": "core-sensor_noise_onset-B-k3-E0615"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-B-k3-E0615",
+"track": "magnitude",
+"chain_id": "E0615",
+"position": 3,
+"task": "stack_block",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 4053270844,
+"slot_case": "core-sensor_noise_onset-B-k3-E0615"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L3-B-k3-E0615",
+"track": "magnitude",
+"chain_id": "E0615",
+"position": 3,
+"task": "stack_block",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.05,
+"occlusion_frac": 0.1,
+"level": 3,
+"scale": 1.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 4053270844,
+"slot_case": "core-sensor_noise_onset-B-k3-E0615"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-B-k3-E0615",
+"track": "magnitude",
+"chain_id": "E0615",
+"position": 3,
+"task": "stack_block",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 4053270844,
+"slot_case": "core-sensor_noise_onset-B-k3-E0615"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-B-k3-E0615",
+"track": "magnitude",
+"chain_id": "E0615",
+"position": 3,
+"task": "stack_block",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 4053270844,
+"slot_case": "core-sensor_noise_onset-B-k3-E0615"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-B-k3-E0640",
+"track": "magnitude",
+"chain_id": "E0640",
+"position": 3,
+"task": "lift_pink_block_table",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3892813505,
+"slot_case": "core-sensor_noise_onset-B-k3-E0640"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-B-k3-E0640",
+"track": "magnitude",
+"chain_id": "E0640",
+"position": 3,
+"task": "lift_pink_block_table",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3892813505,
+"slot_case": "core-sensor_noise_onset-B-k3-E0640"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L3-B-k3-E0640",
+"track": "magnitude",
+"chain_id": "E0640",
+"position": 3,
+"task": "lift_pink_block_table",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.05,
+"occlusion_frac": 0.1,
+"level": 3,
+"scale": 1.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3892813505,
+"slot_case": "core-sensor_noise_onset-B-k3-E0640"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-B-k3-E0640",
+"track": "magnitude",
+"chain_id": "E0640",
+"position": 3,
+"task": "lift_pink_block_table",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3892813505,
+"slot_case": "core-sensor_noise_onset-B-k3-E0640"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-B-k3-E0640",
+"track": "magnitude",
+"chain_id": "E0640",
+"position": 3,
+"task": "lift_pink_block_table",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 3892813505,
+"slot_case": "core-sensor_noise_onset-B-k3-E0640"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-B-k3-E0824",
+"track": "magnitude",
+"chain_id": "E0824",
+"position": 3,
+"task": "turn_on_lightbulb",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2405183616,
+"slot_case": "core-sensor_noise_onset-B-k3-E0824"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-B-k3-E0824",
+"track": "magnitude",
+"chain_id": "E0824",
+"position": 3,
+"task": "turn_on_lightbulb",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2405183616,
+"slot_case": "core-sensor_noise_onset-B-k3-E0824"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L3-B-k3-E0824",
+"track": "magnitude",
+"chain_id": "E0824",
+"position": 3,
+"task": "turn_on_lightbulb",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.05,
+"occlusion_frac": 0.1,
+"level": 3,
+"scale": 1.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2405183616,
+"slot_case": "core-sensor_noise_onset-B-k3-E0824"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-B-k3-E0824",
+"track": "magnitude",
+"chain_id": "E0824",
+"position": 3,
+"task": "turn_on_lightbulb",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2405183616,
+"slot_case": "core-sensor_noise_onset-B-k3-E0824"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-B-k3-E0824",
+"track": "magnitude",
+"chain_id": "E0824",
+"position": 3,
+"task": "turn_on_lightbulb",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2405183616,
+"slot_case": "core-sensor_noise_onset-B-k3-E0824"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-B-k3-E0828",
+"track": "magnitude",
+"chain_id": "E0828",
+"position": 3,
+"task": "push_into_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 4287520492,
+"slot_case": "core-sensor_noise_onset-B-k3-E0828"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-B-k3-E0828",
+"track": "magnitude",
+"chain_id": "E0828",
+"position": 3,
+"task": "push_into_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 4287520492,
+"slot_case": "core-sensor_noise_onset-B-k3-E0828"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L3-B-k3-E0828",
+"track": "magnitude",
+"chain_id": "E0828",
+"position": 3,
+"task": "push_into_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.05,
+"occlusion_frac": 0.1,
+"level": 3,
+"scale": 1.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 4287520492,
+"slot_case": "core-sensor_noise_onset-B-k3-E0828"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-B-k3-E0828",
+"track": "magnitude",
+"chain_id": "E0828",
+"position": 3,
+"task": "push_into_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 4287520492,
+"slot_case": "core-sensor_noise_onset-B-k3-E0828"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-B-k3-E0828",
+"track": "magnitude",
+"chain_id": "E0828",
+"position": 3,
+"task": "push_into_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 4287520492,
+"slot_case": "core-sensor_noise_onset-B-k3-E0828"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-B-k4-E0074",
+"track": "magnitude",
+"chain_id": "E0074",
+"position": 4,
+"task": "lift_blue_block_table",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1335293316,
+"slot_case": "core-sensor_noise_onset-B-k4-E0074"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-B-k4-E0074",
+"track": "magnitude",
+"chain_id": "E0074",
+"position": 4,
+"task": "lift_blue_block_table",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1335293316,
+"slot_case": "core-sensor_noise_onset-B-k4-E0074"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L3-B-k4-E0074",
+"track": "magnitude",
+"chain_id": "E0074",
+"position": 4,
+"task": "lift_blue_block_table",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.05,
+"occlusion_frac": 0.1,
+"level": 3,
+"scale": 1.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1335293316,
+"slot_case": "core-sensor_noise_onset-B-k4-E0074"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-B-k4-E0074",
+"track": "magnitude",
+"chain_id": "E0074",
+"position": 4,
+"task": "lift_blue_block_table",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1335293316,
+"slot_case": "core-sensor_noise_onset-B-k4-E0074"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-B-k4-E0074",
+"track": "magnitude",
+"chain_id": "E0074",
+"position": 4,
+"task": "lift_blue_block_table",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1335293316,
+"slot_case": "core-sensor_noise_onset-B-k4-E0074"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-B-k4-E0371",
+"track": "magnitude",
+"chain_id": "E0371",
+"position": 4,
+"task": "stack_block",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2391011578,
+"slot_case": "core-sensor_noise_onset-B-k4-E0371"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-B-k4-E0371",
+"track": "magnitude",
+"chain_id": "E0371",
+"position": 4,
+"task": "stack_block",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2391011578,
+"slot_case": "core-sensor_noise_onset-B-k4-E0371"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L3-B-k4-E0371",
+"track": "magnitude",
+"chain_id": "E0371",
+"position": 4,
+"task": "stack_block",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.05,
+"occlusion_frac": 0.1,
+"level": 3,
+"scale": 1.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2391011578,
+"slot_case": "core-sensor_noise_onset-B-k4-E0371"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-B-k4-E0371",
+"track": "magnitude",
+"chain_id": "E0371",
+"position": 4,
+"task": "stack_block",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2391011578,
+"slot_case": "core-sensor_noise_onset-B-k4-E0371"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-B-k4-E0371",
+"track": "magnitude",
+"chain_id": "E0371",
+"position": 4,
+"task": "stack_block",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2391011578,
+"slot_case": "core-sensor_noise_onset-B-k4-E0371"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-B-k4-E0380",
+"track": "magnitude",
+"chain_id": "E0380",
+"position": 4,
+"task": "turn_on_lightbulb",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2540337976,
+"slot_case": "core-sensor_noise_onset-B-k4-E0380"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-B-k4-E0380",
+"track": "magnitude",
+"chain_id": "E0380",
+"position": 4,
+"task": "turn_on_lightbulb",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2540337976,
+"slot_case": "core-sensor_noise_onset-B-k4-E0380"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L3-B-k4-E0380",
+"track": "magnitude",
+"chain_id": "E0380",
+"position": 4,
+"task": "turn_on_lightbulb",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.05,
+"occlusion_frac": 0.1,
+"level": 3,
+"scale": 1.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2540337976,
+"slot_case": "core-sensor_noise_onset-B-k4-E0380"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-B-k4-E0380",
+"track": "magnitude",
+"chain_id": "E0380",
+"position": 4,
+"task": "turn_on_lightbulb",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2540337976,
+"slot_case": "core-sensor_noise_onset-B-k4-E0380"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-B-k4-E0380",
+"track": "magnitude",
+"chain_id": "E0380",
+"position": 4,
+"task": "turn_on_lightbulb",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2540337976,
+"slot_case": "core-sensor_noise_onset-B-k4-E0380"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-B-k4-E0540",
+"track": "magnitude",
+"chain_id": "E0540",
+"position": 4,
+"task": "stack_block",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1137320226,
+"slot_case": "core-sensor_noise_onset-B-k4-E0540"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-B-k4-E0540",
+"track": "magnitude",
+"chain_id": "E0540",
+"position": 4,
+"task": "stack_block",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1137320226,
+"slot_case": "core-sensor_noise_onset-B-k4-E0540"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L3-B-k4-E0540",
+"track": "magnitude",
+"chain_id": "E0540",
+"position": 4,
+"task": "stack_block",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.05,
+"occlusion_frac": 0.1,
+"level": 3,
+"scale": 1.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1137320226,
+"slot_case": "core-sensor_noise_onset-B-k4-E0540"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-B-k4-E0540",
+"track": "magnitude",
+"chain_id": "E0540",
+"position": 4,
+"task": "stack_block",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1137320226,
+"slot_case": "core-sensor_noise_onset-B-k4-E0540"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-B-k4-E0540",
+"track": "magnitude",
+"chain_id": "E0540",
+"position": 4,
+"task": "stack_block",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1137320226,
+"slot_case": "core-sensor_noise_onset-B-k4-E0540"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-B-k4-E0855",
+"track": "magnitude",
+"chain_id": "E0855",
+"position": 4,
+"task": "place_in_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 4051864901,
+"slot_case": "core-sensor_noise_onset-B-k4-E0855"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-B-k4-E0855",
+"track": "magnitude",
+"chain_id": "E0855",
+"position": 4,
+"task": "place_in_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 4051864901,
+"slot_case": "core-sensor_noise_onset-B-k4-E0855"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L3-B-k4-E0855",
+"track": "magnitude",
+"chain_id": "E0855",
+"position": 4,
+"task": "place_in_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.05,
+"occlusion_frac": 0.1,
+"level": 3,
+"scale": 1.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 4051864901,
+"slot_case": "core-sensor_noise_onset-B-k4-E0855"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-B-k4-E0855",
+"track": "magnitude",
+"chain_id": "E0855",
+"position": 4,
+"task": "place_in_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 4051864901,
+"slot_case": "core-sensor_noise_onset-B-k4-E0855"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-B-k4-E0855",
+"track": "magnitude",
+"chain_id": "E0855",
+"position": 4,
+"task": "place_in_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 4051864901,
+"slot_case": "core-sensor_noise_onset-B-k4-E0855"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-B-k4-E0856",
+"track": "magnitude",
+"chain_id": "E0856",
+"position": 4,
+"task": "lift_pink_block_table",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2286417714,
+"slot_case": "core-sensor_noise_onset-B-k4-E0856"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-B-k4-E0856",
+"track": "magnitude",
+"chain_id": "E0856",
+"position": 4,
+"task": "lift_pink_block_table",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2286417714,
+"slot_case": "core-sensor_noise_onset-B-k4-E0856"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L3-B-k4-E0856",
+"track": "magnitude",
+"chain_id": "E0856",
+"position": 4,
+"task": "lift_pink_block_table",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.05,
+"occlusion_frac": 0.1,
+"level": 3,
+"scale": 1.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2286417714,
+"slot_case": "core-sensor_noise_onset-B-k4-E0856"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-B-k4-E0856",
+"track": "magnitude",
+"chain_id": "E0856",
+"position": 4,
+"task": "lift_pink_block_table",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2286417714,
+"slot_case": "core-sensor_noise_onset-B-k4-E0856"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-B-k4-E0856",
+"track": "magnitude",
+"chain_id": "E0856",
+"position": 4,
+"task": "lift_pink_block_table",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 2286417714,
+"slot_case": "core-sensor_noise_onset-B-k4-E0856"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-B-k5-E0014",
+"track": "magnitude",
+"chain_id": "E0014",
+"position": 5,
+"task": "open_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 4260424152,
+"slot_case": "core-sensor_noise_onset-B-k5-E0014"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-B-k5-E0014",
+"track": "magnitude",
+"chain_id": "E0014",
+"position": 5,
+"task": "open_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 4260424152,
+"slot_case": "core-sensor_noise_onset-B-k5-E0014"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L3-B-k5-E0014",
+"track": "magnitude",
+"chain_id": "E0014",
+"position": 5,
+"task": "open_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.05,
+"occlusion_frac": 0.1,
+"level": 3,
+"scale": 1.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 4260424152,
+"slot_case": "core-sensor_noise_onset-B-k5-E0014"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-B-k5-E0014",
+"track": "magnitude",
+"chain_id": "E0014",
+"position": 5,
+"task": "open_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 4260424152,
+"slot_case": "core-sensor_noise_onset-B-k5-E0014"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-B-k5-E0014",
+"track": "magnitude",
+"chain_id": "E0014",
+"position": 5,
+"task": "open_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 4260424152,
+"slot_case": "core-sensor_noise_onset-B-k5-E0014"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-B-k5-E0041",
+"track": "magnitude",
+"chain_id": "E0041",
+"position": 5,
+"task": "place_in_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 295305296,
+"slot_case": "core-sensor_noise_onset-B-k5-E0041"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-B-k5-E0041",
+"track": "magnitude",
+"chain_id": "E0041",
+"position": 5,
+"task": "place_in_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 295305296,
+"slot_case": "core-sensor_noise_onset-B-k5-E0041"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L3-B-k5-E0041",
+"track": "magnitude",
+"chain_id": "E0041",
+"position": 5,
+"task": "place_in_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.05,
+"occlusion_frac": 0.1,
+"level": 3,
+"scale": 1.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 295305296,
+"slot_case": "core-sensor_noise_onset-B-k5-E0041"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-B-k5-E0041",
+"track": "magnitude",
+"chain_id": "E0041",
+"position": 5,
+"task": "place_in_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 295305296,
+"slot_case": "core-sensor_noise_onset-B-k5-E0041"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-B-k5-E0041",
+"track": "magnitude",
+"chain_id": "E0041",
+"position": 5,
+"task": "place_in_drawer",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 295305296,
+"slot_case": "core-sensor_noise_onset-B-k5-E0041"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-B-k5-E0130",
+"track": "magnitude",
+"chain_id": "E0130",
+"position": 5,
+"task": "push_red_block_left",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1656631023,
+"slot_case": "core-sensor_noise_onset-B-k5-E0130"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-B-k5-E0130",
+"track": "magnitude",
+"chain_id": "E0130",
+"position": 5,
+"task": "push_red_block_left",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1656631023,
+"slot_case": "core-sensor_noise_onset-B-k5-E0130"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L3-B-k5-E0130",
+"track": "magnitude",
+"chain_id": "E0130",
+"position": 5,
+"task": "push_red_block_left",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.05,
+"occlusion_frac": 0.1,
+"level": 3,
+"scale": 1.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1656631023,
+"slot_case": "core-sensor_noise_onset-B-k5-E0130"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-B-k5-E0130",
+"track": "magnitude",
+"chain_id": "E0130",
+"position": 5,
+"task": "push_red_block_left",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1656631023,
+"slot_case": "core-sensor_noise_onset-B-k5-E0130"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-B-k5-E0130",
+"track": "magnitude",
+"chain_id": "E0130",
+"position": 5,
+"task": "push_red_block_left",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1656631023,
+"slot_case": "core-sensor_noise_onset-B-k5-E0130"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-B-k5-E0282",
+"track": "magnitude",
+"chain_id": "E0282",
+"position": 5,
+"task": "turn_off_lightbulb",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1126508113,
+"slot_case": "core-sensor_noise_onset-B-k5-E0282"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-B-k5-E0282",
+"track": "magnitude",
+"chain_id": "E0282",
+"position": 5,
+"task": "turn_off_lightbulb",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1126508113,
+"slot_case": "core-sensor_noise_onset-B-k5-E0282"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L3-B-k5-E0282",
+"track": "magnitude",
+"chain_id": "E0282",
+"position": 5,
+"task": "turn_off_lightbulb",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.05,
+"occlusion_frac": 0.1,
+"level": 3,
+"scale": 1.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1126508113,
+"slot_case": "core-sensor_noise_onset-B-k5-E0282"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-B-k5-E0282",
+"track": "magnitude",
+"chain_id": "E0282",
+"position": 5,
+"task": "turn_off_lightbulb",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1126508113,
+"slot_case": "core-sensor_noise_onset-B-k5-E0282"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-B-k5-E0282",
+"track": "magnitude",
+"chain_id": "E0282",
+"position": 5,
+"task": "turn_off_lightbulb",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1126508113,
+"slot_case": "core-sensor_noise_onset-B-k5-E0282"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-B-k5-E0516",
+"track": "magnitude",
+"chain_id": "E0516",
+"position": 5,
+"task": "lift_red_block_slider",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1023719150,
+"slot_case": "core-sensor_noise_onset-B-k5-E0516"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-B-k5-E0516",
+"track": "magnitude",
+"chain_id": "E0516",
+"position": 5,
+"task": "lift_red_block_slider",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1023719150,
+"slot_case": "core-sensor_noise_onset-B-k5-E0516"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L3-B-k5-E0516",
+"track": "magnitude",
+"chain_id": "E0516",
+"position": 5,
+"task": "lift_red_block_slider",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.05,
+"occlusion_frac": 0.1,
+"level": 3,
+"scale": 1.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1023719150,
+"slot_case": "core-sensor_noise_onset-B-k5-E0516"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-B-k5-E0516",
+"track": "magnitude",
+"chain_id": "E0516",
+"position": 5,
+"task": "lift_red_block_slider",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1023719150,
+"slot_case": "core-sensor_noise_onset-B-k5-E0516"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-B-k5-E0516",
+"track": "magnitude",
+"chain_id": "E0516",
+"position": 5,
+"task": "lift_red_block_slider",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1023719150,
+"slot_case": "core-sensor_noise_onset-B-k5-E0516"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L1-B-k5-E0936",
+"track": "magnitude",
+"chain_id": "E0936",
+"position": 5,
+"task": "push_blue_block_left",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.0125,
+"occlusion_frac": 0.025,
+"level": 1,
+"scale": 0.25
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1049469077,
+"slot_case": "core-sensor_noise_onset-B-k5-E0936"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L2-B-k5-E0936",
+"track": "magnitude",
+"chain_id": "E0936",
+"position": 5,
+"task": "push_blue_block_left",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.025,
+"occlusion_frac": 0.05,
+"level": 2,
+"scale": 0.5
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1049469077,
+"slot_case": "core-sensor_noise_onset-B-k5-E0936"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L3-B-k5-E0936",
+"track": "magnitude",
+"chain_id": "E0936",
+"position": 5,
+"task": "push_blue_block_left",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.05,
+"occlusion_frac": 0.1,
+"level": 3,
+"scale": 1.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1049469077,
+"slot_case": "core-sensor_noise_onset-B-k5-E0936"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L4-B-k5-E0936",
+"track": "magnitude",
+"chain_id": "E0936",
+"position": 5,
+"task": "push_blue_block_left",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.1,
+"occlusion_frac": 0.2,
+"level": 4,
+"scale": 2.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1049469077,
+"slot_case": "core-sensor_noise_onset-B-k5-E0936"
+},
+{
+"case_id": "magnitude-sensor_noise_onset-L5-B-k5-E0936",
+"track": "magnitude",
+"chain_id": "E0936",
+"position": 5,
+"task": "push_blue_block_left",
+"change_type": "sensor_noise_onset",
+"variant": "B",
+"params": {
+"cameras": [
+"static"
+],
+"sigma": 0.2,
+"occlusion_frac": 0.4,
+"level": 5,
+"scale": 4.0
+},
+"onset": "pre_grasp_proximity",
+"arms": [
+"mid",
+"pre"
+],
+"seed": 1049469077,
+"slot_case": "core-sensor_noise_onset-B-k5-E0936"
+}
+]
+}

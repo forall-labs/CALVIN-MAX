@@ -1,0 +1,146 @@
+{
+ "summary": {
+  "target_relocation:accepted": {
+   "cases": 3,
+   "contact_verdict_changed": 0,
+   "held_changed": 3,
+   "verdict_changed": 0,
+   "errors": 0
+  },
+  "obstacle_insertion:accepted": {
+   "cases": 1,
+   "contact_verdict_changed": 1,
+   "held_changed": 0,
+   "verdict_changed": 1,
+   "errors": 0
+  }
+ },
+ "flagged_case_ids": [
+  "core-obstacle_insertion-A-k3-E0091",
+  "phase-target_relocation-contact-k1-E0117",
+  "phase-target_relocation-contact-k2-E0018",
+  "phase-target_relocation-contact-k5-E0432"
+ ],
+ "rows": [
+  {
+   "case_id": "core-obstacle_insertion-A-k3-E0091",
+   "status": "accepted",
+   "change_type": "obstacle_insertion",
+   "stale_new": [],
+   "fresh_new": [
+    [
+     7,
+     -1
+    ]
+   ],
+   "stale_held": [],
+   "fresh_held": [],
+   "contact_verdict_changed": true,
+   "held_changed": false,
+   "fixed_valid": false,
+   "fixed_report": {
+    "new_robot_contacts": [
+     [
+      7,
+      -1
+     ]
+    ],
+    "pixel_change": {
+     "rgb_static": 0.31185833333333335,
+     "rgb_gripper": 2.447987528344671
+    },
+    "visible_px": {
+     "block_blue": 194
+    },
+    "max_drift_m": 0.003260472712371115,
+    "held_excluded": [],
+    "valid": false
+   },
+   "verdict_changed": true
+  },
+  {
+   "case_id": "phase-target_relocation-contact-k1-E0117",
+   "status": "accepted",
+   "change_type": "target_relocation",
+   "stale_new": [],
+   "fresh_new": [],
+   "stale_held": [
+    "block_pink"
+   ],
+   "fresh_held": [],
+   "contact_verdict_changed": false,
+   "held_changed": true,
+   "fixed_valid": true,
+   "fixed_report": {
+    "new_robot_contacts": [],
+    "pixel_change": {
+     "rgb_static": 1.32525,
+     "rgb_gripper": 8.651880196523054
+    },
+    "visible_px": {
+     "block_pink": 365
+    },
+    "max_drift_m": 0.00013950307376482785,
+    "held_excluded": [],
+    "valid": true
+   },
+   "verdict_changed": false
+  },
+  {
+   "case_id": "phase-target_relocation-contact-k2-E0018",
+   "status": "accepted",
+   "change_type": "target_relocation",
+   "stale_new": [],
+   "fresh_new": [],
+   "stale_held": [
+    "block_red"
+   ],
+   "fresh_held": [],
+   "contact_verdict_changed": false,
+   "held_changed": true,
+   "fixed_valid": true,
+   "fixed_report": {
+    "new_robot_contacts": [],
+    "pixel_change": {
+     "rgb_static": 0.8397166666666667,
+     "rgb_gripper": 4.9660808767951625
+    },
+    "visible_px": {
+     "block_red": 242
+    },
+    "max_drift_m": 0.00031576175843842227,
+    "held_excluded": [],
+    "valid": true
+   },
+   "verdict_changed": false
+  },
+  {
+   "case_id": "phase-target_relocation-contact-k5-E0432",
+   "status": "accepted",
+   "change_type": "target_relocation",
+   "stale_new": [],
+   "fresh_new": [],
+   "stale_held": [
+    "block_pink"
+   ],
+   "fresh_held": [],
+   "contact_verdict_changed": false,
+   "held_changed": true,
+   "fixed_valid": true,
+   "fixed_report": {
+    "new_robot_contacts": [],
+    "pixel_change": {
+     "rgb_static": 1.4374333333333333,
+     "rgb_gripper": 12.24092970521542
+    },
+    "visible_px": {
+     "block_pink": 316
+    },
+    "max_drift_m": 2.3880416902574595e-05,
+    "held_excluded": [],
+    "valid": true
+   },
+   "verdict_changed": false
+  }
+ ]
+}

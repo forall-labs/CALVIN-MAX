@@ -1,0 +1,2502 @@
+{
+ "FLOWER": {
+  "decomposition": {
+   "camera_shift": {
+    "n": 139,
+    "rates": {
+     "base": 98.6,
+     "pre": 97.1,
+     "mid": 98.6,
+     "mid_rewind": 95.7,
+     "mid_oracle": 97.8
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 1.4,
+      "ci": [
+       0.0,
+       3.7
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 2.9,
+      "ci": [
+       -0.7,
+       6.6
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -1.4,
+      "ci": [
+       -5.6,
+       2.8
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 0.7,
+      "ci": [
+       -1.5,
+       3.4
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 2.2,
+      "ci": [
+       -2.2,
+       6.4
+      ]
+     }
+    }
+   },
+   "channel:perceptual": {
+    "n": 654,
+    "rates": {
+     "base": 98.3,
+     "pre": 89.8,
+     "mid": 93.9,
+     "mid_rewind": 88.2,
+     "mid_oracle": 92.4
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 4.1,
+      "ci": [
+       2.3,
+       6.1
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 5.7,
+      "ci": [
+       3.5,
+       7.9
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -1.5,
+      "ci": [
+       -3.9,
+       0.7
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 1.5,
+      "ci": [
+       0.3,
+       2.8
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 4.1,
+      "ci": [
+       1.8,
+       6.5
+      ]
+     }
+    }
+   },
+   "distractor_burst": {
+    "n": 125,
+    "rates": {
+     "base": 99.2,
+     "pre": 92.0,
+     "mid": 97.6,
+     "mid_rewind": 88.8,
+     "mid_oracle": 96.0
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 5.6,
+      "ci": [
+       0.8,
+       10.9
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 8.8,
+      "ci": [
+       3.8,
+       14.3
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -3.2,
+      "ci": [
+       -8.1,
+       1.6
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 1.6,
+      "ci": [
+       -1.5,
+       4.9
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 7.2,
+      "ci": [
+       2.4,
+       12.5
+      ]
+     }
+    }
+   },
+   "illumination_switch": {
+    "n": 132,
+    "rates": {
+     "base": 98.5,
+     "pre": 96.2,
+     "mid": 97.0,
+     "mid_rewind": 93.9,
+     "mid_oracle": 95.5
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 0.8,
+      "ci": [
+       0.0,
+       2.4
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 3.0,
+      "ci": [
+       0.0,
+       6.9
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -2.3,
+      "ci": [
+       -6.2,
+       1.5
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 1.5,
+      "ci": [
+       0.0,
+       3.9
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 1.5,
+      "ci": [
+       -2.2,
+       5.3
+      ]
+     }
+    }
+   },
+   "sensor_noise_onset": {
+    "n": 130,
+    "rates": {
+     "base": 96.9,
+     "pre": 81.5,
+     "mid": 92.3,
+     "mid_rewind": 76.2,
+     "mid_oracle": 90.0
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 10.8,
+      "ci": [
+       4.8,
+       17.2
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 16.2,
+      "ci": [
+       9.4,
+       23.3
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -5.4,
+      "ci": [
+       -10.7,
+       0.0
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 2.3,
+      "ci": [
+       -0.8,
+       5.6
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 13.8,
+      "ci": [
+       7.0,
+       21.0
+      ]
+     }
+    }
+   },
+   "visual_theme_switch": {
+    "n": 128,
+    "rates": {
+     "base": 98.4,
+     "pre": 81.2,
+     "mid": 83.6,
+     "mid_rewind": 85.9,
+     "mid_oracle": 82.0
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 2.3,
+      "ci": [
+       -2.3,
+       6.9
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": -2.3,
+      "ci": [
+       -5.9,
+       0.8
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": 4.7,
+      "ci": [
+       0.0,
+       10.1
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 1.6,
+      "ci": [
+       -2.3,
+       5.4
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": -3.9,
+      "ci": [
+       -9.4,
+       0.8
+      ]
+     }
+    }
+   }
+  }
+ },
+ "MoDE": {
+  "decomposition": {
+   "camera_shift": {
+    "n": 129,
+    "rates": {
+     "base": 95.3,
+     "pre": 95.3,
+     "mid": 96.1,
+     "mid_rewind": 95.3,
+     "mid_oracle": 96.1
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 0.8,
+      "ci": [
+       -3.1,
+       4.8
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 0.8,
+      "ci": [
+       -3.1,
+       4.7
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": 0.0,
+      "ci": [
+       -3.1,
+       3.1
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 0.0,
+      "ci": [
+       -3.8,
+       3.8
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 0.8,
+      "ci": [
+       -1.6,
+       3.7
+      ]
+     }
+    }
+   },
+   "channel:perceptual": {
+    "n": 593,
+    "rates": {
+     "base": 94.6,
+     "pre": 84.0,
+     "mid": 87.9,
+     "mid_rewind": 84.7,
+     "mid_oracle": 87.7
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 3.9,
+      "ci": [
+       1.5,
+       6.3
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 3.2,
+      "ci": [
+       0.8,
+       5.5
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": 0.7,
+      "ci": [
+       -1.5,
+       2.8
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 0.2,
+      "ci": [
+       -1.6,
+       1.9
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 3.0,
+      "ci": [
+       0.9,
+       5.2
+      ]
+     }
+    }
+   },
+   "distractor_burst": {
+    "n": 111,
+    "rates": {
+     "base": 95.5,
+     "pre": 91.9,
+     "mid": 94.6,
+     "mid_rewind": 92.8,
+     "mid_oracle": 93.7
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 2.7,
+      "ci": [
+       -0.9,
+       7.1
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 1.8,
+      "ci": [
+       -2.6,
+       6.5
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": 0.9,
+      "ci": [
+       -3.7,
+       5.7
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 0.9,
+      "ci": [
+       -1.9,
+       4.3
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 0.9,
+      "ci": [
+       -3.7,
+       5.7
+      ]
+     }
+    }
+   },
+   "illumination_switch": {
+    "n": 120,
+    "rates": {
+     "base": 94.2,
+     "pre": 88.3,
+     "mid": 90.0,
+     "mid_rewind": 89.2,
+     "mid_oracle": 92.5
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 1.7,
+      "ci": [
+       -3.4,
+       7.1
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 0.8,
+      "ci": [
+       -5.0,
+       6.8
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": 0.8,
+      "ci": [
+       -4.1,
+       5.7
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": -2.5,
+      "ci": [
+       -6.5,
+       0.8
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 3.3,
+      "ci": [
+       -0.9,
+       8.3
+      ]
+     }
+    }
+   },
+   "sensor_noise_onset": {
+    "n": 117,
+    "rates": {
+     "base": 94.0,
+     "pre": 69.2,
+     "mid": 82.1,
+     "mid_rewind": 71.8,
+     "mid_oracle": 80.3
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 12.8,
+      "ci": [
+       5.1,
+       20.5
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 10.3,
+      "ci": [
+       2.7,
+       18.3
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": 2.6,
+      "ci": [
+       -4.2,
+       9.0
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 1.7,
+      "ci": [
+       -3.4,
+       7.1
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 8.5,
+      "ci": [
+       1.7,
+       15.5
+      ]
+     }
+    }
+   },
+   "visual_theme_switch": {
+    "n": 116,
+    "rates": {
+     "base": 94.0,
+     "pre": 74.1,
+     "mid": 75.9,
+     "mid_rewind": 73.3,
+     "mid_oracle": 75.0
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 1.7,
+      "ci": [
+       -3.6,
+       7.0
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 2.6,
+      "ci": [
+       -2.5,
+       7.7
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -0.9,
+      "ci": [
+       -5.3,
+       3.6
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 0.9,
+      "ci": [
+       -2.7,
+       4.8
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 1.7,
+      "ci": [
+       -2.5,
+       6.0
+      ]
+     }
+    }
+   }
+  }
+ },
+ "X-VLA": {
+  "decomposition": {
+   "camera_shift": {
+    "n": 124,
+    "rates": {
+     "base": 97.6,
+     "pre": 54.8,
+     "mid": 75.0,
+     "mid_rewind": 57.3,
+     "mid_oracle": 57.3
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 20.2,
+      "ci": [
+       11.9,
+       28.9
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 17.7,
+      "ci": [
+       9.2,
+       26.4
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": 2.4,
+      "ci": [
+       -1.6,
+       6.5
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 17.7,
+      "ci": [
+       10.5,
+       25.0
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 0.0,
+      "ci": [
+       -5.2,
+       5.7
+      ]
+     }
+    }
+   },
+   "channel:perceptual": {
+    "n": 597,
+    "rates": {
+     "base": 94.1,
+     "pre": 80.6,
+     "mid": 86.8,
+     "mid_rewind": 80.6,
+     "mid_oracle": 82.1
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 6.2,
+      "ci": [
+       3.7,
+       8.7
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 6.2,
+      "ci": [
+       3.7,
+       8.8
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": 0.0,
+      "ci": [
+       -2.0,
+       1.9
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 4.7,
+      "ci": [
+       2.4,
+       7.1
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 1.5,
+      "ci": [
+       -0.5,
+       3.6
+      ]
+     }
+    }
+   },
+   "distractor_burst": {
+    "n": 112,
+    "rates": {
+     "base": 92.9,
+     "pre": 86.6,
+     "mid": 90.2,
+     "mid_rewind": 87.5,
+     "mid_oracle": 89.3
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 3.6,
+      "ci": [
+       0.0,
+       8.1
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 2.7,
+      "ci": [
+       -0.9,
+       6.7
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": 0.9,
+      "ci": [
+       -2.8,
+       4.8
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 0.9,
+      "ci": [
+       0.0,
+       2.8
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 1.8,
+      "ci": [
+       -1.7,
+       5.5
+      ]
+     }
+    }
+   },
+   "illumination_switch": {
+    "n": 122,
+    "rates": {
+     "base": 93.4,
+     "pre": 91.0,
+     "mid": 91.8,
+     "mid_rewind": 92.6,
+     "mid_oracle": 91.8
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 0.8,
+      "ci": [
+       0.0,
+       2.6
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": -0.8,
+      "ci": [
+       -2.5,
+       0.0
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": 1.6,
+      "ci": [
+       0.0,
+       4.2
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 0.0,
+      "ci": [
+       -3.3,
+       3.3
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": -0.8,
+      "ci": [
+       -3.9,
+       1.7
+      ]
+     }
+    }
+   },
+   "sensor_noise_onset": {
+    "n": 118,
+    "rates": {
+     "base": 91.5,
+     "pre": 80.5,
+     "mid": 83.9,
+     "mid_rewind": 73.7,
+     "mid_oracle": 79.7
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 3.4,
+      "ci": [
+       -2.5,
+       10.0
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 10.2,
+      "ci": [
+       4.1,
+       16.5
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -6.8,
+      "ci": [
+       -12.5,
+       -0.9
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 4.2,
+      "ci": [
+       -1.7,
+       10.3
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 5.9,
+      "ci": [
+       0.0,
+       12.0
+      ]
+     }
+    }
+   },
+   "visual_theme_switch": {
+    "n": 121,
+    "rates": {
+     "base": 95.0,
+     "pre": 90.9,
+     "mid": 93.4,
+     "mid_rewind": 92.6,
+     "mid_oracle": 93.4
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 2.5,
+      "ci": [
+       0.0,
+       5.7
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 0.8,
+      "ci": [
+       -2.6,
+       4.8
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": 1.7,
+      "ci": [
+       -3.2,
+       6.2
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 0.0,
+      "ci": [
+       -2.5,
+       2.5
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 0.8,
+      "ci": [
+       -2.6,
+       4.8
+      ]
+     }
+    }
+   }
+  }
+ },
+ "pi0.5": {
+  "decomposition": {
+   "camera_shift": {
+    "n": 120,
+    "rates": {
+     "base": 89.2,
+     "pre": 92.5,
+     "mid": 88.3,
+     "mid_rewind": 87.5,
+     "mid_oracle": 87.5
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": -4.2,
+      "ci": [
+       -8.8,
+       0.0
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 0.8,
+      "ci": [
+       -5.4,
+       7.1
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -5.0,
+      "ci": [
+       -10.6,
+       0.0
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 0.8,
+      "ci": [
+       -4.4,
+       6.1
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 0.0,
+      "ci": [
+       -5.6,
+       5.8
+      ]
+     }
+    }
+   },
+   "channel:perceptual": {
+    "n": 566,
+    "rates": {
+     "base": 91.2,
+     "pre": 85.3,
+     "mid": 85.5,
+     "mid_rewind": 82.5,
+     "mid_oracle": 86.0
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 0.2,
+      "ci": [
+       -2.1,
+       2.5
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 3.0,
+      "ci": [
+       0.2,
+       5.9
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -2.8,
+      "ci": [
+       -5.7,
+       0.0
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": -0.5,
+      "ci": [
+       -3.0,
+       2.2
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 3.5,
+      "ci": [
+       0.7,
+       6.3
+      ]
+     }
+    }
+   },
+   "distractor_burst": {
+    "n": 107,
+    "rates": {
+     "base": 95.3,
+     "pre": 92.5,
+     "mid": 91.6,
+     "mid_rewind": 89.7,
+     "mid_oracle": 93.5
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": -0.9,
+      "ci": [
+       -5.7,
+       3.8
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 1.9,
+      "ci": [
+       -2.8,
+       6.4
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -2.8,
+      "ci": [
+       -6.8,
+       1.0
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": -1.9,
+      "ci": [
+       -5.6,
+       1.9
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 3.7,
+      "ci": [
+       0.0,
+       8.3
+      ]
+     }
+    }
+   },
+   "illumination_switch": {
+    "n": 116,
+    "rates": {
+     "base": 87.1,
+     "pre": 83.6,
+     "mid": 84.5,
+     "mid_rewind": 80.2,
+     "mid_oracle": 82.8
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 0.9,
+      "ci": [
+       -4.9,
+       6.6
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 4.3,
+      "ci": [
+       -1.8,
+       10.7
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -3.4,
+      "ci": [
+       -9.7,
+       2.7
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 1.7,
+      "ci": [
+       -3.4,
+       7.1
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 2.6,
+      "ci": [
+       -3.5,
+       8.7
+      ]
+     }
+    }
+   },
+   "sensor_noise_onset": {
+    "n": 115,
+    "rates": {
+     "base": 90.4,
+     "pre": 74.8,
+     "mid": 77.4,
+     "mid_rewind": 72.2,
+     "mid_oracle": 80.9
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 2.6,
+      "ci": [
+       -4.3,
+       10.0
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 5.2,
+      "ci": [
+       -1.6,
+       12.3
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -2.6,
+      "ci": [
+       -10.4,
+       5.3
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": -3.5,
+      "ci": [
+       -9.8,
+       2.7
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 8.7,
+      "ci": [
+       1.8,
+       16.0
+      ]
+     }
+    }
+   },
+   "visual_theme_switch": {
+    "n": 108,
+    "rates": {
+     "base": 94.4,
+     "pre": 83.3,
+     "mid": 86.1,
+     "mid_rewind": 83.3,
+     "mid_oracle": 86.1
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 2.8,
+      "ci": [
+       -1.9,
+       7.6
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 2.8,
+      "ci": [
+       -2.8,
+       9.1
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": 0.0,
+      "ci": [
+       -5.8,
+       5.5
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 0.0,
+      "ci": [
+       -4.5,
+       4.6
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 2.8,
+      "ci": [
+       -1.9,
+       7.7
+      ]
+     }
+    }
+   }
+  }
+ },
+ "GR-1": {
+  "decomposition": {
+   "camera_shift": {
+    "n": 105,
+    "rates": {
+     "base": 96.2,
+     "pre": 86.7,
+     "mid": 86.7,
+     "mid_rewind": 81.9
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 0.0,
+      "ci": [
+       -5.9,
+       5.7
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 4.8,
+      "ci": [
+       -1.9,
+       11.2
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -4.8,
+      "ci": [
+       -10.5,
+       0.0
+      ]
+     }
+    }
+   },
+   "channel:perceptual": {
+    "n": 498,
+    "rates": {
+     "base": 93.2,
+     "pre": 69.3,
+     "mid": 74.7,
+     "mid_rewind": 68.1
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 5.4,
+      "ci": [
+       2.2,
+       8.6
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 6.6,
+      "ci": [
+       3.5,
+       9.7
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -1.2,
+      "ci": [
+       -4.0,
+       1.6
+      ]
+     }
+    }
+   },
+   "distractor_burst": {
+    "n": 85,
+    "rates": {
+     "base": 91.8,
+     "pre": 84.7,
+     "mid": 85.9,
+     "mid_rewind": 83.5
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 1.2,
+      "ci": [
+       -3.7,
+       6.2
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 2.4,
+      "ci": [
+       -3.4,
+       8.1
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -1.2,
+      "ci": [
+       -6.1,
+       3.7
+      ]
+     }
+    }
+   },
+   "illumination_switch": {
+    "n": 92,
+    "rates": {
+     "base": 90.2,
+     "pre": 71.7,
+     "mid": 77.2,
+     "mid_rewind": 72.8
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 5.4,
+      "ci": [
+       -4.2,
+       14.7
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 4.3,
+      "ci": [
+       -3.3,
+       12.5
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": 1.1,
+      "ci": [
+       -6.3,
+       8.0
+      ]
+     }
+    }
+   },
+   "sensor_noise_onset": {
+    "n": 103,
+    "rates": {
+     "base": 94.2,
+     "pre": 68.0,
+     "mid": 76.7,
+     "mid_rewind": 68.9
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 8.7,
+      "ci": [
+       1.0,
+       16.5
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 7.8,
+      "ci": [
+       0.9,
+       15.5
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": 1.0,
+      "ci": [
+       -6.8,
+       8.8
+      ]
+     }
+    }
+   },
+   "visual_theme_switch": {
+    "n": 113,
+    "rates": {
+     "base": 92.9,
+     "pre": 40.7,
+     "mid": 51.3,
+     "mid_rewind": 38.9
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 10.6,
+      "ci": [
+       4.6,
+       17.1
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 12.4,
+      "ci": [
+       6.8,
+       18.8
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -1.8,
+      "ci": [
+       -5.3,
+       1.7
+      ]
+     }
+    }
+   }
+  }
+ },
+ "Seer": {
+  "decomposition": {
+   "camera_shift": {
+    "n": 134,
+    "rates": {
+     "base": 97.8,
+     "pre": 94.8,
+     "mid": 95.5,
+     "mid_rewind": 91.8
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 0.7,
+      "ci": [
+       -1.5,
+       3.6
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 3.7,
+      "ci": [
+       0.7,
+       7.3
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -3.0,
+      "ci": [
+       -6.2,
+       -0.7
+      ]
+     }
+    }
+   },
+   "channel:perceptual": {
+    "n": 627,
+    "rates": {
+     "base": 94.6,
+     "pre": 86.8,
+     "mid": 90.0,
+     "mid_rewind": 86.0
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 3.2,
+      "ci": [
+       1.4,
+       5.0
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 4.0,
+      "ci": [
+       2.1,
+       5.9
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -0.8,
+      "ci": [
+       -2.5,
+       0.8
+      ]
+     }
+    }
+   },
+   "distractor_burst": {
+    "n": 112,
+    "rates": {
+     "base": 91.1,
+     "pre": 88.4,
+     "mid": 89.3,
+     "mid_rewind": 89.3
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 0.9,
+      "ci": [
+       0.0,
+       2.7
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 0.0,
+      "ci": [
+       -3.5,
+       3.6
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": 0.9,
+      "ci": [
+       -2.8,
+       4.6
+      ]
+     }
+    }
+   },
+   "illumination_switch": {
+    "n": 127,
+    "rates": {
+     "base": 93.7,
+     "pre": 88.2,
+     "mid": 92.1,
+     "mid_rewind": 90.6
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 3.9,
+      "ci": [
+       0.8,
+       7.6
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 1.6,
+      "ci": [
+       -1.5,
+       4.9
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": 2.4,
+      "ci": [
+       -0.8,
+       6.0
+      ]
+     }
+    }
+   },
+   "sensor_noise_onset": {
+    "n": 128,
+    "rates": {
+     "base": 96.1,
+     "pre": 83.6,
+     "mid": 88.3,
+     "mid_rewind": 81.2
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 4.7,
+      "ci": [
+       0.0,
+       9.4
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 7.0,
+      "ci": [
+       2.3,
+       12.4
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -2.3,
+      "ci": [
+       -5.7,
+       0.8
+      ]
+     }
+    }
+   },
+   "visual_theme_switch": {
+    "n": 126,
+    "rates": {
+     "base": 93.7,
+     "pre": 78.6,
+     "mid": 84.1,
+     "mid_rewind": 77.0
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 5.6,
+      "ci": [
+       0.0,
+       11.0
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 7.1,
+      "ci": [
+       2.3,
+       12.3
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -1.6,
+      "ci": [
+       -5.9,
+       2.9
+      ]
+     }
+    }
+   }
+  }
+ },
+ "UniVLA": {
+  "decomposition": {
+   "camera_shift": {
+    "n": 116,
+    "rates": {
+     "base": 94.8,
+     "pre": 76.7,
+     "mid": 83.6,
+     "mid_rewind": 71.6,
+     "mid_oracle": 81.0
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 6.9,
+      "ci": [
+       0.0,
+       14.5
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 12.1,
+      "ci": [
+       4.4,
+       20.0
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -5.2,
+      "ci": [
+       -11.9,
+       0.9
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 2.6,
+      "ci": [
+       -3.6,
+       9.2
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 9.5,
+      "ci": [
+       1.7,
+       17.6
+      ]
+     }
+    }
+   },
+   "channel:perceptual": {
+    "n": 564,
+    "rates": {
+     "base": 91.8,
+     "pre": 72.7,
+     "mid": 77.1,
+     "mid_rewind": 67.9,
+     "mid_oracle": 75.0
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 4.4,
+      "ci": [
+       1.1,
+       7.8
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 9.2,
+      "ci": [
+       5.0,
+       13.4
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -4.8,
+      "ci": [
+       -8.3,
+       -1.2
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 2.1,
+      "ci": [
+       -1.0,
+       5.2
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 7.1,
+      "ci": [
+       3.2,
+       11.0
+      ]
+     }
+    }
+   },
+   "distractor_burst": {
+    "n": 108,
+    "rates": {
+     "base": 89.8,
+     "pre": 79.6,
+     "mid": 83.3,
+     "mid_rewind": 87.0,
+     "mid_oracle": 85.2
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 3.7,
+      "ci": [
+       -3.7,
+       10.9
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": -3.7,
+      "ci": [
+       -9.1,
+       1.0
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": 7.4,
+      "ci": [
+       1.0,
+       13.5
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": -1.9,
+      "ci": [
+       -7.6,
+       3.7
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": -1.9,
+      "ci": [
+       -8.4,
+       4.0
+      ]
+     }
+    }
+   },
+   "illumination_switch": {
+    "n": 116,
+    "rates": {
+     "base": 92.2,
+     "pre": 64.7,
+     "mid": 69.0,
+     "mid_rewind": 49.1,
+     "mid_oracle": 62.9
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 4.3,
+      "ci": [
+       -5.0,
+       13.9
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 19.8,
+      "ci": [
+       9.5,
+       30.4
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -15.5,
+      "ci": [
+       -24.8,
+       -6.1
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 6.0,
+      "ci": [
+       -3.3,
+       14.9
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 13.8,
+      "ci": [
+       3.4,
+       24.3
+      ]
+     }
+    }
+   },
+   "sensor_noise_onset": {
+    "n": 110,
+    "rates": {
+     "base": 93.6,
+     "pre": 66.4,
+     "mid": 71.8,
+     "mid_rewind": 60.0,
+     "mid_oracle": 71.8
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 5.5,
+      "ci": [
+       -2.7,
+       13.5
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 11.8,
+      "ci": [
+       2.6,
+       20.7
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -6.4,
+      "ci": [
+       -14.7,
+       1.9
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 0.0,
+      "ci": [
+       -8.7,
+       8.5
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 11.8,
+      "ci": [
+       3.7,
+       19.8
+      ]
+     }
+    }
+   },
+   "visual_theme_switch": {
+    "n": 114,
+    "rates": {
+     "base": 88.6,
+     "pre": 76.3,
+     "mid": 78.1,
+     "mid_rewind": 72.8,
+     "mid_oracle": 74.6
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 1.8,
+      "ci": [
+       -4.2,
+       7.6
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 5.3,
+      "ci": [
+       -1.8,
+       12.3
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -3.5,
+      "ci": [
+       -10.3,
+       3.4
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 3.5,
+      "ci": [
+       -0.9,
+       8.4
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 1.8,
+      "ci": [
+       -5.2,
+       8.5
+      ]
+     }
+    }
+   }
+  }
+ },
+ "3DDA": {
+  "decomposition": {
+   "camera_shift": {
+    "n": 77,
+    "rates": {
+     "base": 68.8,
+     "pre": 62.3,
+     "mid": 68.8,
+     "mid_rewind": 49.4,
+     "mid_oracle": 67.5
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 6.5,
+      "ci": [
+       -5.3,
+       19.2
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 19.5,
+      "ci": [
+       7.8,
+       32.1
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -13.0,
+      "ci": [
+       -25.0,
+       0.0
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 1.3,
+      "ci": [
+       -10.1,
+       13.3
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 18.2,
+      "ci": [
+       6.6,
+       29.3
+      ]
+     }
+    }
+   },
+   "channel:perceptual": {
+    "n": 372,
+    "rates": {
+     "base": 72.0,
+     "pre": 57.0,
+     "mid": 65.1,
+     "mid_rewind": 44.6,
+     "mid_oracle": 59.9
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 8.1,
+      "ci": [
+       2.7,
+       13.9
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 20.4,
+      "ci": [
+       15.0,
+       26.0
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -12.4,
+      "ci": [
+       -17.6,
+       -6.8
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 5.1,
+      "ci": [
+       -0.3,
+       10.3
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 15.3,
+      "ci": [
+       10.2,
+       20.3
+      ]
+     }
+    }
+   },
+   "distractor_burst": {
+    "n": 70,
+    "rates": {
+     "base": 72.9,
+     "pre": 62.9,
+     "mid": 75.7,
+     "mid_rewind": 52.9,
+     "mid_oracle": 67.1
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 12.9,
+      "ci": [
+       0.0,
+       25.4
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 22.9,
+      "ci": [
+       10.0,
+       35.3
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -10.0,
+      "ci": [
+       -22.2,
+       2.9
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 8.6,
+      "ci": [
+       -2.8,
+       20.0
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 14.3,
+      "ci": [
+       4.1,
+       24.7
+      ]
+     }
+    }
+   },
+   "illumination_switch": {
+    "n": 75,
+    "rates": {
+     "base": 68.0,
+     "pre": 64.0,
+     "mid": 70.7,
+     "mid_rewind": 45.3,
+     "mid_oracle": 57.3
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 6.7,
+      "ci": [
+       -3.9,
+       17.3
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 25.3,
+      "ci": [
+       13.7,
+       37.0
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -18.7,
+      "ci": [
+       -32.0,
+       -5.5
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 13.3,
+      "ci": [
+       2.7,
+       23.9
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 12.0,
+      "ci": [
+       0.0,
+       24.7
+      ]
+     }
+    }
+   },
+   "sensor_noise_onset": {
+    "n": 71,
+    "rates": {
+     "base": 81.7,
+     "pre": 29.6,
+     "mid": 49.3,
+     "mid_rewind": 22.5,
+     "mid_oracle": 45.1
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 19.7,
+      "ci": [
+       7.0,
+       32.9
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 26.8,
+      "ci": [
+       13.0,
+       40.3
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -7.0,
+      "ci": [
+       -17.1,
+       2.8
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 4.2,
+      "ci": [
+       -8.7,
+       17.3
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 22.5,
+      "ci": [
+       11.1,
+       34.3
+      ]
+     }
+    }
+   },
+   "visual_theme_switch": {
+    "n": 79,
+    "rates": {
+     "base": 69.6,
+     "pre": 64.6,
+     "mid": 60.8,
+     "mid_rewind": 51.9,
+     "mid_oracle": 62.0
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": -3.8,
+      "ci": [
+       -14.8,
+       7.8
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 8.9,
+      "ci": [
+       0.0,
+       18.5
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -12.7,
+      "ci": [
+       -23.8,
+       -1.3
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": -1.3,
+      "ci": [
+       -9.5,
+       6.6
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 10.1,
+      "ci": [
+       1.2,
+       20.0
+      ]
+     }
+    }
+   }
+  }
+ },
+ "RoboFlamingo": {
+  "decomposition": {
+   "camera_shift": {
+    "n": 102,
+    "rates": {
+     "base": 80.4,
+     "pre": 84.3,
+     "mid": 81.4,
+     "mid_rewind": 77.5
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": -2.9,
+      "ci": [
+       -10.0,
+       4.0
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 3.9,
+      "ci": [
+       -1.0,
+       9.6
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -6.9,
+      "ci": [
+       -14.9,
+       1.0
+      ]
+     }
+    }
+   },
+   "channel:perceptual": {
+    "n": 467,
+    "rates": {
+     "base": 78.8,
+     "pre": 69.6,
+     "mid": 75.2,
+     "mid_rewind": 67.0
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 5.6,
+      "ci": [
+       1.8,
+       9.4
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 8.1,
+      "ci": [
+       4.4,
+       11.8
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -2.6,
+      "ci": [
+       -6.3,
+       1.2
+      ]
+     }
+    }
+   },
+   "distractor_burst": {
+    "n": 84,
+    "rates": {
+     "base": 71.4,
+     "pre": 72.6,
+     "mid": 70.2,
+     "mid_rewind": 69.0
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": -2.4,
+      "ci": [
+       -11.2,
+       6.1
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 1.2,
+      "ci": [
+       -7.2,
+       9.3
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -3.6,
+      "ci": [
+       -11.2,
+       3.7
+      ]
+     }
+    }
+   },
+   "illumination_switch": {
+    "n": 94,
+    "rates": {
+     "base": 80.9,
+     "pre": 67.0,
+     "mid": 75.5,
+     "mid_rewind": 62.8
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 8.5,
+      "ci": [
+       1.1,
+       16.0
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 12.8,
+      "ci": [
+       4.2,
+       22.0
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -4.3,
+      "ci": [
+       -13.6,
+       5.1
+      ]
+     }
+    }
+   },
+   "sensor_noise_onset": {
+    "n": 93,
+    "rates": {
+     "base": 80.6,
+     "pre": 48.4,
+     "mid": 60.2,
+     "mid_rewind": 51.6
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 11.8,
+      "ci": [
+       3.2,
+       21.3
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 8.6,
+      "ci": [
+       0.0,
+       17.0
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": 3.2,
+      "ci": [
+       -3.4,
+       9.9
+      ]
+     }
+    }
+   },
+   "visual_theme_switch": {
+    "n": 94,
+    "rates": {
+     "base": 79.8,
+     "pre": 74.5,
+     "mid": 87.2,
+     "mid_rewind": 73.4
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 12.8,
+      "ci": [
+       4.2,
+       21.7
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 13.8,
+      "ci": [
+       5.2,
+       22.7
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -1.1,
+      "ci": [
+       -8.6,
+       6.5
+      ]
+     }
+    }
+   }
+  }
+ },
+ "OpenVLA-OFT": {
+  "decomposition": {
+   "camera_shift": {
+    "n": 103,
+    "rates": {
+     "base": 85.4,
+     "pre": 52.4,
+     "mid": 58.3,
+     "mid_rewind": 52.4
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 5.8,
+      "ci": [
+       -3.0,
+       15.2
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 5.8,
+      "ci": [
+       -2.9,
+       14.7
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": 0.0,
+      "ci": [
+       -8.7,
+       8.6
+      ]
+     }
+    }
+   },
+   "channel:perceptual": {
+    "n": 476,
+    "rates": {
+     "base": 85.7,
+     "pre": 62.8,
+     "mid": 66.6,
+     "mid_rewind": 60.1
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 3.8,
+      "ci": [
+       0.0,
+       7.9
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 6.5,
+      "ci": [
+       2.5,
+       10.6
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -2.7,
+      "ci": [
+       -6.8,
+       1.3
+      ]
+     }
+    }
+   },
+   "distractor_burst": {
+    "n": 89,
+    "rates": {
+     "base": 82.0,
+     "pre": 83.1,
+     "mid": 80.9,
+     "mid_rewind": 78.7
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": -2.2,
+      "ci": [
+       -9.1,
+       4.6
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 2.2,
+      "ci": [
+       -5.7,
+       10.5
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -4.5,
+      "ci": [
+       -10.6,
+       1.2
+      ]
+     }
+    }
+   },
+   "illumination_switch": {
+    "n": 95,
+    "rates": {
+     "base": 85.3,
+     "pre": 48.4,
+     "mid": 61.1,
+     "mid_rewind": 38.9
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 12.6,
+      "ci": [
+       1.1,
+       24.2
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 22.1,
+      "ci": [
+       11.6,
+       32.6
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -9.5,
+      "ci": [
+       -20.2,
+       1.1
+      ]
+     }
+    }
+   },
+   "sensor_noise_onset": {
+    "n": 85,
+    "rates": {
+     "base": 87.1,
+     "pre": 49.4,
+     "mid": 57.6,
+     "mid_rewind": 51.8
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 8.2,
+      "ci": [
+       -1.2,
+       17.4
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 5.9,
+      "ci": [
+       -4.3,
+       16.1
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": 2.4,
+      "ci": [
+       -7.6,
+       12.0
+      ]
+     }
+    }
+   },
+   "visual_theme_switch": {
+    "n": 104,
+    "rates": {
+     "base": 88.5,
+     "pre": 79.8,
+     "mid": 75.0,
+     "mid_rewind": 77.9
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": -4.8,
+      "ci": [
+       -10.4,
+       0.9
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": -2.9,
+      "ci": [
+       -11.1,
+       5.6
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -1.9,
+      "ci": [
+       -10.1,
+       5.9
+      ]
+     }
+    }
+   }
+  }
+ }
+}

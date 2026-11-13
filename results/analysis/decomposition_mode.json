@@ -1,0 +1,1067 @@
+{
+ "MoDE": {
+  "decomposition": {
+   "camera_shift": {
+    "n": 37,
+    "rates": {
+     "base": 97.3,
+     "pre": 91.9,
+     "mid": 94.6,
+     "mid_rewind": 94.6,
+     "mid_oracle": 91.9
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 2.7,
+      "ci": [
+       0.0,
+       8.3
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 0.0,
+      "ci": [
+       -7.7,
+       8.3
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": 2.7,
+      "ci": [
+       -5.6,
+       11.1
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 2.7,
+      "ci": [
+       0.0,
+       8.3
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": -2.7,
+      "ci": [
+       -10.8,
+       5.6
+      ]
+     }
+    }
+   },
+   "channel:perceptual": {
+    "n": 210,
+    "rates": {
+     "base": 92.9,
+     "pre": 83.8,
+     "mid": 90.5,
+     "mid_rewind": 83.8,
+     "mid_oracle": 86.7
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 6.7,
+      "ci": [
+       2.3,
+       11.4
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 6.7,
+      "ci": [
+       2.3,
+       11.2
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": 0.0,
+      "ci": [
+       -4.3,
+       4.2
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 3.8,
+      "ci": [
+       1.0,
+       6.8
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 2.9,
+      "ci": [
+       -1.4,
+       7.3
+      ]
+     }
+    }
+   },
+   "channel:physical": {
+    "n": 68,
+    "rates": {
+     "base": 94.1,
+     "pre": 86.8,
+     "mid": 83.8,
+     "mid_rewind": 73.5
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": -2.9,
+      "ci": [
+       -11.9,
+       6.0
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 10.3,
+      "ci": [
+       0.0,
+       21.7
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -13.2,
+      "ci": [
+       -23.2,
+       -4.3
+      ]
+     }
+    },
+    "four_arm": {
+     "n": 67,
+     "rates": {
+      "base": 94.0,
+      "pre": 86.6,
+      "mid": 83.6,
+      "mid_rewind": 73.1,
+      "mid_oracle": 80.6
+     },
+     "terms": {
+      "timing (Mid\u2212Pre)": {
+       "mean": -3.0,
+       "ci": [
+        -12.1,
+        6.1
+       ]
+      },
+      "Mid\u2212rewind": {
+       "mean": 10.4,
+       "ci": [
+        0.0,
+        21.5
+       ]
+      },
+      "residual (rewind\u2212Pre)": {
+       "mean": -13.4,
+       "ci": [
+        -23.5,
+        -4.3
+       ]
+      },
+      "queue (Mid\u2212oracle)": {
+       "mean": 3.0,
+       "ci": [
+        -4.6,
+        11.9
+       ]
+      },
+      "robot+policy (oracle\u2212rewind)": {
+       "mean": 7.5,
+       "ci": [
+        -2.9,
+        17.9
+       ]
+      }
+     }
+    }
+   },
+   "distractor_burst": {
+    "n": 43,
+    "rates": {
+     "base": 88.4,
+     "pre": 83.7,
+     "mid": 86.0,
+     "mid_rewind": 90.7,
+     "mid_oracle": 83.7
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 2.3,
+      "ci": [
+       -7.1,
+       11.9
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": -4.7,
+      "ci": [
+       -11.9,
+       0.0
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": 7.0,
+      "ci": [
+       -2.3,
+       18.2
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 2.3,
+      "ci": [
+       0.0,
+       7.1
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": -7.0,
+      "ci": [
+       -15.9,
+       0.0
+      ]
+     }
+    }
+   },
+   "grasp_loss": {
+    "n": 3,
+    "rates": {
+     "base": 100.0,
+     "pre": 100.0,
+     "mid": 66.7,
+     "mid_rewind": 100.0,
+     "mid_oracle": 100.0
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": -33.3,
+      "ci": [
+       -100.0,
+       0.0
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": -33.3,
+      "ci": [
+       -100.0,
+       0.0
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": 0.0,
+      "ci": [
+       0.0,
+       0.0
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": -33.3,
+      "ci": [
+       -100.0,
+       0.0
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 0.0,
+      "ci": [
+       0.0,
+       0.0
+      ]
+     }
+    }
+   },
+   "illumination_switch": {
+    "n": 44,
+    "rates": {
+     "base": 93.2,
+     "pre": 86.4,
+     "mid": 95.5,
+     "mid_rewind": 81.8,
+     "mid_oracle": 93.2
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 9.1,
+      "ci": [
+       2.2,
+       18.6
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 13.6,
+      "ci": [
+       4.4,
+       25.0
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -4.5,
+      "ci": [
+       -14.0,
+       4.5
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 2.3,
+      "ci": [
+       0.0,
+       7.1
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 11.4,
+      "ci": [
+       2.3,
+       21.4
+      ]
+     }
+    }
+   },
+   "obstacle_insertion": {
+    "n": 28,
+    "rates": {
+     "base": 96.4,
+     "pre": 85.7,
+     "mid": 85.7,
+     "mid_rewind": 67.9
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 0.0,
+      "ci": [
+       -14.3,
+       14.3
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 17.9,
+      "ci": [
+       -3.6,
+       39.3
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -17.9,
+      "ci": [
+       -35.7,
+       0.0
+      ]
+     }
+    },
+    "four_arm": {
+     "n": 27,
+     "rates": {
+      "base": 96.3,
+      "pre": 85.2,
+      "mid": 85.2,
+      "mid_rewind": 66.7,
+      "mid_oracle": 70.4
+     },
+     "terms": {
+      "timing (Mid\u2212Pre)": {
+       "mean": 0.0,
+       "ci": [
+        -14.8,
+        14.8
+       ]
+      },
+      "Mid\u2212rewind": {
+       "mean": 18.5,
+       "ci": [
+        0.0,
+        40.7
+       ]
+      },
+      "residual (rewind\u2212Pre)": {
+       "mean": -18.5,
+       "ci": [
+        -37.0,
+        0.0
+       ]
+      },
+      "queue (Mid\u2212oracle)": {
+       "mean": 14.8,
+       "ci": [
+        0.0,
+        33.3
+       ]
+      },
+      "robot+policy (oracle\u2212rewind)": {
+       "mean": 3.7,
+       "ci": [
+        -18.5,
+        25.9
+       ]
+      }
+     }
+    }
+   },
+   "sensor_noise_onset": {
+    "n": 41,
+    "rates": {
+     "base": 92.7,
+     "pre": 68.3,
+     "mid": 85.4,
+     "mid_rewind": 65.9,
+     "mid_oracle": 82.9
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 17.1,
+      "ci": [
+       2.4,
+       32.5
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 19.5,
+      "ci": [
+       5.0,
+       34.1
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -2.4,
+      "ci": [
+       -12.5,
+       7.5
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 2.4,
+      "ci": [
+       -5.0,
+       11.9
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 17.1,
+      "ci": [
+       7.1,
+       30.0
+      ]
+     }
+    }
+   },
+   "target_relocation": {
+    "n": 37,
+    "rates": {
+     "base": 91.9,
+     "pre": 86.5,
+     "mid": 83.8,
+     "mid_rewind": 75.7,
+     "mid_oracle": 86.5
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": -2.7,
+      "ci": [
+       -13.5,
+       8.1
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 8.1,
+      "ci": [
+       -2.7,
+       18.9
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -10.8,
+      "ci": [
+       -24.3,
+       0.0
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": -2.7,
+      "ci": [
+       -8.1,
+       0.0
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": 10.8,
+      "ci": [
+       2.7,
+       21.6
+      ]
+     }
+    }
+   },
+   "visual_theme_switch": {
+    "n": 45,
+    "rates": {
+     "base": 93.3,
+     "pre": 88.9,
+     "mid": 91.1,
+     "mid_rewind": 86.7,
+     "mid_oracle": 82.2
+    },
+    "terms": {
+     "timing (Mid\u2212Pre)": {
+      "mean": 2.2,
+      "ci": [
+       -6.7,
+       13.3
+      ]
+     },
+     "Mid\u2212rewind": {
+      "mean": 4.4,
+      "ci": [
+       -4.4,
+       13.6
+      ]
+     },
+     "residual (rewind\u2212Pre)": {
+      "mean": -2.2,
+      "ci": [
+       -10.0,
+       4.5
+      ]
+     },
+     "queue (Mid\u2212oracle)": {
+      "mean": 8.9,
+      "ci": [
+       2.2,
+       18.2
+      ]
+     },
+     "robot+policy (oracle\u2212rewind)": {
+      "mean": -4.4,
+      "ci": [
+       -13.6,
+       4.3
+      ]
+     }
+    }
+   }
+  },
+  "transient": {
+   "all@r10": {
+    "n": 45,
+    "mid_return_blocked": "1/45",
+    "rates": {
+     "base": 88.9,
+     "persist_mid": 73.3,
+     "persist_pre": 75.6,
+     "rev_mid": 80.0,
+     "rev_pre": 82.2
+    },
+    "terms": {
+     "reversible \u2212 persistent (Mid)": {
+      "mean": 6.7,
+      "ci": [
+       -10.6,
+       22.7
+      ]
+     },
+     "reversible \u2212 persistent (Pre)": {
+      "mean": 6.7,
+      "ci": [
+       -6.7,
+       20.0
+      ]
+     },
+     "reversible Mid \u2212 Base": {
+      "mean": -8.9,
+      "ci": [
+       -22.7,
+       4.5
+      ]
+     },
+     "persistent Mid \u2212 Base": {
+      "mean": -15.6,
+      "ci": [
+       -31.1,
+       0.0
+      ]
+     },
+     "reversible timing (Mid\u2212Pre)": {
+      "mean": -2.2,
+      "ci": [
+       -15.6,
+       11.1
+      ]
+     },
+     "persistent timing (Mid\u2212Pre)": {
+      "mean": -2.2,
+      "ci": [
+       -17.8,
+       13.3
+      ]
+     }
+    }
+   },
+   "all@r2": {
+    "n": 45,
+    "mid_return_blocked": "0/45",
+    "rates": {
+     "base": 88.9,
+     "persist_mid": 73.3,
+     "persist_pre": 75.6,
+     "rev_mid": 84.4
+    },
+    "terms": {
+     "reversible \u2212 persistent (Mid)": {
+      "mean": 11.1,
+      "ci": [
+       -4.5,
+       28.3
+      ]
+     },
+     "reversible Mid \u2212 Base": {
+      "mean": -4.4,
+      "ci": [
+       -15.6,
+       6.5
+      ]
+     },
+     "persistent Mid \u2212 Base": {
+      "mean": -15.6,
+      "ci": [
+       -31.1,
+       0.0
+      ]
+     },
+     "persistent timing (Mid\u2212Pre)": {
+      "mean": -2.2,
+      "ci": [
+       -18.2,
+       13.3
+      ]
+     }
+    }
+   },
+   "all@r20": {
+    "n": 45,
+    "mid_return_blocked": "7/45",
+    "rates": {
+     "base": 88.9,
+     "persist_mid": 73.3,
+     "persist_pre": 75.6,
+     "rev_mid": 73.3
+    },
+    "terms": {
+     "reversible \u2212 persistent (Mid)": {
+      "mean": 0.0,
+      "ci": [
+       -11.4,
+       13.0
+      ]
+     },
+     "reversible Mid \u2212 Base": {
+      "mean": -15.6,
+      "ci": [
+       -31.1,
+       0.0
+      ]
+     },
+     "persistent Mid \u2212 Base": {
+      "mean": -15.6,
+      "ci": [
+       -31.1,
+       0.0
+      ]
+     },
+     "persistent timing (Mid\u2212Pre)": {
+      "mean": -2.2,
+      "ci": [
+       -18.2,
+       13.6
+      ]
+     }
+    }
+   },
+   "all@r5": {
+    "n": 45,
+    "mid_return_blocked": "0/45",
+    "rates": {
+     "base": 88.9,
+     "persist_mid": 73.3,
+     "persist_pre": 75.6,
+     "rev_mid": 84.4
+    },
+    "terms": {
+     "reversible \u2212 persistent (Mid)": {
+      "mean": 11.1,
+      "ci": [
+       -4.4,
+       26.1
+      ]
+     },
+     "reversible Mid \u2212 Base": {
+      "mean": -4.4,
+      "ci": [
+       -15.6,
+       6.7
+      ]
+     },
+     "persistent Mid \u2212 Base": {
+      "mean": -15.6,
+      "ci": [
+       -31.1,
+       0.0
+      ]
+     },
+     "persistent timing (Mid\u2212Pre)": {
+      "mean": -2.2,
+      "ci": [
+       -18.2,
+       13.6
+      ]
+     }
+    }
+   },
+   "receptacle@r10": {
+    "n": 13,
+    "mid_return_blocked": "0/13",
+    "rates": {
+     "base": 84.6,
+     "persist_mid": 38.5,
+     "persist_pre": 38.5,
+     "rev_mid": 69.2,
+     "rev_pre": 69.2
+    },
+    "terms": {
+     "reversible \u2212 persistent (Mid)": {
+      "mean": 30.8,
+      "ci": [
+       -7.7,
+       69.2
+      ]
+     },
+     "reversible \u2212 persistent (Pre)": {
+      "mean": 30.8,
+      "ci": [
+       7.7,
+       53.8
+      ]
+     },
+     "reversible Mid \u2212 Base": {
+      "mean": -15.4,
+      "ci": [
+       -46.2,
+       15.4
+      ]
+     },
+     "persistent Mid \u2212 Base": {
+      "mean": -46.2,
+      "ci": [
+       -76.9,
+       -23.1
+      ]
+     },
+     "reversible timing (Mid\u2212Pre)": {
+      "mean": 0.0,
+      "ci": [
+       -30.8,
+       30.8
+      ]
+     },
+     "persistent timing (Mid\u2212Pre)": {
+      "mean": 0.0,
+      "ci": [
+       -38.5,
+       46.2
+      ]
+     }
+    }
+   },
+   "receptacle@r2": {
+    "n": 13,
+    "mid_return_blocked": "0/13",
+    "rates": {
+     "base": 84.6,
+     "persist_mid": 38.5,
+     "persist_pre": 38.5,
+     "rev_mid": 76.9
+    },
+    "terms": {
+     "reversible \u2212 persistent (Mid)": {
+      "mean": 38.5,
+      "ci": [
+       0.0,
+       69.2
+      ]
+     },
+     "reversible Mid \u2212 Base": {
+      "mean": -7.7,
+      "ci": [
+       -30.8,
+       15.4
+      ]
+     },
+     "persistent Mid \u2212 Base": {
+      "mean": -46.2,
+      "ci": [
+       -76.9,
+       -23.1
+      ]
+     },
+     "persistent timing (Mid\u2212Pre)": {
+      "mean": 0.0,
+      "ci": [
+       -38.5,
+       46.2
+      ]
+     }
+    }
+   },
+   "receptacle@r20": {
+    "n": 13,
+    "mid_return_blocked": "0/13",
+    "rates": {
+     "base": 84.6,
+     "persist_mid": 38.5,
+     "persist_pre": 38.5,
+     "rev_mid": 46.2
+    },
+    "terms": {
+     "reversible \u2212 persistent (Mid)": {
+      "mean": 7.7,
+      "ci": [
+       -23.1,
+       38.5
+      ]
+     },
+     "reversible Mid \u2212 Base": {
+      "mean": -38.5,
+      "ci": [
+       -69.2,
+       0.0
+      ]
+     },
+     "persistent Mid \u2212 Base": {
+      "mean": -46.2,
+      "ci": [
+       -69.2,
+       -23.1
+      ]
+     },
+     "persistent timing (Mid\u2212Pre)": {
+      "mean": 0.0,
+      "ci": [
+       -38.7,
+       38.5
+      ]
+     }
+    }
+   },
+   "receptacle@r5": {
+    "n": 13,
+    "mid_return_blocked": "0/13",
+    "rates": {
+     "base": 84.6,
+     "persist_mid": 38.5,
+     "persist_pre": 38.5,
+     "rev_mid": 76.9
+    },
+    "terms": {
+     "reversible \u2212 persistent (Mid)": {
+      "mean": 38.5,
+      "ci": [
+       7.7,
+       69.2
+      ]
+     },
+     "reversible Mid \u2212 Base": {
+      "mean": -7.7,
+      "ci": [
+       -30.8,
+       15.4
+      ]
+     },
+     "persistent Mid \u2212 Base": {
+      "mean": -46.2,
+      "ci": [
+       -76.9,
+       -23.1
+      ]
+     },
+     "persistent timing (Mid\u2212Pre)": {
+      "mean": 0.0,
+      "ci": [
+       -46.2,
+       38.5
+      ]
+     }
+    }
+   },
+   "target@r10": {
+    "n": 32,
+    "mid_return_blocked": "1/32",
+    "rates": {
+     "base": 90.6,
+     "persist_mid": 87.5,
+     "persist_pre": 90.6,
+     "rev_mid": 84.4,
+     "rev_pre": 87.5
+    },
+    "terms": {
+     "reversible \u2212 persistent (Mid)": {
+      "mean": -3.1,
+      "ci": [
+       -19.4,
+       12.9
+      ]
+     },
+     "reversible \u2212 persistent (Pre)": {
+      "mean": -3.1,
+      "ci": [
+       -16.1,
+       9.7
+      ]
+     },
+     "reversible Mid \u2212 Base": {
+      "mean": -6.2,
+      "ci": [
+       -21.9,
+       9.1
+      ]
+     },
+     "persistent Mid \u2212 Base": {
+      "mean": -3.1,
+      "ci": [
+       -19.4,
+       12.9
+      ]
+     },
+     "reversible timing (Mid\u2212Pre)": {
+      "mean": -3.1,
+      "ci": [
+       -17.7,
+       9.7
+      ]
+     },
+     "persistent timing (Mid\u2212Pre)": {
+      "mean": -3.1,
+      "ci": [
+       -16.1,
+       9.7
+      ]
+     }
+    }
+   },
+   "target@r2": {
+    "n": 32,
+    "mid_return_blocked": "0/32",
+    "rates": {
+     "base": 90.6,
+     "persist_mid": 87.5,
+     "persist_pre": 90.6,
+     "rev_mid": 87.5
+    },
+    "terms": {
+     "reversible \u2212 persistent (Mid)": {
+      "mean": 0.0,
+      "ci": [
+       -16.1,
+       16.2
+      ]
+     },
+     "reversible Mid \u2212 Base": {
+      "mean": -3.1,
+      "ci": [
+       -14.7,
+       6.5
+      ]
+     },
+     "persistent Mid \u2212 Base": {
+      "mean": -3.1,
+      "ci": [
+       -19.4,
+       12.5
+      ]
+     },
+     "persistent timing (Mid\u2212Pre)": {
+      "mean": -3.1,
+      "ci": [
+       -16.1,
+       9.7
+      ]
+     }
+    }
+   },
+   "target@r20": {
+    "n": 32,
+    "mid_return_blocked": "7/32",
+    "rates": {
+     "base": 90.6,
+     "persist_mid": 87.5,
+     "persist_pre": 90.6,
+     "rev_mid": 84.4
+    },
+    "terms": {
+     "reversible \u2212 persistent (Mid)": {
+      "mean": -3.1,
+      "ci": [
+       -12.9,
+       6.5
+      ]
+     },
+     "reversible Mid \u2212 Base": {
+      "mean": -6.2,
+      "ci": [
+       -21.9,
+       9.4
+      ]
+     },
+     "persistent Mid \u2212 Base": {
+      "mean": -3.1,
+      "ci": [
+       -19.4,
+       12.9
+      ]
+     },
+     "persistent timing (Mid\u2212Pre)": {
+      "mean": -3.1,
+      "ci": [
+       -16.1,
+       9.7
+      ]
+     }
+    }
+   },
+   "target@r5": {
+    "n": 32,
+    "mid_return_blocked": "0/32",
+    "rates": {
+     "base": 90.6,
+     "persist_mid": 87.5,
+     "persist_pre": 90.6,
+     "rev_mid": 87.5
+    },
+    "terms": {
+     "reversible \u2212 persistent (Mid)": {
+      "mean": 0.0,
+      "ci": [
+       -15.6,
+       15.6
+      ]
+     },
+     "reversible Mid \u2212 Base": {
+      "mean": -3.1,
+      "ci": [
+       -12.9,
+       6.5
+      ]
+     },
+     "persistent Mid \u2212 Base": {
+      "mean": -3.1,
+      "ci": [
+       -19.4,
+       12.5
+      ]
+     },
+     "persistent timing (Mid\u2212Pre)": {
+      "mean": -3.1,
+      "ci": [
+       -16.1,
+       9.7
+      ]
+     }
+    }
+   }
+  }
+ }
+}

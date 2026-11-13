@@ -1,0 +1,324 @@
+{
+ "summary": {
+  "arm_push": {
+   "cases": 35,
+   "changed": 20,
+   "errors": 0
+  },
+  "error": {
+   "cases": 10,
+   "changed": 0,
+   "errors": 10
+  }
+ },
+ "changed_case_ids": [
+  "new-arm_push-A-k1-E0523",
+  "phase-arm_push-approach_early-k4-E0360",
+  "phase-arm_push-contact-k4-E0427",
+  "phase-arm_push-contact-k5-E0239",
+  "phase-arm_push-place-k3-E0123",
+  "phase-arm_push-place-k4-E0111",
+  "phase-arm_push-place-k4-E0390",
+  "phase-arm_push-place-k4-E0885",
+  "phase-arm_push-place-k5-E0060",
+  "phase-arm_push-place-k5-E0645",
+  "phase-arm_push-pre_grasp_proximity-k1-E0749",
+  "phase-arm_push-subtask_boundary-k3-E0855",
+  "phase-arm_push-subtask_boundary-k4-E0330",
+  "phase-arm_push-subtask_boundary-k4-E0564",
+  "phase-arm_push-transport-k1-E0462",
+  "phase-arm_push-transport-k3-E0159",
+  "phase-arm_push-transport-k3-E0464",
+  "phase-arm_push-transport-k3-E0855",
+  "phase-arm_push-transport-k4-E0828",
+  "phase-arm_push-transport-k4-E0933"
+ ],
+ "rows": [
+  {
+   "case_id": "new-arm_push-A-k1-E0523",
+   "change_type": "arm_push",
+   "task": "turn_on_lightbulb",
+   "mid_changed": false,
+   "pre_changed": true,
+   "changed": true
+  },
+  {
+   "case_id": "new-arm_push-A-k2-E0008",
+   "error": " env, base, init, onset, case, plan[\"payload\"], arm)\n  File \"/content/CALVIN-MAX/scripts/probe/audit_reference.py\", line 42, in references\n    _, start_info = runner.replay_prefix(base, init, onset)\n  File \"/content/CALVIN-MAX/src/calvin_max/rollout.py\", line 202, in replay_prefix\n    raise ReplayMismatch(f\"prefix diverged at step {t}\")\ncalvin_max.rollout.ReplayMismatch: prefix diverged at step 0\n"
+  },
+  {
+   "case_id": "new-arm_push-A-k2-E0383",
+   "error": " env, base, init, onset, case, plan[\"payload\"], arm)\n  File \"/content/CALVIN-MAX/scripts/probe/audit_reference.py\", line 42, in references\n    _, start_info = runner.replay_prefix(base, init, onset)\n  File \"/content/CALVIN-MAX/src/calvin_max/rollout.py\", line 202, in replay_prefix\n    raise ReplayMismatch(f\"prefix diverged at step {t}\")\ncalvin_max.rollout.ReplayMismatch: prefix diverged at step 0\n"
+  },
+  {
+   "case_id": "new-arm_push-A-k2-E0889",
+   "error": " env, base, init, onset, case, plan[\"payload\"], arm)\n  File \"/content/CALVIN-MAX/scripts/probe/audit_reference.py\", line 42, in references\n    _, start_info = runner.replay_prefix(base, init, onset)\n  File \"/content/CALVIN-MAX/src/calvin_max/rollout.py\", line 202, in replay_prefix\n    raise ReplayMismatch(f\"prefix diverged at step {t}\")\ncalvin_max.rollout.ReplayMismatch: prefix diverged at step 0\n"
+  },
+  {
+   "case_id": "new-arm_push-A-k2-E0939",
+   "error": " env, base, init, onset, case, plan[\"payload\"], arm)\n  File \"/content/CALVIN-MAX/scripts/probe/audit_reference.py\", line 42, in references\n    _, start_info = runner.replay_prefix(base, init, onset)\n  File \"/content/CALVIN-MAX/src/calvin_max/rollout.py\", line 202, in replay_prefix\n    raise ReplayMismatch(f\"prefix diverged at step {t}\")\ncalvin_max.rollout.ReplayMismatch: prefix diverged at step 0\n"
+  },
+  {
+   "case_id": "new-arm_push-B-k3-E0119",
+   "error": " env, base, init, onset, case, plan[\"payload\"], arm)\n  File \"/content/CALVIN-MAX/scripts/probe/audit_reference.py\", line 42, in references\n    _, start_info = runner.replay_prefix(base, init, onset)\n  File \"/content/CALVIN-MAX/src/calvin_max/rollout.py\", line 202, in replay_prefix\n    raise ReplayMismatch(f\"prefix diverged at step {t}\")\ncalvin_max.rollout.ReplayMismatch: prefix diverged at step 0\n"
+  },
+  {
+   "case_id": "new-arm_push-B-k3-E0539",
+   "error": " env, base, init, onset, case, plan[\"payload\"], arm)\n  File \"/content/CALVIN-MAX/scripts/probe/audit_reference.py\", line 42, in references\n    _, start_info = runner.replay_prefix(base, init, onset)\n  File \"/content/CALVIN-MAX/src/calvin_max/rollout.py\", line 202, in replay_prefix\n    raise ReplayMismatch(f\"prefix diverged at step {t}\")\ncalvin_max.rollout.ReplayMismatch: prefix diverged at step 0\n"
+  },
+  {
+   "case_id": "new-arm_push-B-k3-E0761",
+   "error": " env, base, init, onset, case, plan[\"payload\"], arm)\n  File \"/content/CALVIN-MAX/scripts/probe/audit_reference.py\", line 42, in references\n    _, start_info = runner.replay_prefix(base, init, onset)\n  File \"/content/CALVIN-MAX/src/calvin_max/rollout.py\", line 202, in replay_prefix\n    raise ReplayMismatch(f\"prefix diverged at step {t}\")\ncalvin_max.rollout.ReplayMismatch: prefix diverged at step 0\n"
+  },
+  {
+   "case_id": "new-arm_push-B-k4-E0125",
+   "error": " env, base, init, onset, case, plan[\"payload\"], arm)\n  File \"/content/CALVIN-MAX/scripts/probe/audit_reference.py\", line 42, in references\n    _, start_info = runner.replay_prefix(base, init, onset)\n  File \"/content/CALVIN-MAX/src/calvin_max/rollout.py\", line 202, in replay_prefix\n    raise ReplayMismatch(f\"prefix diverged at step {t}\")\ncalvin_max.rollout.ReplayMismatch: prefix diverged at step 0\n"
+  },
+  {
+   "case_id": "new-arm_push-B-k5-E0215",
+   "error": " env, base, init, onset, case, plan[\"payload\"], arm)\n  File \"/content/CALVIN-MAX/scripts/probe/audit_reference.py\", line 42, in references\n    _, start_info = runner.replay_prefix(base, init, onset)\n  File \"/content/CALVIN-MAX/src/calvin_max/rollout.py\", line 202, in replay_prefix\n    raise ReplayMismatch(f\"prefix diverged at step {t}\")\ncalvin_max.rollout.ReplayMismatch: prefix diverged at step 0\n"
+  },
+  {
+   "case_id": "new-arm_push-B-k5-E0488",
+   "error": " env, base, init, onset, case, plan[\"payload\"], arm)\n  File \"/content/CALVIN-MAX/scripts/probe/audit_reference.py\", line 42, in references\n    _, start_info = runner.replay_prefix(base, init, onset)\n  File \"/content/CALVIN-MAX/src/calvin_max/rollout.py\", line 202, in replay_prefix\n    raise ReplayMismatch(f\"prefix diverged at step {t}\")\ncalvin_max.rollout.ReplayMismatch: prefix diverged at step 0\n"
+  },
+  {
+   "case_id": "phase-arm_push-approach_early-k1-E0259",
+   "change_type": "arm_push",
+   "task": "lift_blue_block_table",
+   "mid_changed": false,
+   "changed": false
+  },
+  {
+   "case_id": "phase-arm_push-approach_early-k2-E0066",
+   "change_type": "arm_push",
+   "task": "lift_pink_block_table",
+   "mid_changed": false,
+   "changed": false
+  },
+  {
+   "case_id": "phase-arm_push-approach_early-k4-E0360",
+   "change_type": "arm_push",
+   "task": "place_in_drawer",
+   "mid_changed": true,
+   "changed": true
+  },
+  {
+   "case_id": "phase-arm_push-approach_early-k5-E0091",
+   "change_type": "arm_push",
+   "task": "lift_red_block_slider",
+   "mid_changed": false,
+   "changed": false
+  },
+  {
+   "case_id": "phase-arm_push-approach_early-k5-E0415",
+   "change_type": "arm_push",
+   "task": "turn_on_led",
+   "mid_changed": false,
+   "changed": false
+  },
+  {
+   "case_id": "phase-arm_push-contact-k1-E0522",
+   "change_type": "arm_push",
+   "task": "close_drawer",
+   "mid_changed": false,
+   "changed": false
+  },
+  {
+   "case_id": "phase-arm_push-contact-k1-E0890",
+   "change_type": "arm_push",
+   "task": "turn_off_lightbulb",
+   "mid_changed": false,
+   "changed": false
+  },
+  {
+   "case_id": "phase-arm_push-contact-k4-E0427",
+   "change_type": "arm_push",
+   "task": "stack_block",
+   "mid_changed": true,
+   "changed": true
+  },
+  {
+   "case_id": "phase-arm_push-contact-k4-E0914",
+   "change_type": "arm_push",
+   "task": "turn_off_lightbulb",
+   "mid_changed": false,
+   "changed": false
+  },
+  {
+   "case_id": "phase-arm_push-contact-k5-E0239",
+   "change_type": "arm_push",
+   "task": "lift_blue_block_table",
+   "mid_changed": true,
+   "changed": true
+  },
+  {
+   "case_id": "phase-arm_push-contact-k5-E0698",
+   "change_type": "arm_push",
+   "task": "move_slider_right",
+   "mid_changed": false,
+   "changed": false
+  },
+  {
+   "case_id": "phase-arm_push-place-k3-E0123",
+   "change_type": "arm_push",
+   "task": "place_in_drawer",
+   "mid_changed": true,
+   "changed": true
+  },
+  {
+   "case_id": "phase-arm_push-place-k4-E0111",
+   "change_type": "arm_push",
+   "task": "place_in_drawer",
+   "mid_changed": true,
+   "changed": true
+  },
+  {
+   "case_id": "phase-arm_push-place-k4-E0390",
+   "change_type": "arm_push",
+   "task": "place_in_slider",
+   "mid_changed": true,
+   "changed": true
+  },
+  {
+   "case_id": "phase-arm_push-place-k4-E0885",
+   "change_type": "arm_push",
+   "task": "place_in_slider",
+   "mid_changed": true,
+   "changed": true
+  },
+  {
+   "case_id": "phase-arm_push-place-k5-E0060",
+   "change_type": "arm_push",
+   "task": "stack_block",
+   "mid_changed": true,
+   "changed": true
+  },
+  {
+   "case_id": "phase-arm_push-place-k5-E0645",
+   "change_type": "arm_push",
+   "task": "stack_block",
+   "mid_changed": true,
+   "changed": true
+  },
+  {
+   "case_id": "phase-arm_push-pre_grasp_proximity-k1-E0749",
+   "change_type": "arm_push",
+   "task": "push_into_drawer",
+   "mid_changed": true,
+   "changed": true
+  },
+  {
+   "case_id": "phase-arm_push-pre_grasp_proximity-k3-E0878",
+   "change_type": "arm_push",
+   "task": "lift_red_block_slider",
+   "mid_changed": false,
+   "changed": false
+  },
+  {
+   "case_id": "phase-arm_push-pre_grasp_proximity-k4-E0322",
+   "change_type": "arm_push",
+   "task": "move_slider_right",
+   "mid_changed": false,
+   "changed": false
+  },
+  {
+   "case_id": "phase-arm_push-pre_grasp_proximity-k4-E0488",
+   "change_type": "arm_push",
+   "task": "lift_pink_block_slider",
+   "mid_changed": false,
+   "changed": false
+  },
+  {
+   "case_id": "phase-arm_push-pre_grasp_proximity-k4-E0894",
+   "change_type": "arm_push",
+   "task": "open_drawer",
+   "mid_changed": false,
+   "changed": false
+  },
+  {
+   "case_id": "phase-arm_push-subtask_boundary-k1-E0173",
+   "change_type": "arm_push",
+   "task": "lift_red_block_table",
+   "mid_changed": false,
+   "changed": false
+  },
+  {
+   "case_id": "phase-arm_push-subtask_boundary-k3-E0855",
+   "change_type": "arm_push",
+   "task": "lift_blue_block_table",
+   "mid_changed": true,
+   "changed": true
+  },
+  {
+   "case_id": "phase-arm_push-subtask_boundary-k4-E0330",
+   "change_type": "arm_push",
+   "task": "push_pink_block_right",
+   "mid_changed": true,
+   "changed": true
+  },
+  {
+   "case_id": "phase-arm_push-subtask_boundary-k4-E0564",
+   "change_type": "arm_push",
+   "task": "place_in_slider",
+   "mid_changed": true,
+   "changed": true
+  },
+  {
+   "case_id": "phase-arm_push-subtask_boundary-k4-E0779",
+   "change_type": "arm_push",
+   "task": "turn_on_lightbulb",
+   "mid_changed": false,
+   "changed": false
+  },
+  {
+   "case_id": "phase-arm_push-subtask_boundary-k5-E0185",
+   "change_type": "arm_push",
+   "task": "lift_pink_block_table",
+   "mid_changed": false,
+   "changed": false
+  },
+  {
+   "case_id": "phase-arm_push-transport-k1-E0462",
+   "change_type": "arm_push",
+   "task": "lift_blue_block_table",
+   "mid_changed": true,
+   "changed": true
+  },
+  {
+   "case_id": "phase-arm_push-transport-k3-E0159",
+   "change_type": "arm_push",
+   "task": "lift_red_block_table",
+   "mid_changed": true,
+   "changed": true
+  },
+  {
+   "case_id": "phase-arm_push-transport-k3-E0464",
+   "change_type": "arm_push",
+   "task": "lift_pink_block_slider",
+   "mid_changed": true,
+   "changed": true
+  },
+  {
+   "case_id": "phase-arm_push-transport-k3-E0855",
+   "change_type": "arm_push",
+   "task": "lift_blue_block_table",
+   "mid_changed": true,
+   "changed": true
+  },
+  {
+   "case_id": "phase-arm_push-transport-k4-E0828",
+   "change_type": "arm_push",
+   "task": "lift_blue_block_drawer",
+   "mid_changed": true,
+   "changed": true
+  },
+  {
+   "case_id": "phase-arm_push-transport-k4-E0933",
+   "change_type": "arm_push",
+   "task": "lift_pink_block_table",
+   "mid_changed": true,
+   "changed": true
+  }
+ ]
+}
