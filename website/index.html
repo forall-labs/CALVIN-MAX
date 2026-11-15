@@ -391,7 +391,14 @@ table.compare-t td.p { color: var(--c-phys); font-family: var(--sans); }
 .pair .fig h3.sub { margin-bottom: var(--s-2); }
 .pair-text { font-family: var(--serif); font-size: var(--t-prose); line-height: 1.55; margin-bottom: var(--s-3); }
 .article > .pair { margin-top: var(--s-5); }
+
+/* --- Hero slider: the scene before and after one change --- */
+.hero-visual .cmp { aspect-ratio: 1; max-width: 560px; margin-left: auto; box-shadow: 0 30px 60px -40px color-mix(in srgb, var(--text) 50%, transparent); }
+.hero-visual .pick { max-width: 560px; margin-left: auto; }
+.pick button.perc { --c: var(--c-perc); } .pick button.phys { --c: var(--c-phys); } .pick button.emb { --c: var(--c-emb); }
+@media (max-width: 1079.98px) { .hero-visual .cmp, .hero-visual .pick { margin-left: 0; } }
 </style>
+<link rel="stylesheet" href="static/fl-page.css">
 </head>
 <body>
 <!-- The ∀L mark of Forall Labs (from forall-labs.github.io/site/base.html). -->
@@ -438,7 +445,7 @@ table.compare-t td.p { color: var(--c-phys); font-family: var(--sans); }
 
 <main id="main">
 <article class="article">
-  <header class="article-head">
+  <header class="article-head hero" data-enter>
     <p class="kicker"><a href="https://forall-labs.github.io/projects/">Projects</a><span class="dot" aria-hidden="true"></span><span>Robot policies</span><span class="dot" aria-hidden="true"></span><span>Benchmark</span></p>
     <div class="title-block">
       <h1>CALVIN-MAX</h1>
@@ -460,7 +467,30 @@ table.compare-t td.p { color: var(--c-phys); font-family: var(--sans); }
         Paper <em>soon</em></a>
       <a class="btn" href="#citation">BibTeX</a>
     </div>
+    <figure class="hero-visual" aria-label="The CALVIN scene before and after one change">
+      <div class="cmp" id="hero-cmp" data-sweep>
+        <img class="cmp-a" src="static/gallery/obstacle_insertion.jpg" alt="The scene after an obstacle is inserted" width="600" height="600">
+        <img class="cmp-b" src="static/gallery/original.jpg" alt="The original scene" width="600" height="600">
+        <span class="cmp-label l">Original</span><span class="cmp-label r">Obstacle insertion</span>
+        <input type="range" min="0" max="100" value="50" step="0.5" aria-label="Drag to compare the original scene with the changed one">
+        <span class="cmp-handle" aria-hidden="true"><span></span></span>
+      </div>
+      <div class="pick" role="group" aria-label="Choose a change" id="hero-pick"></div>
+    </figure>
   </header>
+
+  <nav class="toc" aria-label="On this page">
+    <div class="toc-inner">
+      <span class="toc-name">CALVIN-MAX</span>
+      <a href="#arms">One case</a>
+      <a href="#method">How it works</a>
+      <a href="#results">Results</a>
+      <a href="#mechanism">Why timing helps</a>
+      <a href="#chain">The next instruction</a>
+      <a href="#policies">Policies</a>
+      <a class="toc-cite" href="#citation">Cite</a>
+    </div>
+  </nav>
 
   <figure class="wide fig" id="arms" aria-labelledby="arms-cap">
     <div class="viewer">
@@ -681,6 +711,7 @@ table.compare-t td.p { color: var(--c-phys); font-family: var(--sans); }
   </div>
 </footer>
 
+<script src="static/fl-page.js"></script>
 <script>
 (() => {
   const $ = (s) => document.querySelector(s);
@@ -815,6 +846,26 @@ table.compare-t td.p { color: var(--c-phys); font-family: var(--sans); }
     });
   }
   renderEx();
+
+  // ---------- hero: the scene before and after a change ----------
+  const HERO = [
+    ["obstacle_insertion", "Obstacle insertion", "phys", "original"], ["target_relocation", "Target relocation", "phys", "original"],
+    ["camera_shift", "Camera shift", "perc", "original"], ["illumination_switch", "Illumination switch", "perc", "original"],
+    ["visual_theme_switch", "Visual-theme switch", "perc", "original"], ["sensor_noise_onset", "Sensor noise", "perc", "original"],
+    ["emb_arm_push", "Arm push", "emb", "emb_original"],
+  ];
+  const heroCmp = $("#hero-cmp"), heroPick = $("#hero-pick");
+  HERO.forEach(([f, name, ch, before], i) => {
+    const b = document.createElement("button");
+    b.type = "button"; b.className = ch; b.innerHTML = "<i></i>"; b.append(name);
+    b.setAttribute("aria-pressed", String(i === 0));
+    b.addEventListener("click", () => {
+      flCompare(heroCmp, { a: `static/gallery/${f}.jpg`, b: `static/gallery/${before}.jpg`, aAlt: `The scene after the change: ${name.toLowerCase()}`,
+        bAlt: before === "original" ? "The original scene" : "The robot before the change", aLabel: name, bLabel: before === "original" ? "Original" : "Before" });
+      [...heroPick.children].forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+    });
+    heroPick.appendChild(b);
+  });
 
   // ---------- gallery ----------
   const GALLERY = [
