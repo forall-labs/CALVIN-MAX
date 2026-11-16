@@ -1,0 +1,157 @@
+{
+ "target_relocation": {
+  "feasible": 79,
+  "infeasible": 0,
+  "unclear": 1,
+  "unanswered": 0,
+  "notes": [],
+  "n_judged": 79,
+  "feasible_rate": 100.0,
+  "ci95": [
+   95.36271631644004,
+   100.0
+  ]
+ },
+ "all": {
+  "feasible": 398,
+  "infeasible": 0,
+  "unclear": 2,
+  "unanswered": 0,
+  "notes": [
+   {
+    "case_id": "core-receptacle_relocation-B-k4-E0106",
+    "answer": "unclear",
+    "note": "is not clear whether the object would go inside the drawer w/o contact to table or pushing the drawer open. So the tasks definition becomes slightly unclear because the instruction never limits object to object interactions."
+   }
+  ],
+  "n_judged": 398,
+  "feasible_rate": 100.0,
+  "ci95": [
+   99.04400141747396,
+   100.00000000000003
+  ]
+ },
+ "receptacle_relocation": {
+  "feasible": 79,
+  "infeasible": 0,
+  "unclear": 1,
+  "unanswered": 0,
+  "notes": [
+   {
+    "case_id": "core-receptacle_relocation-B-k4-E0106",
+    "answer": "unclear",
+    "note": "is not clear whether the object would go inside the drawer w/o contact to table or pushing the drawer open. So the tasks definition becomes slightly unclear because the instruction never limits object to object interactions."
+   }
+  ],
+  "n_judged": 79,
+  "feasible_rate": 100.0,
+  "ci95": [
+   95.36271631644004,
+   100.0
+  ]
+ },
+ "obstacle_insertion": {
+  "feasible": 80,
+  "infeasible": 0,
+  "unclear": 0,
+  "unanswered": 0,
+  "notes": [],
+  "n_judged": 80,
+  "feasible_rate": 100.0,
+  "ci95": [
+   95.4180263735425,
+   100.0
+  ]
+ },
+ "arm_push": {
+  "feasible": 54,
+  "infeasible": 0,
+  "unclear": 0,
+  "unanswered": 0,
+  "notes": [],
+  "n_judged": 54,
+  "feasible_rate": 100.0,
+  "ci95": [
+   93.35841332189982,
+   100.0
+  ]
+ },
+ "grasp_loss": {
+  "feasible": 26,
+  "infeasible": 0,
+  "unclear": 0,
+  "unanswered": 0,
+  "notes": [],
+  "n_judged": 26,
+  "feasible_rate": 100.0,
+  "ci95": [
+   87.12669561953784,
+   100.00000000000003
+  ]
+ },
+ "camera_shift": {
+  "feasible": 16,
+  "infeasible": 0,
+  "unclear": 0,
+  "unanswered": 0,
+  "notes": [],
+  "n_judged": 16,
+  "feasible_rate": 100.0,
+  "ci95": [
+   80.63865817272801,
+   100.0
+  ]
+ },
+ "sensor_noise_onset": {
+  "feasible": 16,
+  "infeasible": 0,
+  "unclear": 0,
+  "unanswered": 0,
+  "notes": [],
+  "n_judged": 16,
+  "feasible_rate": 100.0,
+  "ci95": [
+   80.63865817272801,
+   100.0
+  ]
+ },
+ "illumination_switch": {
+  "feasible": 16,
+  "infeasible": 0,
+  "unclear": 0,
+  "unanswered": 0,
+  "notes": [],
+  "n_judged": 16,
+  "feasible_rate": 100.0,
+  "ci95": [
+   80.63865817272801,
+   100.0
+  ]
+ },
+ "visual_theme_switch": {
+  "feasible": 16,
+  "infeasible": 0,
+  "unclear": 0,
+  "unanswered": 0,
+  "notes": [],
+  "n_judged": 16,
+  "feasible_rate": 100.0,
+  "ci95": [
+   80.63865817272801,
+   100.0
+  ]
+ },
+ "distractor_burst": {
+  "feasible": 16,
+  "infeasible": 0,
+  "unclear": 0,
+  "unanswered": 0,
+  "notes": [],
+  "n_judged": 16,
+  "feasible_rate": 100.0,
+  "ci95": [
+   80.63865817272801,
+   100.0
+  ]
+ }
+}

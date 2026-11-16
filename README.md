@@ -124,6 +124,14 @@ The analysis outputs behind every reported number, for all ten policies, are in
 [`results/analysis/`](results/analysis/); `website/tools/explorer_data.py` shows how the page's
 explorer reads them. The per-case results and traces are too large for this repository.
 
+**Human feasibility audit.** 400 realized held-out FLOWER cases from Max-A were judged by hand: could a
+competent robot still complete the instruction from the state just after the change? 398 were feasible, none
+infeasible, and 2 unclear because CALVIN's instructions do not say what contact between objects is allowed.
+The selection, frames and answers are on
+[Hugging Face](https://huggingface.co/datasets/savoji/CALVIN-MAX-audit). To redo the audit:
+`render_qual.py audit-select` → `audit-render` → `build_audit_page.py` (open `results/audit/index.html`) →
+`analyze_audit.py`.
+
 ## Repository layout
 
 ```

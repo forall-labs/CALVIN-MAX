@@ -26,6 +26,7 @@ EVENT_TEXT = {
     "distractor_burst": "Small distractor objects appeared on the table.",
 }
 EVENT_NAME = {k: k.replace("_", " ").capitalize() for k in EVENT_TEXT}
+JOINT_NAME = {"base__drawer": "drawer", "base__slide": "sliding door"}
 
 
 def main():
@@ -35,10 +36,14 @@ def main():
     for s in sel:
         if not (A / f"frames/{s['case_id']}.jpg").exists():
             continue
-        obj = s["payload"].get("object", "") if isinstance(s["payload"], dict) else ""
+        p = s["payload"] if isinstance(s["payload"], dict) else {}
         task = (tasks.get(s["case_id"]) or "").replace("_", " ")
-        cases.append({"id": s["case_id"], "event": EVENT_NAME[s["event"]], "change": EVENT_TEXT[s["event"]].format(
-            object=obj.replace("_", " ") or "object"), "task": task, "k": s["k"]})
+        if p.get("joint"):  # articulated target or receptacle: the joint was moved along its track
+            name = JOINT_NAME.get(p["joint"], p["joint"])
+            change = f"The {name} was moved along its track (from {p['from']:.2f} to {p['value']:.2f})."
+        else:
+            change = EVENT_TEXT[s["event"]].format(object=p.get("object", "").replace("_", " ") or "object")
+        cases.append({"id": s["case_id"], "event": EVENT_NAME[s["event"]], "change": change, "task": task, "k": s["k"]})
     html = PAGE.replace("__CASES__", json.dumps(cases))
     (A / "index.html").write_text(html)
     print(f"wrote {A / 'index.html'} with {len(cases)} cases")
